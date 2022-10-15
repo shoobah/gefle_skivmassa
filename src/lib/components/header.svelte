@@ -2,7 +2,11 @@
 	<a href="/">
 		<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_SVART_GUL.png" />
 	</a>
-	<div class="heading">Gefle Skivmässa</div>
+	<nav>
+		<a href="/">Hem</a>
+		<a href="/visitors">Besökare</a>
+		<a href="/echibitors">Utställare</a>
+	</nav>
 </div>
 
 <style>
