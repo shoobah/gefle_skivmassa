@@ -1,12 +1,12 @@
 <script>
-	import { sv } from 'date-fns/locale';
 	import { onDestroy, onMount } from 'svelte';
 	import { formatDistance } from 'date-fns';
-
+	import * as locales from 'date-fns/locale/index.js';
 	const theDate = new Date(2023, 3, 6, 12, 0, 0, 0);
 	let currentTime = new Date();
 
 	let timer;
+	let { sv } = locales;
 
 	onMount(() => {
 		timer = setInterval(() => {
