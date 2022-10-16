@@ -1,3 +1,7 @@
+<script>
+	import Map from '$lib/components/map.svelte';
+</script>
+
 <div>
 	<h1>Information för utställare</h1>
 	<p>
@@ -5,4 +9,5 @@
 		ipsam temporibus suscipit nisi a officiis vero veritatis, commodi, aperiam nemo in maxime est
 		modi dolorem repudiandae.
 	</p>
+	<Map />
 </div>
