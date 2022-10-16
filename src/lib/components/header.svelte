@@ -1,44 +1,45 @@
+<a href="/">
+	<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_SVART_GUL.png" />
+</a>
 <div class="header">
-	<a href="/">
-		<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_SVART_GUL.png" />
-	</a>
 	<nav>
 		<a href="/">Hem</a>
 		<a href="/visitors">Besökare</a>
-		<a href="/echibitors">Utställare</a>
+		<a href="/exhibitors">Utställare</a>
 	</nav>
 </div>
 
 <style>
 	.header {
+		grid-area: header;
 		display: grid;
-		grid-template-columns: 50px auto 50px;
 		padding: 5px;
 		background-color: var(--header-bg);
 		align-items: center;
 		justify-items: center;
 	}
-	.heading {
-		font-size: 1.5em;
-		font-weight: 700;
-		color: var(--text-color);
-	}
 	img {
-		position: absolute;
-		top: -70px;
-		left: -70px;
-		float: left;
-		width: 300px;
+		grid-area: sidebar;
+		padding: 10px;
+		width: 15vw;
 		z-index: 1000;
 	}
 
-	@media (max-width: 600px) {
-		img {
-			top: -20px;
-			left: -20px;
-			float: left;
-			width: 100px;
-			z-index: 1000;
-		}
+	nav {
+		display: grid;
+		grid-auto-flow: column;
+		grid-gap: 3em;
+		justify-items: center;
+		align-items: center;
+	}
+
+	nav a {
+		font-stretch: expanded;
+		text-transform: uppercase;
+	}
+
+	nav a:hover {
+		transform: scale(1.2);
+		transition: all 0.2s ease;
 	}
 </style>

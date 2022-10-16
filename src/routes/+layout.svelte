@@ -12,15 +12,16 @@
 
 <style>
 	.main {
+		height: 100vh;
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-rows: 50px 1fr;
+		grid-template-columns: 20vw auto;
+		grid-template-areas: 'sidebar header' 'sidebar content';
 		background: var(--body-bg);
 		background: var(--gradient);
 	}
 
 	.content {
-		justify-self: center;
-		display: grid;
-		align-items: start;
+		grid-area: content;
 	}
 </style>

@@ -1,5 +1,5 @@
-<div class="content">
-	<h1>Välkommen till Gävle Skivmässa</h1>
+<div class="page">
+	<h1>Gävle Skivmässa</h1>
 	<h2>6:e maj 2023</h2>
 	<div class="posterContainer">
 		<img src="/POSTER SKARP.jpg" alt="poster" />
@@ -7,7 +7,7 @@
 </div>
 
 <style>
-	.content {
+	.page {
 		display: grid;
 		justify-items: center;
 	}
@@ -19,6 +19,6 @@
 	}
 
 	img {
-		height: 40%;
+		width: 80%;
 	}
 </style>
