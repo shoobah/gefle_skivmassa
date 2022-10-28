@@ -14,9 +14,9 @@
 	.main {
 		height: 100vh;
 		display: grid;
-		grid-template-rows: 50px 1fr;
-		grid-template-columns: 20vw auto;
-		grid-template-areas: 'sidebar header' 'sidebar content';
+		grid-template-rows: 120px auto;
+		grid-template-columns: auto;
+		grid-template-areas: 'header' 'content';
 		background: var(--body-bg);
 		background: var(--gradient);
 	}

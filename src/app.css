@@ -1,7 +1,7 @@
 :root {
 	--text-color: #ffffff;
-	--body-bg: hsla(277, 100%, 9%, 1);
-	--gradient: linear-gradient(0deg, hsla(277, 100%, 9%, 1) 0%, hsla(274, 87%, 33%, 1) 100%);
+	--body-bg: rgba(0, 12, 31, 1);
+	--gradient: linear-gradient(0deg, rgb(0, 12, 31) 0%, rgb(2, 45, 109) 100%);
 	--header-bg: transparent;
 }
 

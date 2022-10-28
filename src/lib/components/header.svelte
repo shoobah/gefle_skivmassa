@@ -1,7 +1,7 @@
-<a href="/">
-	<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_SVART_GUL.png" />
-</a>
 <div class="header">
+	<a class="logo" href="/">
+		<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_SVART_VIT.png" />
+	</a>
 	<nav>
 		<a href="/">Hem</a>
 		<a href="/visitors">Besökare</a>
@@ -12,25 +12,30 @@
 <style>
 	.header {
 		grid-area: header;
-		display: grid;
 		padding: 5px;
 		background-color: var(--header-bg);
 		align-items: center;
 		justify-items: center;
 	}
-	img {
+	.logo {
+		position: absolute;
+	}
+	.logo img {
+		float: left;
 		grid-area: sidebar;
 		padding: 10px;
-		width: 15vw;
+		width: 100px;
 		z-index: 1000;
 	}
 
 	nav {
 		display: grid;
 		grid-auto-flow: column;
+		justify-items: center;
 		grid-gap: 3em;
 		justify-items: center;
 		align-items: center;
+		justify-content: center;
 	}
 
 	nav a {
