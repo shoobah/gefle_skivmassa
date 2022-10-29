@@ -13,7 +13,19 @@
 			alt: 'Gävle Skivmässa skivor'
 		},
 		{
+			src: '/images/Banner_6.jpg',
+			alt: 'Gävle Skivmässa skivor'
+		},
+		{
 			src: '/images/Banner_2.jpg',
+			alt: 'Gävle Skivmässa skivor'
+		},
+		{
+			src: '/images/Banner_4.jpg',
+			alt: 'Gävle Skivmässa skivor'
+		},
+		{
+			src: '/images/Banner_5.jpg',
 			alt: 'Gävle Skivmässa skivor'
 		},
 		{
