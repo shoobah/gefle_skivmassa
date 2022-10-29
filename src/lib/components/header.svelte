@@ -1,5 +1,5 @@
 <div class="header">
-	<a class="logo" href="/">
+	<a class="logo rotate" href="/">
 		<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_SVART_VIT.png" />
 	</a>
 	<nav>
@@ -28,6 +28,27 @@
 		z-index: 1000;
 	}
 
+	@media (max-width: 768px) {
+		.logo {
+			top: -20px;
+			left: -20px;
+		}
+		.logo img {
+			width: 50px;
+		}
+	}
+
+	.rotate {
+		animation: rotation 20s infinite linear;
+	}
+	@keyframes rotation {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(359deg);
+		}
+	}
 	nav {
 		display: grid;
 		grid-auto-flow: column;
