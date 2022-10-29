@@ -18,7 +18,7 @@
 		justify-items: center;
 	}
 	.logo {
-		position: absolute;
+		position: fixed;
 		top: -50px;
 		left: -50px;
 	}
