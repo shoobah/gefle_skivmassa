@@ -18,7 +18,6 @@
 		grid-template-columns: auto;
 		grid-template-areas: 'header' 'content';
 		background: var(--body-bg);
-		background: var(--gradient);
 	}
 
 	.content {

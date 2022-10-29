@@ -1,12 +1,30 @@
+@font-face {
+	font-family: agency;
+	src: url('/fonts/AGENCYR.TTF');
+}
+
+@font-face {
+	font-family: agency-bold;
+	src: url('/fonts/AGENCYB.TTF');
+}
+
 :root {
-	--text-color: #ffffff;
-	--body-bg: rgba(0, 12, 31, 1);
-	--gradient: linear-gradient(0deg, rgb(0, 12, 31) 0%, rgb(2, 45, 109) 100%);
+	--black: #000000;
+	--white: #ffffff;
+	--purple: #612a72;
+	--green: #bbcf23;
+	--blue: #33658a;
+	--text-color: var(--white);
+	--body-bg: var(--black);
 	--header-bg: transparent;
+	--gradient: linear-gradient(0deg, var(--green) 0%, var(--purple) 100%);
+	--title-color: var(--white);
+	--border-color: var(--purple);
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: agency, sans-serif;
+	font-size: 1.1rem;
 	margin: 0;
 	padding: 0;
 	background-color: var(--body-bg);
@@ -20,16 +38,16 @@ a {
 
 h1 {
 	color: var(--title-color);
+	font-family: agency-bold, sans-serif;
 	font-size: 2em;
-	font-weight: 700;
 	margin: 0;
 	padding: 0;
 }
 
 h2 {
 	color: var(--title-color);
+	font-family: agency-bold, sans-serif;
 	font-size: 1.5em;
-	font-weight: 700;
 	margin: 0;
 	padding: 0;
 }

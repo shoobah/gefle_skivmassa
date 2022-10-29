@@ -1,11 +1,14 @@
 <div class="main">
 	<h1>Anmälan</h1>
 	<p>
-		Vad kul att du vill medverka på Gefle Skivmässa i maj! Fyll i kontaktformuläret nedan för att
-		skicka in din intresseanmälan redan nu. Observera att du inte är bokad förrän du får bekräftelse
-		och har betalat fakturan (som kommer från vår samarbetspart Medborgarskolan i ett separat mail
-		senare). Borden på Gefle Skivmässa mäter 200x69 cm och är stabila som tusan. Du får plats med 10
-		skivbackar med marginal eller 12 backar med lite överhäng på borden (i sidled).
+		Vad kul att du vill medverka på Gefle Skivmässa i maj!<br />
+		Fyll i kontaktformuläret nedan för att skicka in din intresseanmälan redan nu.<br />
+		Observera att du inte är bokad förrän du får bekräftelse och har betalat fakturan (som kommer från
+		vår samarbetspart Medborgarskolan i ett separat mail senare).<br />
+		<br />
+		Borden på Gefle Skivmässa mäter 200x69cm och är stabila som tusan. Du får plats med 10 skivbackar
+		med marginal eller 12 backar med lite överhäng på borden (i sidled).
+		<br /><br />
 		<strong>Varje bord kostar 300 kr och i priset inkluderas</strong>
 	</p>
 	<ul>
@@ -62,7 +65,8 @@
 		justify-self: right;
 		width: 20em;
 		height: 3em;
-		background-color: rgb(0, 216, 0);
+		color: var(--black);
+		background-color: var(--green);
 		border-radius: 8px;
 	}
 </style>

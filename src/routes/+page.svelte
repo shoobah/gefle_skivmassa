@@ -9,27 +9,11 @@
 
 	const imageList = [
 		{
-			src: '/images/Banner_IMG_0118.jpg',
+			src: '/images/Tillbaka_web.jpg',
 			alt: 'Gävle Skivmässa skivor'
 		},
 		{
-			src: '/images/Banner_6.jpg',
-			alt: 'Gävle Skivmässa skivor'
-		},
-		{
-			src: '/images/Banner_2.jpg',
-			alt: 'Gävle Skivmässa skivor'
-		},
-		{
-			src: '/images/Banner_4.jpg',
-			alt: 'Gävle Skivmässa skivor'
-		},
-		{
-			src: '/images/Banner_5.jpg',
-			alt: 'Gävle Skivmässa skivor'
-		},
-		{
-			src: '/images/Banner_3.jpg',
+			src: '/images/Vokonis_web.jpg',
 			alt: 'Gävle Skivmässa skivor'
 		}
 	];
@@ -59,7 +43,7 @@
 	<h2>
 		6:e maj 2023 kl 12:00, om {dfns.formatDistance(theDate, currentTime, { locale: sv })}
 	</h2>
-	<ImageFlipper {imageList} options={{ delay: 5000, duration: 1000 }} />
+	<ImageFlipper {imageList} />
 </div>
 
 <style>

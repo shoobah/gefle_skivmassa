@@ -7,8 +7,9 @@
 	 */
 	export let imageList;
 	export let options = {
-		delay: 2000,
-		duration: 500
+		delay: 5000,
+		duration: 500,
+		width: '30vw'
 	};
 
 	let currentImageIndex = 0;
@@ -30,10 +31,15 @@
 	});
 </script>
 
-<div class="image-container">
+<div class="image-container" style={'width:' + options.width}>
 	{#if imageList?.length > 0}
 		{#each [imageList[currentImageIndex]] as image (currentImageIndex)}
-			<img transition:fade={{ duration: options.duration }} src={image.src} alt={image.alt} />
+			<img
+				style={'width:' + options.width}
+				transition:fade={{ duration: options.duration }}
+				src={image.src}
+				alt={image.alt}
+			/>
 		{/each}
 	{:else}
 		Crap! There's no images in the list!
@@ -43,13 +49,12 @@
 <style>
 	.image-container {
 		position: relative;
-		width: 100vw;
 	}
 
 	img {
-		width: 100vw;
 		position: absolute;
 		left: 0px;
 		top: 0px;
+		border: solid 1px var(--border-color);
 	}
 </style>
