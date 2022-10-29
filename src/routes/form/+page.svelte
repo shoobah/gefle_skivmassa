@@ -50,7 +50,7 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 1em;
-		width: 30em;
+		width: 40vw;
 	}
 
 	input,
@@ -68,5 +68,11 @@
 		color: var(--black);
 		background-color: var(--green);
 		border-radius: 8px;
+	}
+
+	@media (max-width: 820px) {
+		.main {
+			width: 90vw;
+		}
 	}
 </style>
