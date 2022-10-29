@@ -4,7 +4,7 @@
 	</a>
 	<nav>
 		<a href="/">Hem</a>
-		<a href="/visitors">Besökare</a>
+		<a href="/form">Anmälan</a>
 		<a href="/exhibitors">Utställare</a>
 	</nav>
 </div>

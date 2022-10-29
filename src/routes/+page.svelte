@@ -66,5 +66,6 @@
 	.page {
 		display: grid;
 		justify-items: center;
+		align-items: start;
 	}
 </style>

@@ -23,5 +23,8 @@
 
 	.content {
 		grid-area: content;
+		display: grid;
+		justify-items: center;
+		align-items: start;
 	}
 </style>
