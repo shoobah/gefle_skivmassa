@@ -7,6 +7,21 @@
 	const theDate = new Date(2023, 3, 6, 12, 0, 0, 0);
 	let currentTime = new Date();
 
+	const imageList = [
+		{
+			src: '/images/Banner_IMG_0118.jpg',
+			alt: 'Gävle Skivmässa skivor'
+		},
+		{
+			src: '/images/Banner_2.jpg',
+			alt: 'Gävle Skivmässa skivor'
+		},
+		{
+			src: '/images/Banner_3.jpg',
+			alt: 'Gävle Skivmässa skivor'
+		}
+	];
+
 	/**
 	 * @type {string | number | NodeJS.Timer | undefined}
 	 */
@@ -32,7 +47,7 @@
 	<h2>
 		6:e maj 2023 kl 12:00, om {dfns.formatDistance(theDate, currentTime, { locale: sv })}
 	</h2>
-	<ImageFlipper />
+	<ImageFlipper {imageList} options={{ delay: 5000, duration: 1000 }} />
 </div>
 
 <style>

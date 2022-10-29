@@ -2,20 +2,14 @@
 	import { onDestroy, onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 
-	let imageList = [
-		{
-			src: '/images/Banner_IMG_0118.jpg',
-			alt: 'Gävle Skivmässa skivor'
-		},
-		{
-			src: '/images/Banner_2.jpg',
-			alt: 'Gävle Skivmässa skivor'
-		},
-		{
-			src: '/images/Banner_3.jpg',
-			alt: 'Gävle Skivmässa skivor'
-		}
-	];
+	/**
+	 * @type {string | any[]}
+	 */
+	export let imageList;
+	export let options = {
+		delay: 2000,
+		duration: 500
+	};
 
 	let currentImageIndex = 0;
 	/**
@@ -24,9 +18,11 @@
 	let flipImageTimer;
 
 	onMount(() => {
-		flipImageTimer = setInterval(() => {
-			currentImageIndex = (currentImageIndex + 1) % imageList.length;
-		}, 5000);
+		if (imageList?.length > 0) {
+			flipImageTimer = setInterval(() => {
+				currentImageIndex = (currentImageIndex + 1) % imageList.length;
+			}, options.delay);
+		}
 	});
 
 	onDestroy(() => {
@@ -35,9 +31,13 @@
 </script>
 
 <div class="image-container">
-	{#each [imageList[currentImageIndex]] as image (currentImageIndex)}
-		<img transition:fade={{ duration: 500 }} src={image.src} alt={image.alt} />
-	{/each}
+	{#if imageList?.length > 0}
+		{#each [imageList[currentImageIndex]] as image (currentImageIndex)}
+			<img transition:fade={{ duration: options.duration }} src={image.src} alt={image.alt} />
+		{/each}
+	{:else}
+		Crap! There's no images in the list!
+	{/if}
 </div>
 
 <style>
