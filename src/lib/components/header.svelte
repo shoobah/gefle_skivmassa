@@ -19,22 +19,24 @@
 	}
 	.logo {
 		position: absolute;
+		top: -50px;
+		left: -50px;
 	}
 	.logo img {
 		float: left;
 		grid-area: sidebar;
 		padding: 10px;
-		width: 100px;
+		width: 300px;
 		z-index: 1000;
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 820px) {
 		.logo {
-			top: -20px;
-			left: -20px;
+			top: -50px;
+			left: -50px;
 		}
 		.logo img {
-			width: 50px;
+			width: 100px;
 		}
 	}
 
