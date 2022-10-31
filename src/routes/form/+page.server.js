@@ -1,3 +1,4 @@
+import { env } from '$env/dynamic/private';
 import * as AWS from 'aws-sdk';
 
 /** @type {import('./$types').Actions} */
@@ -6,7 +7,13 @@ export const actions = {
 		const data = await request.formData();
 		console.log(data);
 
-		AWS.config.loadFromPath('./config.json');
+		AWS.config.update({
+			credentials: {
+				accessKeyId: import.meta.env.VITE_AWS_ACCESS_KEY_ID_GS,
+				secretAccessKey: import.meta.env.VITE_AWS_SECRET_ACCESS_KEY_GS
+			},
+			region: 'eu-north-1'
+		});
 		const params = {
 			Destination: {
 				ToAddresses: ['info@gefleskivmassa.se']
