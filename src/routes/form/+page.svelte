@@ -29,6 +29,8 @@
 		<input name="phone" type="tel" placeholder="Telefon" />
 		<label for="address">Adress</label>
 		<input name="address" type="text" placeholder="Adress" />
+		<label for="org">Person / Organisationsnummer</label>
+		<input name="org" type="text" placeholder="Person / Organisationsnummer" />
 		<label for="numberOfTables">Antal bord</label>
 		<select name="numberOfTables" placeholder="Antal bord">
 			<option value="1">1 bord</option>

@@ -1,6 +1,6 @@
 <div class="header">
 	<a class="logo rotate" href="/">
-		<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_SVART_VIT.png" />
+		<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png" />
 	</a>
 	<nav>
 		<a href="/">Hem</a>
