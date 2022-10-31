@@ -13,6 +13,7 @@
 	--white: #ffffff;
 	--purple: #612a72;
 	--green: #bbcf23;
+	--yellow: #ece52d;
 	--blue: #33658a;
 	--text-color: var(--white);
 	--body-bg: var(--black);
@@ -20,6 +21,7 @@
 	--gradient: linear-gradient(0deg, var(--green) 0%, var(--purple) 100%);
 	--title-color: var(--white);
 	--border-color: var(--purple);
+	--menu-background: var(--yellow);
 }
 
 body {

@@ -1,21 +1,68 @@
+<script>
+	import { page } from '$app/stores';
+	console.log('$page.url', $page.url);
+
+	const paths = [
+		{ path: '/', name: 'Hem' },
+		{ path: '/form', name: 'Utställare' },
+		{ path: '/bands', name: 'Bands' },
+		{ path: '/about', name: 'Om Gefle Skivmässa' }
+	];
+</script>
+
+<a class="logo rotate" href="/">
+	<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png" />
+</a>
 <div class="header">
-	<a class="logo rotate" href="/">
-		<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png" />
-	</a>
 	<nav>
-		<a href="/">Hem</a>
-		<a href="/form">Anmälan</a>
-		<a href="/exhibitors">Utställare</a>
+		{#each paths as path}
+			<a class:active={$page.url.pathname === path.path} href={path.path}>{path.name}</a>
+		{/each}
 	</nav>
+	<div class="header-heading">6 maj på gasklockorna i Gävle</div>
 </div>
 
 <style>
 	.header {
 		grid-area: header;
-		padding: 5px;
-		background-color: var(--header-bg);
-		align-items: center;
-		justify-items: center;
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		height: 120px;
+		width: 100vw;
+		align-items: stretch;
+		justify-items: stretch;
+		gap: 0;
+	}
+
+	nav {
+		background-color: var(--menu-background);
+		font-size: 2em;
+		font-family: agency-bold;
+		width: 100vw;
+	}
+
+	nav a {
+		font-stretch: expanded;
+		text-transform: uppercase;
+	}
+
+	nav a:hover {
+		transition: all 0.2s ease;
+		color: var(--purple);
+	}
+
+	.active {
+		color: var(--purple);
+	}
+	.header-heading {
+		font-size: 2em;
+		color: var(--black);
+		background-color: var(--white);
+		justify-self: stretch;
+		align-self: stretch;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 10px;
 	}
 	.logo {
 		position: fixed;
@@ -41,7 +88,7 @@
 	}
 
 	.rotate {
-		animation: rotation 20s infinite linear;
+		animation: rotation 30s infinite linear;
 	}
 	@keyframes rotation {
 		from {
@@ -59,15 +106,5 @@
 		justify-items: center;
 		align-items: center;
 		justify-content: center;
-	}
-
-	nav a {
-		font-stretch: expanded;
-		text-transform: uppercase;
-	}
-
-	nav a:hover {
-		transform: scale(1.2);
-		transition: all 0.2s ease;
 	}
 </style>
