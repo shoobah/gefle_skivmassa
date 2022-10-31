@@ -1,62 +1,57 @@
-import AWS from 'aws-sdk';
+import * as nodemailer from 'nodemailer';
 
 /** @type {import('./$types').Actions} */
 export const actions = {
 	default: async ({ request }) => {
 		const data = await request.formData();
 
-		AWS.config.update({
-			credentials: {
-				accessKeyId: import.meta.env.VITE_AWS_ACCESS_KEY_ID_GS,
-				secretAccessKey: import.meta.env.VITE_AWS_SECRET_ACCESS_KEY_GS
-			},
-			region: 'eu-north-1'
-		});
-		const params = {
-			Destination: {
-				ToAddresses: ['info@gefleskivmassa.se']
-			},
-			Source: 'info@gefleskivmassa.se',
-			Message: {
-				Subject: {
-					Charset: 'UTF-8',
-					Data: 'New message from Gefleskivmassa'
-				},
-				Body: {
-					Text: {
-						Charset: 'UTF-8',
-						Data:
-							'Förnamn: ' +
-							data.get('firstName') +
-							'\nEfternamn: ' +
-							data.get('lastName') +
-							'\nE-post: ' +
-							data.get('email') +
-							'\nTelefon: ' +
-							data.get('phone') +
-							'\nAdress: ' +
-							data.get('address') +
-							'\nOrg eller personnr: ' +
-							data.get('org') +
-							'\nAntal bord: ' +
-							data.get('numberOfTables') +
-							'\nKommentar: ' +
-							data.get('comment')
-					}
-				}
+		const transporter = nodemailer.createTransport({
+			host: 'email-smtp.eu-north-1.amazonaws.com',
+			port: 587,
+			secure: false,
+			auth: {
+				user: import.meta.env.VITE_SMTP_USERNAME,
+				pass: import.meta.env.VITE_SMTP_PASSWORD
 			}
+		});
+
+		transporter.verify(function (error) {
+			if (error) {
+				console.log(error);
+			} else {
+				console.log('SMTP server is ready to take our messages');
+			}
+		});
+
+		const message = {
+			from: 'info@gefleskivmassa.se',
+			to: 'info@gefleskivmassa.se',
+			subject: 'Nytt meddelande från Gefleskivmassa',
+			text:
+				'Förnamn: ' +
+				data.get('firstName') +
+				'\nEfternamn: ' +
+				data.get('lastName') +
+				'\nE-post: ' +
+				data.get('email') +
+				'\nTelefon: ' +
+				data.get('phone') +
+				'\nAdress: ' +
+				data.get('address') +
+				'\nOrg eller personnr: ' +
+				data.get('org') +
+				'\nAntal bord: ' +
+				data.get('numberOfTables') +
+				'\nKommentar: ' +
+				data.get('comment')
 		};
 
-		console.log('params', params);
-
-		var sendPromise = new AWS.SES({ apiVersion: '2010-12-01' }).sendEmail(params).promise();
-
-		sendPromise
-			.then(function (data) {
-				console.log('Message id', data.MessageId);
-			})
-			.catch(function (err) {
-				console.error(err, err.stack);
-			});
+		transporter.sendMail(message, function (err, info) {
+			if (err) {
+				console.error(err);
+			} else {
+				console.log(info);
+			}
+		});
 	}
 };
