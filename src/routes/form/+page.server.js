@@ -1,13 +1,11 @@
-import { env } from '$env/dynamic/private';
-import * as AWS from 'aws-sdk';
+import { config, SES } from 'aws-sdk';
 
 /** @type {import('./$types').Actions} */
 export const actions = {
 	default: async ({ request }) => {
 		const data = await request.formData();
-		console.log(data);
 
-		AWS.config.update({
+		config.update({
 			credentials: {
 				accessKeyId: import.meta.env.VITE_AWS_ACCESS_KEY_ID_GS,
 				secretAccessKey: import.meta.env.VITE_AWS_SECRET_ACCESS_KEY_GS
@@ -49,7 +47,7 @@ export const actions = {
 			}
 		};
 
-		var sendPromise = new AWS.SES({ apiVersion: '2010-12-01' }).sendEmail(params).promise();
+		var sendPromise = new SES({ apiVersion: '2010-12-01' }).sendEmail(params).promise();
 
 		sendPromise
 			.then(function (data) {

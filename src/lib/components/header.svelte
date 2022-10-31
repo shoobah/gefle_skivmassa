@@ -1,7 +1,5 @@
 <script>
 	import { page } from '$app/stores';
-	console.log('$page.url', $page.url);
-
 	const paths = [
 		{ path: '/', name: 'Hem' },
 		{ path: '/form', name: 'Utställare' },
