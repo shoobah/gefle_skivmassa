@@ -47,11 +47,13 @@ export const actions = {
 			}
 		};
 
+		console.log('params', params);
+
 		var sendPromise = new AWS.SES({ apiVersion: '2010-12-01' }).sendEmail(params).promise();
 
 		sendPromise
 			.then(function (data) {
-				console.log(data.MessageId);
+				console.log('Message id', data.MessageId);
 			})
 			.catch(function (err) {
 				console.error(err, err.stack);
