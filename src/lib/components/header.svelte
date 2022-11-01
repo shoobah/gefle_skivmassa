@@ -2,9 +2,9 @@
 	import { page } from '$app/stores';
 	const paths = [
 		{ path: '/', name: 'Hem' },
-		{ path: '/form', name: 'Anmälan' }
+		{ path: '/form', name: 'Anmälan' },
 		// { path: '/bands', name: 'Bands' },
-		// { path: '/about', name: 'Om Gefle Skivmässa' }
+		{ path: '/about', name: 'Om' }
 	];
 </script>
 
