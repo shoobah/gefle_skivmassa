@@ -34,6 +34,7 @@
 
 	nav {
 		background-color: var(--menu-background);
+		color: var(--black);
 		font-size: 2em;
 		font-family: agency-bold;
 		width: 100vw;

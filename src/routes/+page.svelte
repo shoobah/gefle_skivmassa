@@ -39,10 +39,6 @@
 </script>
 
 <div class="page">
-	<h1>Gävle Skivmässa</h1>
-	<h2>
-		6:e maj 2023 kl 12:00, om {dfns.formatDistance(theDate, currentTime, { locale: sv })}
-	</h2>
 	<ImageFlipper {imageList} />
 </div>
 
@@ -51,5 +47,6 @@
 		display: grid;
 		justify-items: center;
 		align-items: start;
+		padding-top: 20px;
 	}
 </style>
