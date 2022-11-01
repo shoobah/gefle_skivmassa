@@ -40,4 +40,10 @@
 		color: var(--black);
 		border-top: solid 1px var(--black);
 	}
+
+	@media (max-width: 820px) {
+		.footer {
+			font-size: 0.8em;
+		}
+	}
 </style>

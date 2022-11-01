@@ -8,7 +8,9 @@
 		sedan? Line up 2016: Blues Pills, Spiders, AKB, Jenny C, Fami och Oscar Löfstrand. På
 		efterfesten som arrangerades av Gefle Hårdrocksklubb spelad e Honeymoon Disease.
 	</p>
-	<img src="/images/Gefle Skivmässa 2016.jpg" alt="Gefle Skivmässa 2016" />
+	<div class="imagebox">
+		<img src="/images/Gefle Skivmässa 2016.jpg" alt="Gefle Skivmässa 2016" />
+	</div>
 	<p>
 		Efter ett fantastiskt första arrangemang växte Gefle Skivmässa till 2017. En större servering,
 		fler scener och en egen öl! Gefle Skivmässa samarbetade med det lokala bryggeriet Jädraöl och
@@ -16,7 +18,9 @@
 		Good Harvest, Silver Devil, Adora Eye, Trio Safoura, Symbio och en reunion av The Pillisnorks.
 		På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade Döda Havet.
 	</p>
-	<img src="/images/Gefle Skivmässa 2017.jpg" alt="Gefle Skivmässa 2017" />
+	<div class="imagebox">
+		<img src="/images/Gefle Skivmässa 2017.jpg" alt="Gefle Skivmässa 2017" />
+	</div>
 	<p>
 		Till 2018 års upplaga utökades samarbetet och våra vänner i TADC som arrangerar det grymma
 		metalfestivalen Gefle Metal Festival, hoppade på tåget och tog hand om banden i stora
@@ -28,7 +32,9 @@
 		Konstutställningar av Linnea Strid, Viktor Hertz, Peter Endahl och Erik Axl Sundh. På
 		efterfesten som arrangerade s av Gefle Hårdrocksklubb spelade Deville och SilverDevil.
 	</p>
-	<img src="/images/Gefle Skivmässa 2018.jpg" alt="Gefle Skivmässa 2018" />
+	<div class="imagebox">
+		<img src="/images/Gefle Skivmässa 2018.jpg" alt="Gefle Skivmässa 2018" />
+	</div>
 	<p>
 		Gefle Skivmässa 2019 är den mässa som fick avsluta en fin svit av årliga skivmässor i april. Med
 		ännu fler säljare i kön, fler band än någonsin som ville spela och fler b esökare än väntat var
@@ -36,9 +42,13 @@
 		Stenbrott. På litteraturscenen: Annah Björk, Anna - Charlotta Gunnarsson, Natalia Kazmierska och
 		Martin Aagård.
 	</p>
-	<img src="/images/Gefle Skivmässa 2019.jpg" alt="Gefle Skivmässa 2019" />
+	<div class="imagebox">
+		<img src="/images/Gefle Skivmässa 2019.jpg" alt="Gefle Skivmässa 2019" />
+	</div>
 	<p>2020 glömmer vi...</p>
-	<img src="/images/Gefle Skivmässa 2020.jpg" alt="Gefle Skivmässa 2020" />
+	<div class="imagebox">
+		<img src="/images/Gefle Skivmässa 2020.jpg" alt="Gefle Skivmässa 2020" />
+	</div>
 	<p>
 		2023 är det dags igen.<br />
 		Välkomna tillbaka till Gävle Skivmässa!
@@ -47,13 +57,29 @@
 
 <style>
 	article {
-		max-width: 80vw;
+		max-width: 60vw;
 		margin: 0 auto;
 	}
 
 	img {
 		justify-self: center;
-		width: 40vw;
+		width: 30vw;
 		border: solid 1px var(--purple);
+	}
+
+	.imagebox {
+		width: 100%;
+		display: grid;
+		align-content: center;
+	}
+
+	@media (max-width: 820px) {
+		article {
+			max-width: 90vw;
+		}
+
+		img {
+			width: 80vw;
+		}
 	}
 </style>
