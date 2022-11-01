@@ -1,10 +1,8 @@
 <script>
 	import { onDestroy, onMount } from 'svelte';
-	import * as dfns from 'date-fns';
 	import * as locales from 'date-fns/locale/index.js';
 	import ImageFlipper from '$lib/components/imageFlipper.svelte';
 
-	const theDate = new Date(2023, 3, 6, 12, 0, 0, 0);
 	let currentTime = new Date();
 
 	const imageList = [
@@ -24,8 +22,6 @@
 	let timer;
 
 	let { sv } = locales;
-
-	let currentImageIndex = 0;
 
 	onMount(() => {
 		timer = setInterval(() => {

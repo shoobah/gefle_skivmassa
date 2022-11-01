@@ -68,6 +68,7 @@
 		display: grid;
 		justify-content: center;
 		align-content: center;
+		border-bottom: solid 1px var(--black);
 	}
 	.logo {
 		position: fixed;
