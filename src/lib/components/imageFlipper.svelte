@@ -43,7 +43,7 @@
 <style>
 	.image-container {
 		position: relative;
-		width: 30vw;
+		width: 50vw;
 	}
 
 	img {
@@ -51,7 +51,7 @@
 		left: 0px;
 		top: 0px;
 		border: solid 1px var(--border-color);
-		width: 30vw;
+		width: 50vw;
 	}
 
 	@media (max-width: 820px) {
