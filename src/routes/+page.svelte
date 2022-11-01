@@ -9,11 +9,11 @@
 
 	const imageList = [
 		{
-			src: '/images/Tillbaka_web.jpg',
+			src: '/images/Webb skivmässa.jpg',
 			alt: 'Gävle Skivmässa skivor'
 		},
 		{
-			src: '/images/Vokonis_web.jpg',
+			src: '/images/Webb Vokonis.jpg',
 			alt: 'Gävle Skivmässa skivor'
 		}
 	];

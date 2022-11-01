@@ -31,7 +31,7 @@ export const actions = {
 		const message = {
 			from: 'info@gefleskivmassa.se',
 			to: 'info@gefleskivmassa.se',
-			subject: 'Nytt meddelande från Gefleskivmassa',
+			subject: 'Anmälan till Gefleskivmassa',
 			text:
 				'Förnamn: ' +
 				data.get('firstName') +

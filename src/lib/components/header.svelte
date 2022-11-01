@@ -2,9 +2,9 @@
 	import { page } from '$app/stores';
 	const paths = [
 		{ path: '/', name: 'Hem' },
-		{ path: '/form', name: 'Utställare' },
-		{ path: '/bands', name: 'Bands' },
-		{ path: '/about', name: 'Om Gefle Skivmässa' }
+		{ path: '/form', name: 'Anmälan' }
+		// { path: '/bands', name: 'Bands' },
+		// { path: '/about', name: 'Om Gefle Skivmässa' }
 	];
 </script>
 
@@ -17,7 +17,7 @@
 			<a class:active={$page.url.pathname === path.path} href={path.path}>{path.name}</a>
 		{/each}
 	</nav>
-	<div class="header-heading">6 maj på gasklockorna i Gävle</div>
+	<div class="header-heading"><div>6 maj på gasklockorna i Gävle</div></div>
 </div>
 
 <style>
@@ -37,6 +37,13 @@
 		font-size: 2em;
 		font-family: agency-bold;
 		width: 100vw;
+		display: grid;
+		grid-auto-flow: column;
+		justify-items: center;
+		grid-gap: 40px;
+		justify-items: center;
+		align-items: center;
+		justify-content: center;
 	}
 
 	nav a {
@@ -56,11 +63,10 @@
 		font-size: 2em;
 		color: var(--black);
 		background-color: var(--white);
-		justify-self: stretch;
-		align-self: stretch;
 		text-transform: uppercase;
-		text-align: center;
-		padding-top: 10px;
+		display: grid;
+		justify-content: center;
+		align-content: center;
 	}
 	.logo {
 		position: fixed;
@@ -83,6 +89,15 @@
 		.logo img {
 			width: 100px;
 		}
+
+		nav {
+			font-size: 1.5em;
+		}
+
+		.header-heading {
+			font-size: 1.5em;
+			gap: 20px;
+		}
 	}
 
 	.rotate {
@@ -95,14 +110,5 @@
 		to {
 			transform: rotate(359deg);
 		}
-	}
-	nav {
-		display: grid;
-		grid-auto-flow: column;
-		justify-items: center;
-		grid-gap: 3em;
-		justify-items: center;
-		align-items: center;
-		justify-content: center;
 	}
 </style>
