@@ -2,9 +2,10 @@
 	import { page } from '$app/stores';
 	const paths = [
 		{ path: '/', name: 'Hem' },
-		{ path: '/form', name: 'Anmälan' },
-		// { path: '/bands', name: 'Bands' },
-		{ path: '/about', name: 'Om' }
+		{ path: '/form', name: 'Säljare' },
+		{ path: '/bands', name: 'Livemusik' },
+		{ path: '/about', name: 'Om' },
+		{ path: '/contact', name: 'Kontakt' }
 	];
 </script>
 
@@ -51,6 +52,7 @@
 	nav a {
 		font-stretch: expanded;
 		text-transform: uppercase;
+		text-decoration: none;
 	}
 
 	nav a:hover {

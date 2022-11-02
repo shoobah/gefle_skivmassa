@@ -54,32 +54,3 @@
 		Välkomna tillbaka till Gävle Skivmässa!
 	</p>
 </article>
-
-<style>
-	article {
-		max-width: 50vw;
-		margin: 0 auto;
-	}
-
-	img {
-		justify-self: center;
-		width: 30vw;
-		border: solid 1px var(--purple);
-	}
-
-	.imagebox {
-		width: 100%;
-		display: grid;
-		align-content: center;
-	}
-
-	@media (max-width: 820px) {
-		article {
-			max-width: 90vw;
-		}
-
-		img {
-			width: 80vw;
-		}
-	}
-</style>
