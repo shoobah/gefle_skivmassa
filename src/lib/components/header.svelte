@@ -30,6 +30,7 @@
 		align-items: stretch;
 		justify-items: stretch;
 		gap: 0;
+		user-select: none;
 	}
 
 	nav {
@@ -61,6 +62,7 @@
 		color: var(--purple);
 	}
 	.header-heading {
+		font-family: agency-bold;
 		font-size: 2em;
 		color: var(--black);
 		background-color: var(--white);
@@ -74,6 +76,7 @@
 		position: fixed;
 		top: -50px;
 		left: -50px;
+		user-select: none;
 	}
 	.logo img {
 		float: left;

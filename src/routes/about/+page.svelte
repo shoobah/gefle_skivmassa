@@ -57,7 +57,7 @@
 
 <style>
 	article {
-		max-width: 60vw;
+		max-width: 50vw;
 		margin: 0 auto;
 	}
 

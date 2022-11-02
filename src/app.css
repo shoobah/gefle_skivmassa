@@ -8,6 +8,11 @@
 	src: url('/fonts/AGENCYB.TTF');
 }
 
+@font-face {
+	font-family: roboto;
+	src: url('/fonts/Roboto-Regular.ttf');
+}
+
 :root {
 	--black: #000000;
 	--white: #ffffff;
@@ -25,7 +30,7 @@
 }
 
 body {
-	font-family: agency, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.1rem;
 	margin: 0;
 	padding: 0;
