@@ -37,6 +37,8 @@
 <div class="page">
 	<ImageFlipper {imageList} />
 </div>
+<br />
+<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noopener noreferrer"> Köp biljetter m.m. </a>
 
 <style>
 	.page {
@@ -44,5 +46,11 @@
 		justify-items: center;
 		align-items: start;
 		padding-top: 20px;
+	}
+
+	a {
+		color: var(--text-color);
+		text-decoration: underline;
+		font-size: 1.5rem;
 	}
 </style>
