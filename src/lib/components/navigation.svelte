@@ -1,0 +1,43 @@
+<script>
+	import { page } from '$app/stores';
+
+	export let paths = [];
+</script>
+
+<nav>
+	{#each paths as path}
+		<a class:active={$page.url.pathname === path.path} href={path.path}>{path.name}</a>
+	{/each}
+</nav>
+
+<style>
+	nav {
+		background-color: var(--menu-background);
+		color: var(--black);
+		font-size: 2em;
+		font-family: agency-bold;
+		width: 100vw;
+		display: grid;
+		grid-auto-flow: column;
+		justify-items: center;
+		grid-gap: 40px;
+		justify-items: center;
+		align-items: center;
+		justify-content: center;
+	}
+
+	nav a {
+		font-stretch: expanded;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+
+	nav a:hover {
+		transition: all 0.2s ease;
+		color: var(--purple);
+	}
+
+	.active {
+		color: var(--purple);
+	}
+</style>

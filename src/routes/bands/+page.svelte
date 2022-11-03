@@ -1,28 +1,34 @@
-<h1>Livemusik</h1>
 <article>
-	Gefle Skivmässa har från starten 2016 alltid haft en uppsjö av bra band på våran scen.<br />
-	2023 är inget undantag. Årets line up är inte klar men redan nu kan vi stolt presentera Vokonis!<br
-	/>
+	<h1>Livemusik</h1>
+	<p>
+		Gefle Skivmässa har från starten 2016 alltid haft en uppsjö av bra band på våran scen.<br />
+		2023 är inget undantag. Årets line up är inte klar men redan nu kan vi stolt presentera Vokonis!<br
+		/>
+	</p>
 	<div class="imagebox">
 		<img src="/images/Vokonis_logo.png" alt="Vokonis logo" /><br />
 	</div>
 	<div class="imagebox">
 		<img src="/images/Vokonis.jpg" alt="Vokonis" /><br />
 	</div>
-	Bild och logga (finns i mappen VOKONIS) Youtube - klipp på en video av bandet
-
+	Youtube - klipp på en video av bandet<br />
 	<a
 		target="_blank"
 		class="bandlogo"
 		href="https://vokonis.bandcamp.com/album/odyssey"
-		rel="noreferrer">BandCamp</a
+		rel="noreferrer"
 	>
+		BandCamp
+	</a>
+	<br />
 	<a
 		target="_blank"
 		class="bandimage"
 		href="https://www.facebook.com/OfficialVokonis/"
-		rel="noreferrer">Facebook</a
+		rel="noreferrer"
 	>
+		Facebook
+	</a>
 	<h2>Band som spelat på Gefle Skivmässa:</h2>
 	<ul>
 		<li>Blues Pills</li>
@@ -41,7 +47,8 @@
 		<li>LionDub</li>
 		<li>Symbio</li>
 		<li>Anna Frank</li>
-		<li>Stenbrott Li sa och Kroffe</li>
+		<li>Stenbrott</li>
+		<li>Lisa och Kroffe</li>
 		<li>PRO424</li>
 		<li>Axel E</li>
 		<li>Adora Eye</li>
@@ -50,7 +57,8 @@
 		<li>Mondegreen</li>
 		<li>AKB</li>
 		<li>Jenny C</li>
-		<li>Fami och Oscar Löfstrand.</li>
+		<li>Fami</li>
+		<li>Oscar Löfstrand.</li>
 	</ul>
 
 	Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på info@gefleskivmassa .se
@@ -59,8 +67,5 @@
 <style>
 	img {
 		border: none;
-	}
-
-	.bandlogo {
 	}
 </style>

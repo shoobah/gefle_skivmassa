@@ -1,5 +1,9 @@
 <script>
-	import { page } from '$app/stores';
+	import Navigation from './navigation.svelte';
+	import MobileNavigation from './mobile-navigation.svelte';
+
+	let innerWidth = 0;
+
 	const paths = [
 		{ path: '/', name: 'Hem' },
 		{ path: '/form', name: 'Säljare' },
@@ -9,16 +13,20 @@
 	];
 </script>
 
+<svelte:window bind:innerWidth />
+
 <a class="logo rotate" href="/">
 	<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png" />
 </a>
 <div class="header">
-	<nav>
-		{#each paths as path}
-			<a class:active={$page.url.pathname === path.path} href={path.path}>{path.name}</a>
-		{/each}
-	</nav>
-	<div class="header-heading"><div>6 maj på gasklockorna i Gävle</div></div>
+	{#if innerWidth > 820}
+		<Navigation {paths} />
+	{:else}
+		<MobileNavigation {paths} />
+	{/if}
+	<div class="header-heading">
+		<div>6 maj på gasklockorna i Gävle</div>
+	</div>
 </div>
 
 <style>
@@ -34,35 +42,6 @@
 		user-select: none;
 	}
 
-	nav {
-		background-color: var(--menu-background);
-		color: var(--black);
-		font-size: 2em;
-		font-family: agency-bold;
-		width: 100vw;
-		display: grid;
-		grid-auto-flow: column;
-		justify-items: center;
-		grid-gap: 40px;
-		justify-items: center;
-		align-items: center;
-		justify-content: center;
-	}
-
-	nav a {
-		font-stretch: expanded;
-		text-transform: uppercase;
-		text-decoration: none;
-	}
-
-	nav a:hover {
-		transition: all 0.2s ease;
-		color: var(--purple);
-	}
-
-	.active {
-		color: var(--purple);
-	}
 	.header-heading {
 		font-family: agency-bold;
 		font-size: 2em;

@@ -32,13 +32,14 @@
 	}
 
 	.footer {
+		font-family: agency;
 		grid-area: footer;
 		display: grid;
 		justify-items: center;
 		align-items: center;
-		background-color: var(--white);
-		color: var(--black);
 		border-top: solid 1px var(--black);
+		color: var(--black);
+		background-color: var(--yellow);
 	}
 
 	@media (max-width: 820px) {
