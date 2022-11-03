@@ -30,6 +30,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@splidejs/svelte-splide": "^0.2.9",
     "@sveltejs/adapter-vercel": "^1.0.0-next.80",
     "date-fns": "^2.29.3"
   }

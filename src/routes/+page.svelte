@@ -35,16 +35,16 @@
 </script>
 
 <div class="page">
-	<ImageFlipper {imageList} />
+	<div>
+		<ImageFlipper {imageList} />
+		<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noopener noreferrer">
+			Köp biljetter m.m.
+		</a>
+	</div>
 </div>
-<br />
-<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noopener noreferrer"> Köp biljetter m.m. </a>
 
 <style>
 	.page {
-		display: grid;
-		justify-items: center;
-		align-items: start;
 		padding-top: 20px;
 	}
 

@@ -1,65 +1,41 @@
 <script>
-	import { onDestroy, onMount } from 'svelte';
-	import { fade } from 'svelte/transition';
+	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+	import '@splidejs/svelte-splide/css';
 
 	/**
 	 * @type {string | any[]}
 	 */
 	export let imageList;
-	export let options = {
-		delay: 5000,
-		duration: 500
+
+	let innerWidth = window.innerWidth;
+
+	$: sliderWidth = innerWidth > 1366 ? 1366 : innerWidth - 20;
+
+	$: options = {
+		rewind: true,
+		width: sliderWidth,
+		height: sliderWidth * 0.5625,
+		gap: '1rem',
+		autoplay: true,
+		type: 'fade',
+		inteval: 5000,
+		speed: 2000
 	};
-
-	let currentImageIndex = 0;
-	/**
-	 * @type {string | number | NodeJS.Timer | undefined}
-	 */
-	let flipImageTimer;
-
-	onMount(() => {
-		if (imageList?.length > 0) {
-			flipImageTimer = setInterval(() => {
-				currentImageIndex = (currentImageIndex + 1) % imageList.length;
-			}, options.delay);
-		}
-	});
-
-	onDestroy(() => {
-		clearInterval(flipImageTimer);
-	});
 </script>
 
+<svelte:window bind:innerWidth />
+
 <div class="image-container">
-	{#if imageList?.length > 0}
-		{#each [imageList[currentImageIndex]] as image (currentImageIndex)}
-			<img transition:fade={{ duration: options.duration }} src={image.src} alt={image.alt} />
+	<Splide aria-label="Slideshow" {options}>
+		{#each imageList as image}
+			<SplideSlide>
+				<img src={image.src} alt={image.alt} width={sliderWidth} />
+			</SplideSlide>
 		{/each}
-	{:else}
-		Crap! There's no images in the list!
-	{/if}
+	</Splide>
 </div>
 
 <style>
-	.image-container {
-		position: relative;
-		width: 50vw;
-	}
-
-	img {
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		border: solid 1px var(--border-color);
-		width: 50vw;
-	}
-
 	@media (max-width: 820px) {
-		.image-container {
-			width: 90vw;
-		}
-		img {
-			width: 90vw;
-		}
 	}
 </style>

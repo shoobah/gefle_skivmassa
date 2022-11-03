@@ -58,13 +58,13 @@
 		top: -50px;
 		left: -50px;
 		user-select: none;
+		z-index: 1000;
 	}
 	.logo img {
 		float: left;
 		grid-area: sidebar;
 		padding: 10px;
 		width: 300px;
-		z-index: 1000;
 	}
 
 	@media (max-width: 820px) {
