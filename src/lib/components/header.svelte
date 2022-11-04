@@ -76,10 +76,6 @@
 			width: 100px;
 		}
 
-		nav {
-			font-size: 1.5em;
-		}
-
 		.header-heading {
 			font-size: 1.5em;
 			gap: 20px;
