@@ -3,9 +3,11 @@
 	import PageTransition from '$lib/components/page-transition.svelte';
 	import '../app.css';
 	import Header from '$lib/components/header.svelte';
+
+	let innerHeight = 0;
 </script>
 
-<div class="main">
+<div class="main" style="--doc-height:{innerHeight}px">
 	<Header />
 	<div class="content">
 		<PageTransition url={$page.url.toString()}>
@@ -17,9 +19,11 @@
 	</div>
 </div>
 
+<svelte:window bind:innerHeight />
+
 <style>
 	.main {
-		height: 100vh;
+		height: var(--doc-height);
 		display: grid;
 		grid-template-rows: 120px auto 30px;
 		grid-template-columns: auto;
