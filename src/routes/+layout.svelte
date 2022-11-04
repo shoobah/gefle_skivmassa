@@ -1,4 +1,6 @@
 <script>
+	import { page } from '$app/stores';
+	import PageTransition from '$lib/components/page-transition.svelte';
 	import '../app.css';
 	import Header from '$lib/components/header.svelte';
 </script>
@@ -6,7 +8,9 @@
 <div class="main">
 	<Header />
 	<div class="content">
-		<slot />
+		<PageTransition url={$page.url.toString()}>
+			<slot />
+		</PageTransition>
 	</div>
 	<div class="footer">
 		<div>I samarbete med Medborgarskolan, Gasklockorna och Region Gävleborg</div>
