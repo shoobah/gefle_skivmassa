@@ -6,7 +6,9 @@
 
 <nav>
 	{#each paths as path}
-		<a class:active={$page.url.pathname === path.path} href={path.path}>{path.name}</a>
+		<a sveltekit:prefetch class:active={$page.url.pathname === path.path} href={path.path}
+			>{path.name}</a
+		>
 	{/each}
 </nav>
 
