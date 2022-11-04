@@ -1,7 +1,16 @@
-<article>
-	Mail: info@gefleskivmassa.se Facebook: www.facebook.se/gefleskivmassa Instagram:
-	www.instagram.com/gefleskivmassa Fråga från Emil – kan man lägga in IG - flödet här? Länk till
-	biljetterna på Tickster: länk kommer Samarbetspartners (forts att under kontakt tänker jag)
-	Medborgarskolan: www.medborgarskolan.se Gasklockorna www.gavle.se/gasklockorna Region Gävleborg,
-	musik: https://www.regiongavleborg.se/kultur/verksamhet/musik/
-</article>
+<div>
+	<h1>Kontakt</h1>
+	<article>
+		Mail: <a href="mailto:info@gefleskivmassa.se">info@gefleskivmassa.se</a><br />
+		Facebook: <a href="www.facebook.se/gefleskivmassa">www.facebook.se/gefleskivmassa</a><br />
+		Instagram: <a href="www.instagram.com/gefleskivmassa">www.instagram.com/gefleskivmassa</a><br />
+		<br />
+		<a href="https://bit.ly/3T0EgT2">
+			<h2>Köp biljetter m.m.</h2>
+		</a><br />
+		<h2>Samarbetspartners</h2>
+		<a href="www.medborgarskolan.se"> Medborgarskolan </a><br />
+		<a href="www.gavle.se/gasklockorna"> Gasklockorna </a><br />
+		<a href="https://www.regiongavleborg.se/kultur/verksamhet/musik/"> Region Gävleborg, musik </a>
+	</article>
+</div>

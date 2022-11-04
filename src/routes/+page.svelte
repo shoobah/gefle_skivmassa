@@ -37,8 +37,8 @@
 <div class="page">
 	<div>
 		<ImageFlipper {imageList} />
-		<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noopener noreferrer">
-			Köp biljetter m.m.
+		<a href="https://bit.ly/3T0EgT2">
+			<h2>Köp biljetter m.m.</h2>
 		</a>
 	</div>
 </div>
