@@ -7,7 +7,7 @@
 	 */
 	export let imageList;
 
-	let innerWidth = window.innerWidth;
+	let innerWidth = 2048;
 
 	$: sliderWidth = innerWidth > 1366 ? 1366 : innerWidth - 20;
 

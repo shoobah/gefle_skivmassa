@@ -32,7 +32,7 @@
 	}
 
 	.footer {
-		font-family: agency;
+		font-family: agency-bold;
 		grid-area: footer;
 		display: grid;
 		justify-items: center;
