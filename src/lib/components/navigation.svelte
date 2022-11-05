@@ -1,7 +1,6 @@
 <script>
 	import { page } from '$app/stores';
 	import { state } from '$lib/stores/state';
-	import { fade } from 'svelte/transition';
 </script>
 
 <nav>
