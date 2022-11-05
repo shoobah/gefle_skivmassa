@@ -1,12 +1,12 @@
 <script>
 	import { page } from '$app/stores';
-
-	export let paths = [];
+	import { state } from '$lib/stores/state';
+	import { fade } from 'svelte/transition';
 </script>
 
 <nav>
-	{#each paths as path}
-		<a sveltekit:prefetch class:active={$page.url.pathname === path.path} href={path.path}
+	{#each $state.paths as path}
+		<a class:active={$page.url.pathname === path.path} href={path.path} target={path.target}
 			>{path.name}</a
 		>
 	{/each}

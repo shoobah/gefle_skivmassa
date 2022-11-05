@@ -1,5 +1,7 @@
 <script>
 	import { page } from '$app/stores';
+	import { state } from '$lib/stores/state';
+
 	import PageTransition from '$lib/components/page-transition.svelte';
 	import '../app.css';
 	import Header from '$lib/components/header.svelte';
@@ -7,12 +9,12 @@
 	let innerHeight = 0;
 </script>
 
-<div class="main" style="--doc-height:{innerHeight}px">
+<div data-sveltekit-prefetch class="main" style="--doc-height:{innerHeight}px">
 	<Header />
 	<div class="content">
-		<PageTransition url={$page.url.toString()}>
-			<slot />
-		</PageTransition>
+		<!-- <PageTransition url={$page.url.toString()}> -->
+		<slot />
+		<!-- </PageTransition> -->
 	</div>
 	<div class="footer">
 		<div>I samarbete med Medborgarskolan, Gasklockorna och Region Gävleborg</div>
@@ -20,6 +22,7 @@
 </div>
 
 <svelte:window bind:innerHeight />
+<svelte:body on:click={() => ($state.menuVisible = false)} />
 
 <style>
 	.main {

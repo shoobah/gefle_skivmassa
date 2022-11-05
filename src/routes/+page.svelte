@@ -1,6 +1,4 @@
 <script>
-	import { onDestroy, onMount } from 'svelte';
-	import * as locales from 'date-fns/locale/index.js';
 	import ImageFlipper from '$lib/components/imageFlipper.svelte';
 
 	let currentTime = new Date();
@@ -15,30 +13,13 @@
 			alt: 'Gävle Skivmässa skivor'
 		}
 	];
-
-	/**
-	 * @type {string | number | NodeJS.Timer | undefined}
-	 */
-	let timer;
-
-	let { sv } = locales;
-
-	onMount(() => {
-		timer = setInterval(() => {
-			currentTime = new Date();
-		}, 1000);
-	});
-
-	onDestroy(() => {
-		clearInterval(timer);
-	});
 </script>
 
 <div class="page">
-	<div>
+	<div class="content">
 		<ImageFlipper {imageList} />
 		<a href="https://bit.ly/3T0EgT2">
-			<h2>Köp biljetter m.m.</h2>
+			<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
 		</a>
 	</div>
 </div>
@@ -48,9 +29,20 @@
 		padding-top: 20px;
 	}
 
+	.content {
+		display: grid;
+		justify-items: center;
+		align-items: center;
+		gap: 10px;
+	}
+
 	a {
 		color: var(--text-color);
 		text-decoration: underline;
 		font-size: 1.5rem;
+	}
+
+	img {
+		width: 10em;
 	}
 </style>

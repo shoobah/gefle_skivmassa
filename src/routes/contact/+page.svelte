@@ -1,3 +1,7 @@
+<script>
+	import Map from '$lib/components/map.svelte';
+</script>
+
 <div>
 	<h1>Kontakt</h1>
 	<article>
@@ -9,8 +13,19 @@
 			<h2>Köp biljetter m.m.</h2>
 		</a><br />
 		<h2>Samarbetspartners</h2>
-		<a href="www.medborgarskolan.se"> Medborgarskolan </a><br />
-		<a href="www.gavle.se/gasklockorna"> Gasklockorna </a><br />
-		<a href="https://www.regiongavleborg.se/kultur/verksamhet/musik/"> Region Gävleborg, musik </a>
+		<a href="https://www.medborgarskolan.se" target="_blank" rel="noreferrer">
+			Medborgarskolan
+		</a><br />
+		<a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
+			Gasklockorna
+		</a><br />
+		<a
+			href="https://www.regiongavleborg.se/kultur/verksamhet/musik/"
+			target="_blank"
+			rel="noreferrer"
+		>
+			Region Gävleborg, musik
+		</a>
+		<Map />
 	</article>
 </div>

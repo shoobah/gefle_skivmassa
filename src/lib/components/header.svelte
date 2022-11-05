@@ -3,14 +3,6 @@
 	import MobileNavigation from './mobile-navigation.svelte';
 
 	let innerWidth = 0;
-
-	const paths = [
-		{ path: '/', name: 'Hem' },
-		{ path: '/form', name: 'Säljare' },
-		{ path: '/bands', name: 'Livemusik' },
-		{ path: '/about', name: 'Om' },
-		{ path: '/contact', name: 'Kontakt' }
-	];
 </script>
 
 <svelte:window bind:innerWidth />
@@ -19,10 +11,10 @@
 	<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png" />
 </a>
 <div class="header">
-	{#if innerWidth > 820}
-		<Navigation {paths} />
+	{#if innerWidth > 1230}
+		<Navigation />
 	{:else}
-		<MobileNavigation {paths} />
+		<MobileNavigation />
 	{/if}
 	<div class="header-heading">
 		<div>6 maj på gasklockorna i Gävle</div>

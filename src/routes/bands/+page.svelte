@@ -10,25 +10,23 @@
 	<div class="imagebox">
 		<img src="/images/Vokonis.jpg" alt="Vokonis" /><br />
 	</div>
-	Youtube - klipp på en video av bandet<br />
 	<a
 		target="_blank"
 		class="bandlogo"
 		href="https://vokonis.bandcamp.com/album/odyssey"
 		rel="noreferrer"
 	>
-		BandCamp
+		<h2>BandCamp</h2>
 	</a>
-	<br />
 	<a
 		target="_blank"
 		class="bandimage"
 		href="https://www.facebook.com/OfficialVokonis/"
 		rel="noreferrer"
 	>
-		Facebook
+		<h2>Facebook</h2>
 	</a>
-	<h2>Band som spelat på Gefle Skivmässa:</h2>
+	<h1>Band som spelat på Gefle Skivmässa:</h1>
 	<ul>
 		<li>Blues Pills</li>
 		<li>Spiders</li>
@@ -60,11 +58,27 @@
 		<li>Oscar Löfstrand.</li>
 	</ul>
 
-	Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på info@gefleskivmassa .se
+	Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på&nbsp;<a
+		href="mailto:info@gefleskivmassa.se">info@gefleskivmassa.se</a
+	>
 </article>
 
 <style>
+	article {
+		padding-bottom: 10px;
+	}
 	img {
 		border: none;
+	}
+	ul {
+		list-style-type: none;
+	}
+	ul li::before {
+		content: '‣';
+		color: var(--yellow);
+		font-weight: normal;
+		display: inline-block;
+		width: 1em;
+		margin-left: -1em;
 	}
 </style>

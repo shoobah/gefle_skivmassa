@@ -1,16 +1,15 @@
 <script>
+	import { state } from '$lib/stores/state';
+	import { fade } from 'svelte/transition';
 	import DropDownMenu from './drop-down-menu.svelte';
-	export let paths = [];
-
-	let menuVisible = false;
 </script>
 
 <nav>
-	<button on:click={() => (menuVisible = !menuVisible)}>
+	<button in:fade on:click|stopPropagation={() => ($state.menuVisible = !$state.menuVisible)}>
 		<img src="/icons/hamburger.svg" alt="menu" />
 	</button>
-	{#if menuVisible}
-		<DropDownMenu {paths} on:click={() => (menuVisible = false)} />
+	{#if $state.menuVisible}
+		<DropDownMenu on:click={() => ($state.menuVisible = false)} />
 	{/if}
 </nav>
 

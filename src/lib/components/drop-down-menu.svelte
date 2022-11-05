@@ -1,13 +1,17 @@
 <script>
 	import { page } from '$app/stores';
-	import { fade, slide } from 'svelte/transition';
-	export let paths = [];
+	import { slide } from 'svelte/transition';
+	import { state } from '$lib/stores/state';
 </script>
 
 <ul transition:slide={{ duration: 100 }}>
-	{#each paths as path}
+	{#each $state.paths as path}
 		<li>
-			<a class:active={$page.url.pathname === path.path} href={path.path} on:click>{path.name}</a>
+			<a class:active={$page.url.pathname === path.path} href={path.path} target={path.target}>
+				<div>
+					{path.name}
+				</div>
+			</a>
 		</li>
 	{/each}
 </ul>
