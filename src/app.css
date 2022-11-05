@@ -1,16 +1,19 @@
 @font-face {
 	font-family: agency;
 	src: url('/fonts/AGENCYR.TTF');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: agency-bold;
 	src: url('/fonts/AGENCYB.TTF');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: roboto;
 	src: url('/fonts/Roboto-Regular.ttf');
+	font-display: swap;
 }
 
 :root {
