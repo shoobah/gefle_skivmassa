@@ -9,7 +9,7 @@
 	let innerHeight = 0;
 </script>
 
-<div data-sveltekit-prefetch class="main" style="--doc-height:{innerHeight}px">
+<div class="main" style="--doc-height:{innerHeight}px">
 	<Header />
 	<div class="content">
 		<!-- <PageTransition url={$page.url.toString()}> -->

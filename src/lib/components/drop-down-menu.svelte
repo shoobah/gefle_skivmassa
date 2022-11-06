@@ -15,7 +15,7 @@
 		</li>
 	{/each}
 	<li>
-		<a href="'https://bit.ly/3T0EgT2'" target="_blank">
+		<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noreferrer">
 			<img class="tickster" src="/icons/Tickster_Grey.svg" alt="Tickster" />
 		</a>
 	</li>
