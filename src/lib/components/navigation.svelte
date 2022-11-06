@@ -9,6 +9,9 @@
 			>{path.name}</a
 		>
 	{/each}
+	<a href="'https://bit.ly/3T0EgT2'" target="_blank">
+		<img class="tickster" src="/icons/Tickster_Grey.svg" alt="Tickster" />
+	</a>
 </nav>
 
 <style>
@@ -40,5 +43,9 @@
 
 	.active {
 		color: var(--purple);
+	}
+
+	.tickster {
+		height: 0.9em;
 	}
 </style>

@@ -7,7 +7,6 @@ export const state = writable({
 		{ path: '/form', name: 'Säljare', target: '_self' },
 		{ path: '/bands', name: 'Livemusik', target: '_self' },
 		{ path: '/about', name: 'Om', target: '_self' },
-		{ path: '/contact', name: 'Kontakt', target: '_self' },
-		{ path: 'https://bit.ly/3T0EgT2', name: 'Biljetter', target: '_blank' }
+		{ path: '/contact', name: 'Kontakt', target: '_self' }
 	]
 });

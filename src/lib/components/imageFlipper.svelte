@@ -20,7 +20,8 @@
 		type: 'fade',
 		inteval: 5000,
 		speed: 2000,
-		arrows: false
+		arrows: false,
+		pagination: false
 	};
 </script>
 
