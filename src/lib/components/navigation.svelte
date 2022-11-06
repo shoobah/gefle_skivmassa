@@ -5,8 +5,11 @@
 
 <nav>
 	{#each $state.paths as path}
-		<a class:active={$page.url.pathname === path.path} href={path.path} target={path.target}
-			>{path.name}</a
+		<a
+			data-sveltekit-prefetch
+			class:active={$page.url.pathname === path.path}
+			href={path.path}
+			target={path.target}>{path.name}</a
 		>
 	{/each}
 	<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noreferrer">

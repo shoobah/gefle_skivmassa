@@ -7,7 +7,12 @@
 <ul transition:slide={{ duration: 100 }}>
 	{#each $state.paths as path}
 		<li>
-			<a class:active={$page.url.pathname === path.path} href={path.path} target={path.target}>
+			<a
+				data-sveltekit-prefetch
+				class:active={$page.url.pathname === path.path}
+				href={path.path}
+				target={path.target}
+			>
 				<div>
 					{path.name}
 				</div>
