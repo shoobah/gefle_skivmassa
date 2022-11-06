@@ -69,6 +69,7 @@
 		grid-template-columns: 1fr;
 		grid-gap: 1em;
 		width: 40vw;
+		padding-bottom: 10px;
 	}
 
 	input,
@@ -83,9 +84,11 @@
 		justify-self: right;
 		width: 20em;
 		height: 3em;
-		color: var(--black);
-		background-color: var(--green);
+		background-color: var(--yellow);
 		border-radius: 8px;
+		font-size: 1em;
+		font-weight: bold;
+		color: var(--black);
 	}
 
 	@media (max-width: 820px) {
