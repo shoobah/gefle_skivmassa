@@ -47,22 +47,23 @@
 	}
 	.logo {
 		position: fixed;
-		top: -50px;
-		left: -50px;
+		top: -40px;
+		left: -40px;
 		user-select: none;
 		z-index: 1000;
 	}
 	.logo img {
 		float: left;
 		grid-area: sidebar;
-		padding: 10px;
 		width: 300px;
+		box-shadow: 0px -1px 26px 3px rgba(0, 0, 0, 0.75);
+		border-radius: 50%;
 	}
 
 	@media (max-width: 820px) {
 		.logo {
-			top: -50px;
-			left: -50px;
+			top: -30px;
+			left: -30px;
 		}
 		.logo img {
 			width: 100px;
