@@ -1,3 +1,7 @@
+<svelte:head>
+	<meta name="description" content="Gefle Skivmässa. Beskrivning av band" />
+</svelte:head>
+
 <article>
 	<h1>Livemusik</h1>
 	<p>

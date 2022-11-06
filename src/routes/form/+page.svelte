@@ -1,3 +1,7 @@
+<svelte:head>
+	<meta name="description" content="Gefle Skivmässa. Anmälningsformulär" />
+</svelte:head>
+
 <div class="main">
 	<h1>Anmälan</h1>
 	<p>

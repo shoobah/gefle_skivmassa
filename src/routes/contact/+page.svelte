@@ -2,6 +2,10 @@
 	import Map from '$lib/components/map.svelte';
 </script>
 
+<svelte:head>
+	<meta name="description" content="Gefle Skivmässa. Kontakt" />
+</svelte:head>
+
 <div>
 	<h1>Kontakt</h1>
 	<article>

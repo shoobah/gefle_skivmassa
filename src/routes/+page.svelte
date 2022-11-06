@@ -15,6 +15,10 @@
 	];
 </script>
 
+<svelte:head>
+	<meta name="description" content="Gefle Skivmässa. Startsida" />
+</svelte:head>
+
 <div class="page">
 	<div class="content">
 		<ImageFlipper {imageList} />

@@ -1,3 +1,6 @@
+<svelte:head>
+	<meta name="description" content="Gefle Skivmässa. Historik" />
+</svelte:head>
 <article>
 	<h1>Tidigare mässor</h1>
 	<h2>2016</h2>
