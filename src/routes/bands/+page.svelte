@@ -9,7 +9,7 @@
 		inget undantag. Årets lineup är inte klar men redan nu kan vi stolt presentera Vokonis!
 	</p>
 	<div class="imagebox">
-		<img src="/images/Vokonis_logo.png" alt="Vokonis logo" /><br />
+		<img src="/images/Vokonis_logo.jpg" alt="Vokonis logo" /><br />
 	</div>
 	<div class="imagebox">
 		<img src="/images/Vokonis.jpg" alt="Vokonis" /><br />
