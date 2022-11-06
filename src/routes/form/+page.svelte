@@ -6,8 +6,9 @@
 	<h1>Anmälan</h1>
 	<p>
 		Vad kul att du vill medverka på Gefle Skivmässa i maj!<br />
-		Välkommen med din anmälan att sälja på Gefle Skivmässa 2023. Arrangemanget går av stapeln lördag
-		6 maj mellan kl 12 - 23 (skivmässan mellan 12 - 18) vid Gasklockorna i Gävle,Atlasgatan 3.
+		Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle Skivmässa 2023.<br
+		/>Arrangemanget går av stapeln lördag 6 maj mellan kl 12 - 23 (skivmässan mellan 12 - 18) vid
+		Gasklockorna i Gävle, Atlasgatan 3.
 	</p>
 	<p>
 		Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på våra bord. Faktura på hela

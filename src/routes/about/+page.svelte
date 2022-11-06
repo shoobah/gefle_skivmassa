@@ -10,8 +10,11 @@
 		grupp bibliotekarieanställda ihop med musikansvariga vid studieförbundet Medborgarskolan.
 		Ursprungstanken var en musikloppis på Stadsbiblioteket, men utökades snart till en större mässa
 		med livemusik. Och vilken livemusik sedan?<br />
-		Line up 2016: Blues Pills, Spiders, AKB, Jenny C, Fami och Oscar Löfstrand. På efterfesten som arrangerades
-		av Gefle Hårdrocksklubb spelade Honeymoon Disease.<br />
+	</p>
+	<h3>Line up 2016</h3>
+	<p>
+		Blues Pills, Spiders, AKB, Jenny C, Fami och Oscar Löfstrand. På efterfesten som arrangerades av
+		Gefle Hårdrocksklubb spelade Honeymoon Disease.<br />
 		Logotyp Gefle Skivmässa 2016: Jens Räsänen
 	</p>
 	<div class="imagebox">
@@ -23,9 +26,12 @@
 		fler scener och en egen öl! Gefle Skivmässa samarbetade med det lokala bryggeriet Jädraöl och
 		serverade både besökare och artister vår egna <span style="white-space:nowrap">mäss-öl</span
 		>.<br />
-		Line up 2017: Anekdoten, MaidaVale, Good Harvest, Silver Devil, Adora Eye, Trio Safoura, Symbio och
-		en reunion av The Pillisnorks. På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade Döda
-		Havet.<br />
+	</p>
+	<h3>Line up 2017</h3>
+	<p>
+		Anekdoten, MaidaVale, Good Harvest, Silver Devil, Adora Eye, Trio Safoura, Symbio och en reunion
+		av The Pillisnorks. På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade Döda Havet.<br
+		/>
 		Logotyp Gefle Skivmässa 2017 (nuvarande): Rolfcarlwerner
 	</p>
 	<div class="imagebox">
@@ -37,8 +43,11 @@
 		metalfestivalen Gefle Metal Festival, hoppade på tåget och tog hand om banden i stora
 		gasklockan. Vid det här laget har ryktet om Sveriges bästa skivmässa* spridit sig, och vi blir
 		tvinga de att neka flera sälja pga platsbrist.<br />
-		Line up 2018: Sator, Imperial State Electric, Besvärjelsen (som ersatte Thundermother på superkort
-		varsel), Slim Vic, Lisa och Kroffe, PRO424, Axel E och Mondegreen.<br />
+	</p>
+	<h3>Line up 2018</h3>
+	<p>
+		Sator, Imperial State Electric, Besvärjelsen (som ersatte Thundermother på superkort varsel),
+		Slim Vic, Lisa och Kroffe, PRO424, Axel E och Mondegreen.<br />
 		Gävle bibliotek var fortfarande med som medarrangörer och på litteraturscenen mötte vi Anna Jörgensdotte,
 		Annah Björk, Mattias Beijmo och Andreas Jakobsson. Konstutställningar av Linnea Strid, Viktor Hertz,
 		Peter Endahl och Erik Axl Sundh.<br />
@@ -53,8 +62,11 @@
 		Gefle Skivmässa 2019 är den mässa som fick avsluta en fin svit av årliga skivmässor i april. Med
 		ännu fler säljare i kön, fler band än någonsin som ville spela och fler besökare än väntat var
 		detta år en ri ktig succé.<br />
-		På scenen stod: Lucifer, Paatos, Svartanatt, Liondub, Anna Frank och Stenbrott. På litteraturscenen:
-		Annah Björk, Anna - Charlotta Gunnarsson, Natalia Kazmierska och Martin Aagård.
+	</p>
+	<h3>Line up 2019</h3>
+	<p>
+		Lucifer, Paatos, Svartanatt, Liondub, Anna Frank och Stenbrott. På litteraturscenen: Annah
+		Björk, Anna - Charlotta Gunnarsson, Natalia Kazmierska och Martin Aagård.
 	</p>
 	<div class="imagebox">
 		<img src="/images/Gefle Skivmässa 2019.jpg" alt="Gefle Skivmässa 2019" />

@@ -5,7 +5,7 @@
 <article>
 	<h1>Livemusik</h1>
 	<p>
-		Gefle Skivmässa har från starten 2016 alltid haft en uppsjö av bra band på våran scen. 2023 är
+		Gefle Skivmässa har från starten 2016 alltid haft en uppsjö av bra band på vår scen. 2023 är
 		inget undantag. Årets lineup är inte klar men redan nu kan vi stolt presentera Vokonis!
 	</p>
 	<div class="imagebox">
