@@ -20,7 +20,7 @@
 		<div class="footer-content">
 			<div>
 				<a href="https://www.gavle.se/" target="_blank" rel="noreferrer">
-					<img src="/icons/Gavle_kommun.svg" alt="Gävle kommun" />
+					<img class="kommun" src="/icons/Gavle_kommun.svg" alt="Gävle kommun" />
 				</a>
 			</div>
 			<div>
@@ -53,7 +53,7 @@
 	.main {
 		height: var(--doc-height);
 		display: grid;
-		grid-template-rows: 120px auto 81px;
+		grid-template-rows: 120px auto 66px;
 		grid-template-columns: auto;
 		grid-template-areas: 'header' 'content' 'footer';
 		background: var(--body-bg);
@@ -77,7 +77,7 @@
 		border-top: solid 1px var(--black);
 		color: var(--black);
 		background-color: var(--purple);
-		height: 80px;
+		height: 65px;
 	}
 
 	.footer-content {
@@ -89,7 +89,11 @@
 	}
 
 	.footer-content img {
-		height: 64px;
+		height: 40px;
+	}
+
+	img.kommun {
+		height: 50px;
 	}
 
 	@media (max-width: 820px) {
@@ -105,6 +109,10 @@
 		}
 
 		.footer-content img {
+			height: 20px;
+		}
+
+		.kommun {
 			height: 30px;
 		}
 	}
