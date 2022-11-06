@@ -9,7 +9,7 @@
 
 	let innerWidth = 2048;
 
-	$: sliderWidth = innerWidth > 1366 ? 1366 : innerWidth - 20;
+	$: sliderWidth = innerWidth > 1366 ? 1200 : innerWidth - 20;
 
 	$: options = {
 		rewind: true,

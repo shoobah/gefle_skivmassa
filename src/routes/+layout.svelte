@@ -17,7 +17,32 @@
 		<!-- </PageTransition> -->
 	</div>
 	<div class="footer">
-		<div>I samarbete med Medborgarskolan, Gasklockorna och Region Gävleborg</div>
+		<div class="footer-content">
+			<div>
+				<a href="https://www.gavle.se/" target="_blank" rel="noreferrer">
+					<img src="/icons/Gavle_kommun.svg" alt="Gävle kommun" />
+				</a>
+			</div>
+			<div>
+				<a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
+					<img src="/icons/gasklockorna loggo.png" alt="Gasklockorna" />
+				</a>
+			</div>
+			<div>
+				<a href="https://www.medborgarskolan.se/" target="_blank" rel="noreferrer">
+					<img src="/icons/mebo_vit.svg" alt="Medborgarskolan" />
+				</a>
+			</div>
+			<div>
+				<a
+					href="https://www.regiongavleborg.se/kultur/verksamhet/musik/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img src="/icons/region_gavleborg vit.svg" alt="Region gävleborg" />
+				</a>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -28,7 +53,7 @@
 	.main {
 		height: var(--doc-height);
 		display: grid;
-		grid-template-rows: 120px auto 30px;
+		grid-template-rows: 120px auto 81px;
 		grid-template-columns: auto;
 		grid-template-areas: 'header' 'content' 'footer';
 		background: var(--body-bg);
@@ -46,16 +71,41 @@
 		font-family: agency-bold;
 		grid-area: footer;
 		display: grid;
+		grid-auto-flow: column;
 		justify-items: center;
 		align-items: center;
 		border-top: solid 1px var(--black);
 		color: var(--black);
-		background-color: var(--yellow);
+		background-color: var(--purple);
+		height: 80px;
+	}
+
+	.footer-content {
+		display: grid;
+		grid-auto-flow: column;
+		justify-items: center;
+		align-items: center;
+		width: 70vw;
+	}
+
+	.footer-content img {
+		height: 64px;
 	}
 
 	@media (max-width: 820px) {
+		.main {
+			grid-template-rows: 120px auto 61px;
+		}
 		.footer {
-			font-size: 0.8em;
+			height: 60px;
+		}
+
+		.footer-content {
+			width: 100vw;
+		}
+
+		.footer-content img {
+			height: 30px;
 		}
 	}
 </style>
