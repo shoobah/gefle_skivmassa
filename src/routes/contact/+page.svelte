@@ -10,8 +10,8 @@
 	<h1>Kontakt</h1>
 	<article>
 		Mail: <a href="mailto:gefleskivmassa@gmail.com">gefleskivmassa@gmail.com</a><br />
-		Facebook: <a href="https://www.facebook.se/gefleskivmassa">www.facebook.se/gefleskivmassa</a><br
-		/>
+		Facebook:
+		<a href="https://www.facebook.com/gefleskivmassa">www.facebook.com/gefleskivmassa</a><br />
 		Instagram:
 		<a href="https://www.instagram.com/gefleskivmassa">www.instagram.com/gefleskivmassa</a><br />
 		<br />
