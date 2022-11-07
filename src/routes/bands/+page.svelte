@@ -63,7 +63,7 @@
 	</ul>
 
 	Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på&nbsp;<a
-		href="mailto:info@gefleskivmassa.se">info@gefleskivmassa.se</a
+		href="mailto:gefleskivmassa@gmail.com">gefleskivmassa@gmail.com</a
 	>
 </article>
 
