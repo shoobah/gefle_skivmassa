@@ -10,8 +10,10 @@
 	<h1>Kontakt</h1>
 	<article>
 		Mail: <a href="mailto:gefleskivmassa@gmail.com">gefleskivmassa@gmail.com</a><br />
-		Facebook: <a href="www.facebook.se/gefleskivmassa">www.facebook.se/gefleskivmassa</a><br />
-		Instagram: <a href="www.instagram.com/gefleskivmassa">www.instagram.com/gefleskivmassa</a><br />
+		Facebook: <a href="https://www.facebook.se/gefleskivmassa">www.facebook.se/gefleskivmassa</a><br
+		/>
+		Instagram:
+		<a href="https://www.instagram.com/gefleskivmassa">www.instagram.com/gefleskivmassa</a><br />
 		<br />
 		<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noreferrer">
 			<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
