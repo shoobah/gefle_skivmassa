@@ -29,8 +29,8 @@ export const actions = {
 		});
 
 		const message = {
-			from: 'info@gefleskivmassa.se',
-			to: 'info@gefleskivmassa.se',
+			from: import.meta.env.VITE_SMTP_FROM,
+			to: import.meta.env.VITE_SMTP_TO,
 			subject: 'Anmälan till Gefleskivmassa',
 			text:
 				'Förnamn: ' +
