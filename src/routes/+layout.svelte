@@ -12,9 +12,9 @@
 <div class="main" style="--doc-height:{innerHeight}px">
 	<Header />
 	<div class="content">
-		<!-- <PageTransition url={$page.url.toString()}> -->
-		<slot />
-		<!-- </PageTransition> -->
+		<PageTransition url={$page.url.toString()}>
+			<slot />
+		</PageTransition>
 	</div>
 	<div class="footer">
 		<div class="footer-content">
