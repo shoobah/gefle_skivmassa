@@ -22,7 +22,7 @@
 <div class="page">
 	<div class="content">
 		<ImageFlipper {imageList} />
-		<a href="https://bit.ly/3T0EgT2">
+		<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noreferrer">
 			<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
 		</a>
 	</div>

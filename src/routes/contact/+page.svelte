@@ -13,7 +13,7 @@
 		Facebook: <a href="www.facebook.se/gefleskivmassa">www.facebook.se/gefleskivmassa</a><br />
 		Instagram: <a href="www.instagram.com/gefleskivmassa">www.instagram.com/gefleskivmassa</a><br />
 		<br />
-		<a href="https://bit.ly/3T0EgT2">
+		<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noreferrer">
 			<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
 		</a>
 		<h2>Samarbetspartners</h2>
