@@ -1,8 +1,6 @@
 <script>
 	import ImageFlipper from '$lib/components/imageFlipper.svelte';
 
-	let currentTime = new Date();
-
 	const imageList = [
 		{
 			src: '/images/Webb skivmässa.jpg',
