@@ -11,7 +11,10 @@
 	export const prerender = true;
 </script>
 
-<div class="main" style="--doc-height:{innerHeight}px">
+<div
+	class="main"
+	style="--doc-height:{innerHeight}px; --content-height:{innerHeight - 120 - 66}px;"
+>
 	<Header />
 	<div class="content">
 		<PageTransition url={$page.url.toString()}>
@@ -62,6 +65,7 @@
 	}
 
 	.content {
+		min-height: var(--content-height);
 		grid-area: content;
 		display: grid;
 		justify-items: center;

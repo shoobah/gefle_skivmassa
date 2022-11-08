@@ -7,9 +7,13 @@
 	 */
 	export let imageList;
 
+	export let size = 1250;
+	export let pagination = false;
+	export let arrows = false;
+
 	let innerWidth = 2048;
 
-	$: sliderWidth = innerWidth > 1366 ? 1250 : innerWidth - 20;
+	$: sliderWidth = innerWidth > 1366 ? size : innerWidth - 20;
 
 	$: options = {
 		rewind: true,
@@ -20,8 +24,8 @@
 		type: 'fade',
 		inteval: 5000,
 		speed: 2000,
-		arrows: false,
-		pagination: false
+		arrows,
+		pagination
 	};
 </script>
 
