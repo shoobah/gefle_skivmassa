@@ -10,6 +10,8 @@
 	export let size = 1250;
 	export let pagination = false;
 	export let arrows = false;
+	export let interval = 5000;
+	export let speed = 2000;
 
 	let innerWidth = 2048;
 
@@ -22,8 +24,8 @@
 		gap: '1rem',
 		autoplay: true,
 		type: 'fade',
-		inteval: 5000,
-		speed: 2000,
+		inteval: interval,
+		speed: speed,
 		arrows,
 		pagination
 	};
@@ -32,7 +34,7 @@
 <svelte:window bind:innerWidth />
 
 <div class="image-container">
-	<Splide aria-label="Slideshow" {options}>
+	<Splide aria-label="Slideshow" {options} style="max-width:{size}">
 		{#each imageList as image}
 			<SplideSlide>
 				<img src={image.src} alt={image.alt} width={sliderWidth} />
