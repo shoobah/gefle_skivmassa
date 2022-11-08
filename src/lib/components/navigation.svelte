@@ -12,7 +12,7 @@
 			target={path.target}>{path.name}</a
 		>
 	{/each}
-	<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noreferrer">
+	<a href={$state.ticketLink} target="_blank" rel="noreferrer">
 		<img class="tickster" src="/icons/Tickster_Grey.svg" alt="Tickster" />
 	</a>
 </nav>

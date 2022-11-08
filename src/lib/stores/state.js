@@ -8,5 +8,6 @@ export const state = writable({
 		{ path: '/bands', name: 'Livemusik', target: '_self' },
 		{ path: '/about', name: 'Om', target: '_self' },
 		{ path: '/contact', name: 'Kontakt', target: '_self' }
-	]
+	],
+	ticketLink: 'https://bit.ly/3T0EgT2'
 });

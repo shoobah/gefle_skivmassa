@@ -1,4 +1,5 @@
 <script>
+	import { state } from '$lib/stores/state.js';
 	import Map from '$lib/components/map.svelte';
 </script>
 
@@ -15,7 +16,7 @@
 		Instagram:
 		<a href="https://www.instagram.com/gefleskivmassa">www.instagram.com/gefleskivmassa</a><br />
 		<br />
-		<a href="https://bit.ly/3T0EgT2" target="_blank" rel="noreferrer">
+		<a href={$state.ticketLink} target="_blank" rel="noreferrer">
 			<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
 		</a>
 		<h2>Samarbetspartners</h2>
