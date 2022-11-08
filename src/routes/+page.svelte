@@ -1,13 +1,15 @@
 <script>
 	import ImageFlipper from '$lib/components/image-flipper.svelte';
+	import Mässa from '$lib/images/Webb skivmässa.jpg?w=1000&webp';
+	import Vokonis from '$lib/images/Webb Vokonis.jpg?w=1000&webp';
 
 	const imageList = [
 		{
-			src: '/images/Webb skivmässa.jpg',
+			src: Mässa,
 			alt: 'Gävle Skivmässa'
 		},
 		{
-			src: '/images/Webb Vokonis.jpg',
+			src: Vokonis,
 			alt: 'Vokonis'
 		}
 	];

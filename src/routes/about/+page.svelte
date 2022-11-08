@@ -1,3 +1,13 @@
+<script>
+	// @ts-nocheck
+
+	import Img2016 from '$lib/images/Gefle Skivmässa 2016.jpg?w=768&webp';
+	import Img2017 from '$lib/images/Gefle Skivmässa 2017.jpg?w=768&webp';
+	import Img2018 from '$lib/images/Gefle Skivmässa 2018.jpg?w=768&webp';
+	import Img2019 from '$lib/images/Gefle Skivmässa 2019.jpg?w=768&webp';
+	import Img2020 from '$lib/images/Gefle Skivmässa 2020.jpg?w=768&webp';
+</script>
+
 <svelte:head>
 	<meta name="description" content="Gefle Skivmässa. Historik" />
 </svelte:head>
@@ -18,7 +28,7 @@
 		Logotyp Gefle Skivmässa 2016: Jens Räsänen
 	</p>
 	<div class="imagebox">
-		<img src="/images/Gefle Skivmässa 2016.jpg" alt="Gefle Skivmässa 2016" />
+		<img src={Img2016} alt="Gefle Skivmässa 2016" />
 	</div>
 	<h2>2017</h2>
 	<p>
@@ -35,7 +45,7 @@
 		Logotyp Gefle Skivmässa 2017 (nuvarande): Rolfcarlwerner
 	</p>
 	<div class="imagebox">
-		<img src="/images/Gefle Skivmässa 2017.jpg" alt="Gefle Skivmässa 2017" />
+		<img src={Img2017} alt="Gefle Skivmässa 2017" />
 	</div>
 	<h2>2018</h2>
 	<p>
@@ -54,7 +64,7 @@
 		På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade De ville och SilverDevil.
 	</p>
 	<div class="imagebox">
-		<img src="/images/Gefle Skivmässa 2018.jpg" alt="Gefle Skivmässa 2018" />
+		<img src={Img2018} alt="Gefle Skivmässa 2018" />
 	</div>
 
 	<h2>2019</h2>
@@ -69,12 +79,12 @@
 		Björk, Anna - Charlotta Gunnarsson, Natalia Kazmierska och Martin Aagård.
 	</p>
 	<div class="imagebox">
-		<img src="/images/Gefle Skivmässa 2019.jpg" alt="Gefle Skivmässa 2019" />
+		<img src={Img2019} alt="Gefle Skivmässa 2019" />
 	</div>
 	<h2>2020</h2>
 	<p>2020 glömmer vi...</p>
 	<div class="imagebox">
-		<img src="/images/Gefle Skivmässa 2020.jpg" alt="Gefle Skivmässa 2020" />
+		<img src={Img2020} alt="Gefle Skivmässa 2020" />
 	</div>
 	<h2>2023</h2>
 	<p>

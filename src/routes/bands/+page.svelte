@@ -1,3 +1,8 @@
+<script>
+	import VokonisLogo from '$lib/images/Vokonis_logo.jpg?w=400&webp';
+	import Vokonis from '$lib/images/Vokonis.jpg?w=400&webp';
+</script>
+
 <svelte:head>
 	<meta name="description" content="Gefle Skivmässa. Beskrivning av band" />
 </svelte:head>
@@ -9,10 +14,10 @@
 		inget undantag. Årets lineup är inte klar men redan nu kan vi stolt presentera Vokonis!
 	</p>
 	<div class="imagebox">
-		<img src="/images/Vokonis_logo.jpg" alt="Vokonis logo" /><br />
+		<img src={VokonisLogo} alt="Vokonis logo" /><br />
 	</div>
 	<div class="imagebox">
-		<img src="/images/Vokonis.jpg" alt="Vokonis" /><br />
+		<img src={Vokonis} alt="Vokonis" /><br />
 	</div>
 	<a
 		target="_blank"
