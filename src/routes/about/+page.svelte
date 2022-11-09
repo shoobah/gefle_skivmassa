@@ -7,26 +7,26 @@
 	import Img2019 from '$lib/images/Gefle Skivmässa 2019.jpg?w=768&webp';
 	import Img2020 from '$lib/images/Gefle Skivmässa 2020.jpg?w=768&webp';
 
-	import BluesPills from '$lib/images/carousel/2016 Blues Pills.jpg?w=1000&webp';
-	import Mässa2016 from '$lib/images/carousel/2016 Mässa.jpg?w=1000&webp';
-	import Spiders from '$lib/images/carousel/2016 Spiders.jpg?w=1000&webp';
-	import Anekdoten from '$lib/images/carousel/2017 Anekdoten.jpg?w=1000&webp';
-	import GoodHarvest from '$lib/images/carousel/2017 Good Harvest.jpg?w=1000&webp';
-	import MaidaVale from '$lib/images/carousel/2017 MaidaVale.jpg?w=1000&webp';
-	import Mässa2017_2 from '$lib/images/carousel/2017 Mässa 2.jpg?w=1000&webp';
-	import Mässa2017 from '$lib/images/carousel/2017 Mässa.jpg?w=1000&webp';
-	import Besvärjelsen from '$lib/images/carousel/2018 Besvärjelsen.jpg?w=1000&webp';
-	import ImpreialStateElectric from '$lib/images/carousel/2018 Imperial state electric.jpg?w=1000&webp';
-	import Mässa2018_2 from '$lib/images/carousel/2018 Mässa 2.jpg?w=1000&webp';
-	import Mässa from '$lib/images/carousel/2018 Mässa.jpg?w=1000&webp';
-	import Sator from '$lib/images/carousel/2018 Sator.jpg?w=1000&webp';
-	import SlimVic from '$lib/images/carousel/2018 Slim Vic.jpg?w=1000&webp';
-	import Liondub from '$lib/images/carousel/2019 Liondub.jpg?w=1000&webp';
-	import Lucifer from '$lib/images/carousel/2019 Lucifer.jpg?w=1000&webp';
-	import Mässa2019 from '$lib/images/carousel/2019 Mässa.jpg?w=1000&webp';
-	import Merch from '$lib/images/carousel/2019 Merch.jpg?w=1000&webp';
-	import Paatos2 from '$lib/images/carousel/2019 Paatos 2.jpg?w=1000&webp';
-	import Paatos from '$lib/images/carousel/2019 Paatos.jpg?w=1000&webp';
+	import BluesPills from '$lib/images/Carousel/2016 Blues Pills.jpg?w=1000&webp';
+	import Mässa2016 from '$lib/images/Carousel/2016 Mässa.jpg?w=1000&webp';
+	import Spiders from '$lib/images/Carousel/2016 Spiders.jpg?w=1000&webp';
+	import Anekdoten from '$lib/images/Carousel/2017 Anekdoten.jpg?w=1000&webp';
+	import GoodHarvest from '$lib/images/Carousel/2017 Good Harvest.jpg?w=1000&webp';
+	import MaidaVale from '$lib/images/Carousel/2017 MaidaVale.jpg?w=1000&webp';
+	import Mässa2017_2 from '$lib/images/Carousel/2017 Mässa 2.jpg?w=1000&webp';
+	import Mässa2017 from '$lib/images/Carousel/2017 Mässa.jpg?w=1000&webp';
+	import Besvärjelsen from '$lib/images/Carousel/2018 Besvärjelsen.jpg?w=1000&webp';
+	import ImpreialStateElectric from '$lib/images/Carousel/2018 Imperial state electric.jpg?w=1000&webp';
+	import Mässa2018_2 from '$lib/images/Carousel/2018 Mässa 2.jpg?w=1000&webp';
+	import Mässa from '$lib/images/Carousel/2018 Mässa.jpg?w=1000&webp';
+	import Sator from '$lib/images/Carousel/2018 Sator.jpg?w=1000&webp';
+	import SlimVic from '$lib/images/Carousel/2018 Slim Vic.jpg?w=1000&webp';
+	import Liondub from '$lib/images/Carousel/2019 Liondub.jpg?w=1000&webp';
+	import Lucifer from '$lib/images/Carousel/2019 Lucifer.jpg?w=1000&webp';
+	import Mässa2019 from '$lib/images/Carousel/2019 Mässa.jpg?w=1000&webp';
+	import Merch from '$lib/images/Carousel/2019 Merch.jpg?w=1000&webp';
+	import Paatos2 from '$lib/images/Carousel/2019 Paatos 2.jpg?w=1000&webp';
+	import Paatos from '$lib/images/Carousel/2019 Paatos.jpg?w=1000&webp';
 
 	const imageList = [
 		{ src: BluesPills, alt: 'Blues Pills' },
@@ -140,7 +140,7 @@
 		</p>
 	</article>
 	<h2>Lite bilder från tidigare mässor</h2>
-	<div class="carousel">
+	<div class="Carousel">
 		<ImageFlipper {imageList} interval={2000} size={1000} arrows />
 	</div>
 </div>
@@ -150,7 +150,7 @@
 		padding-top: 1em;
 	}
 
-	.carousel {
+	.Carousel {
 		padding-bottom: 20px;
 	}
 </style>
