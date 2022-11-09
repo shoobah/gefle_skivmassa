@@ -12,6 +12,7 @@
 	export let arrows = false;
 	export let interval = 5000;
 	export let speed = 2000;
+	export let ar = 0.5625;
 
 	let innerWidth = 2048;
 
@@ -20,7 +21,7 @@
 	$: options = {
 		rewind: true,
 		width: sliderWidth,
-		height: sliderWidth * 0.5625,
+		height: sliderWidth * ar,
 		gap: '1rem',
 		autoplay: true,
 		type: 'fade',
