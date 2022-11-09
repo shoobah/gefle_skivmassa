@@ -1,6 +1,6 @@
 <script>
-	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	import '@splidejs/svelte-splide/css';
+	import { onDestroy, onMount } from 'svelte';
 
 	/**
 	 * @type {string | any[]}
@@ -15,36 +15,39 @@
 	export let ar = 0.5625;
 
 	let innerWidth = 2048;
+	let index = 0;
 
 	$: sliderWidth = innerWidth > 1366 ? size : innerWidth - 20;
+	$: index = index % imageList.length;
 
-	$: options = {
-		rewind: true,
-		width: sliderWidth,
-		height: sliderWidth * ar,
-		gap: '1rem',
-		autoplay: true,
-		type: 'fade',
-		inteval: interval,
-		speed: speed,
-		arrows,
-		pagination
-	};
+	function moveToNext() {
+		index++;
+	}
+
+	function moveToPrev() {
+		index--;
+	}
+
+	let timer;
+
+	onMount(() => {
+		timer = setInterval(moveToNext, interval);
+	});
+
+	onDestroy(() => {
+		clearInterval(timer);
+	});
 </script>
 
 <svelte:window bind:innerWidth />
 
-<div class="image-container">
-	<Splide aria-label="Slideshow" {options} style="max-width:{size}">
-		{#each imageList as image}
-			<SplideSlide>
-				<img src={image.src} alt={image.alt} width={sliderWidth} />
-			</SplideSlide>
-		{/each}
-	</Splide>
+<div>
+	<img
+		on:click={moveToNext}
+		on:keydown={moveToNext}
+		src={imageList[index].src}
+		alt={imageList[index].alt}
+		width={sliderWidth}
+		height={sliderWidth * ar}
+	/>
 </div>
-
-<style>
-	@media (max-width: 820px) {
-	}
-</style>

@@ -40,6 +40,19 @@
 <style>
 	img {
 		border: none;
-		width: 10em;
+		width: 20vw;
+		max-width: 200px;
+		min-width: 100px;
+	}
+
+	div {
+		width: 50vw;
+		padding-bottom: 20px;
+	}
+
+	@media (max-width: 820px) {
+		div {
+			width: 90vw;
+		}
 	}
 </style>

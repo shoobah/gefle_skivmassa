@@ -140,8 +140,8 @@
 		</p>
 	</article>
 	<h2>Lite bilder från tidigare mässor</h2>
-	<div class="Carousel">
-		<ImageFlipper {imageList} interval={2000} size={1024} arrows ar={682 / 1024} />
+	<div class="carousel">
+		<ImageFlipper {imageList} interval={2000} size={1024} arrows ar={0.666} />
 	</div>
 </div>
 
@@ -150,7 +150,9 @@
 		padding-top: 1em;
 	}
 
-	.Carousel {
+	.carousel {
+		display: grid;
+		justify-content: center;
 		padding-bottom: 20px;
 	}
 </style>

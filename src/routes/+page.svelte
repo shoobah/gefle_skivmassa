@@ -20,16 +20,20 @@
 	<meta name="description" content="Gefle Skivmässa. Startsida" />
 </svelte:head>
 
-<div class="page">
-	<div class="content">
-		<ImageFlipper {imageList} />
-		<a href={$state.ticketLink} target="_blank" rel="noreferrer">
-			<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
-		</a>
-	</div>
+<div>
+	<ImageFlipper {imageList} />
+	<a href={$state.ticketLink} target="_blank" rel="noreferrer">
+		<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
+	</a>
 </div>
 
 <style>
+	div {
+		display: grid;
+		justify-items: center;
+		gap: 20px;
+		padding-top: 20px;
+	}
 	a {
 		color: var(--text-color);
 		text-decoration: underline;
@@ -37,6 +41,8 @@
 	}
 
 	img {
-		width: 10em;
+		width: 20vw;
+		max-width: 200px;
+		min-width: 100px;
 	}
 </style>
