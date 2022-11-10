@@ -141,7 +141,7 @@
 	</article>
 	<h2>Lite bilder från tidigare mässor</h2>
 	<div class="carousel">
-		<ImageFlipper {imageList} interval={2000} size={1024} arrows ar={0.666} />
+		<ImageFlipper {imageList} interval={3000} size={1024} arrows ar={0.666} />
 	</div>
 </div>
 
