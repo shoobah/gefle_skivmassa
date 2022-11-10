@@ -51,16 +51,17 @@ export const actions = {
 				data.get('comment')
 		};
 
-		await new Promise((resolve, reject) => {
-			transporter.sendMail(message, function (err, info) {
-				if (err) {
-					console.error(err);
-					reject(err);
-				} else {
-					console.log(info);
-					resolve(info);
-				}
-			});
+		let response = false;
+		transporter.sendMail(message, function (err, info) {
+			if (err) {
+				console.error(err);
+				response = false;
+			} else {
+				console.log(info);
+				response = true;
+			}
 		});
+
+		return { success: response };
 	}
 };

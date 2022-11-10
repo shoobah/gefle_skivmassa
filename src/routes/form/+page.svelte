@@ -1,3 +1,9 @@
+<script>
+	export let form;
+
+	$: console.log('form', form);
+</script>
+
 <svelte:head>
 	<meta name="description" content="Gefle Skivmässa. Anmälningsformulär" />
 </svelte:head>
@@ -33,34 +39,41 @@
 		</ul>
 	</article>
 	<div>
-		<form method="POST">
-			<label for="firstName">Förnamn</label>
-			<input required name="firstName" type="text" placeholder="Förnamn" />
-			<label for="lastName">Efternamn</label>
-			<input required name="lastName" type="text" placeholder="Efternamn" />
-			<label for="email">E-post</label>
-			<input required name="email" type="email" placeholder="E-post" />
-			<label for="phone">Telefon</label>
-			<input required name="phone" type="tel" placeholder="Telefon" />
-			<label for="address">Adress</label>
-			<input required name="address" type="text" placeholder="Adress" />
-			<label for="org">Person / Organisationsnummer</label>
-			<input required name="org" type="text" placeholder="Person / Organisationsnummer" />
-			<label for="numberOfTables">Antal bord</label>
-			<select required name="numberOfTables" placeholder="Antal bord">
-				<option value="1">1 bord</option>
-				<option value="2">2 bord</option>
-				<option value="3">3 bord</option>
-			</select>
-			<label for="comment">Kommentar</label>
-			<textarea name="comment" placeholder="Kommentar" />
-			<p>
-				Genom att klicka på ”Skicka intresseanmälan” nedan,godkänner du att Gefle Skivmässa och
-				studieförbundet Medborgarskolan får behandla dina personuppgifter för att kunna fakturera
-				för din medverkan.
-			</p>
-			<button type="submit">Skicka intresseanmälan</button>
-		</form>
+		{#if form?.success}
+			<div>
+				<h2>Tack för din anmälan!</h2>
+				<p>Vi har mottagit din anmälan och kommer att kontakta dig inom kort.</p>
+			</div>
+		{:else}
+			<form method="POST">
+				<label for="firstName">Förnamn</label>
+				<input required name="firstName" type="text" placeholder="Förnamn" />
+				<label for="lastName">Efternamn</label>
+				<input required name="lastName" type="text" placeholder="Efternamn" />
+				<label for="email">E-post</label>
+				<input required name="email" type="email" placeholder="E-post" />
+				<label for="phone">Telefon</label>
+				<input required name="phone" type="tel" placeholder="Telefon" />
+				<label for="address">Adress</label>
+				<input required name="address" type="text" placeholder="Adress" />
+				<label for="org">Person / Organisationsnummer</label>
+				<input required name="org" type="text" placeholder="Person / Organisationsnummer" />
+				<label for="numberOfTables">Antal bord</label>
+				<select required name="numberOfTables" placeholder="Antal bord">
+					<option value="1">1 bord</option>
+					<option value="2">2 bord</option>
+					<option value="3">3 bord</option>
+				</select>
+				<label for="comment">Kommentar</label>
+				<textarea name="comment" placeholder="Kommentar" />
+				<p>
+					Genom att klicka på ”Skicka intresseanmälan” nedan,godkänner du att Gefle Skivmässa och
+					studieförbundet Medborgarskolan får behandla dina personuppgifter för att kunna fakturera
+					för din medverkan.
+				</p>
+				<button type="submit">Skicka intresseanmälan</button>
+			</form>
+		{/if}
 	</div>
 </div>
 
@@ -94,6 +107,7 @@
 		font-size: 1em;
 		font-weight: bold;
 		color: var(--black);
+		cursor: pointer;
 	}
 
 	@media (max-width: 820px) {

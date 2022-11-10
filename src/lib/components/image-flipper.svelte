@@ -8,10 +8,7 @@
 	export let imageList;
 
 	export let size = 1250;
-	export let pagination = false;
-	export let arrows = false;
 	export let interval = 5000;
-	export let speed = 2000;
 	export let ar = 0.5625;
 
 	let innerWidth = 2048;
