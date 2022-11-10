@@ -139,7 +139,8 @@
 			Välkomna tillbaka till Gävle Skivmässa!
 		</p>
 	</article>
-	<h2>Lite bilder från tidigare mässor</h2>
+	<h2>Lite bilder från tidigare mässor.</h2>
+	<h3>Fotograf: Erik Larsson</h3>
 	<div class="carousel">
 		<ImageFlipper {imageList} interval={3000} size={1024} arrows ar={0.666} />
 	</div>
