@@ -52,14 +52,18 @@ export const actions = {
 		};
 
 		let response = false;
-		transporter.sendMail(message, function (err, info) {
-			if (err) {
-				console.error(err);
-				response = false;
-			} else {
-				console.log(info);
-				response = true;
-			}
+		await new Promise((resolve, reject) => {
+			transporter.sendMail(message, function (err, info) {
+				if (err) {
+					console.error(err);
+					response = false;
+					reject(err);
+				} else {
+					console.log(info);
+					response = true;
+					resolve(info);
+				}
+			});
 		});
 
 		return { success: response };
