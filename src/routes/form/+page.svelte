@@ -108,6 +108,13 @@
 		font-weight: bold;
 		color: var(--black);
 		cursor: pointer;
+
+		box-shadow: rgba(217, 233, 80, 0.596) 0px 2px 4px, rgba(223, 226, 29, 0.3) 0px 7px 13px -3px,
+			rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	}
+
+	form button:active {
+		box-shadow: rgba(217, 233, 80, 0.596) 0px 2px 4px;
 	}
 
 	@media (max-width: 820px) {
