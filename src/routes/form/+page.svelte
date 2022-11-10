@@ -9,42 +9,43 @@
 </svelte:head>
 
 <div class="the-form">
-	<article>
-		<h1>Anmälan</h1>
-		<p>
-			Vad kul att du vill medverka på Gefle Skivmässa i maj!<br />
-			Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle Skivmässa 2023.<br
-			/>Arrangemanget går av stapeln lördag 6 maj mellan kl 12 - 23 (skivmässan mellan 12 - 18) vid
-			Gasklockorna i Gävle, Atlasgatan 3.
-		</p>
-		<p>
-			Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på våra bord. Faktura på
-			hela beloppet skickas från vår nära samarbetspart Medborgarskolan och ska vara betald i god
-			tid innan arrangemanget.
-		</p>
-		<p>
-			Borden på Gefle Skivmässa kostar 300kr/st och de mäter 200x69 cm. Max antal bord/säljare är
-			tre, dvs sex meter bord. Undantagsfall kan diskuteras.
-		</p>
+	{#if form?.success}
+		<div>
+			<h2>Tack för din anmälan!</h2>
+			<p>Vi har mottagit din anmälan och kommer att kontakta dig inom kort.</p>
+			<a href="/">Tillbaka till startsidan</a>
+		</div>
+	{:else}
+		<article>
+			<h1>Anmälan</h1>
+			<p>
+				Vad kul att du vill medverka på Gefle Skivmässa i maj!<br />
+				Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle Skivmässa 2023.<br
+				/>Arrangemanget går av stapeln lördag 6 maj mellan kl 12 - 23 (skivmässan mellan 12 - 18)
+				vid Gasklockorna i Gävle, Atlasgatan 3.
+			</p>
+			<p>
+				Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på våra bord. Faktura på
+				hela beloppet skickas från vår nära samarbetspart Medborgarskolan och ska vara betald i god
+				tid innan arrangemanget.
+			</p>
+			<p>
+				Borden på Gefle Skivmässa kostar 300kr/st och de mäter 200x69 cm. Max antal bord/säljare är
+				tre, dvs sex meter bord. Undantagsfall kan diskuteras.
+			</p>
 
-		<h2>Varje bokad försäljare får, förutom bokad plats:</h2>
-		<ul>
-			<li>Kaffe och fikabröd vid ankomst/inlastning och påtår under hela dagen</li>
-			<li>Konsertentré till skivmässans alla spelningar</li>
-			<li>
-				Rabatt på lunch/middag i vår personalmatsal som serverar grymt god mat. Välj mellan flera
-				rätter
-			</li>
-			<li>En fantastisk skivmässa i en unik lokal – Stora Gasklockan i Gävle</li>
-		</ul>
-	</article>
-	<div>
-		{#if form?.success}
-			<div>
-				<h2>Tack för din anmälan!</h2>
-				<p>Vi har mottagit din anmälan och kommer att kontakta dig inom kort.</p>
-			</div>
-		{:else}
+			<h2>Varje bokad försäljare får, förutom bokad plats:</h2>
+			<ul>
+				<li>Kaffe och fikabröd vid ankomst/inlastning och påtår under hela dagen</li>
+				<li>Konsertentré till skivmässans alla spelningar</li>
+				<li>
+					Rabatt på lunch/middag i vår personalmatsal som serverar grymt god mat. Välj mellan flera
+					rätter
+				</li>
+				<li>En fantastisk skivmässa i en unik lokal – Stora Gasklockan i Gävle</li>
+			</ul>
+		</article>
+		<div>
 			<form method="POST">
 				<label for="firstName">Förnamn</label>
 				<input required name="firstName" type="text" placeholder="Förnamn" />
@@ -73,8 +74,8 @@
 				</p>
 				<button type="submit">Skicka intresseanmälan</button>
 			</form>
-		{/if}
-	</div>
+		</div>
+	{/if}
 </div>
 
 <style>
@@ -98,7 +99,7 @@
 		border-radius: 0.5em;
 	}
 
-	form button {
+	button {
 		justify-self: right;
 		width: 20em;
 		height: 3em;
