@@ -9,5 +9,5 @@ export const state = writable({
 		{ path: '/about', name: 'Om', target: '_self' },
 		{ path: '/contact', name: 'Kontakt', target: '_self' }
 	],
-	ticketLink: 'https://bit.ly/3T0EgT2'
+	ticketLink: 'https://secure.tickster.com/sv/eyed05ag4hu0m4l/products'
 });
