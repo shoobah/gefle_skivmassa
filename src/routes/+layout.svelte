@@ -12,6 +12,7 @@
 </script>
 
 <div
+	data-sveltekit-prefetch
 	class="main"
 	style="--doc-height:{innerHeight}px; --content-height:{innerHeight - 120 - 66}px;"
 >
