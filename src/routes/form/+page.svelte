@@ -68,7 +68,7 @@
 				<label for="comment">Kommentar</label>
 				<textarea name="comment" placeholder="Kommentar" />
 				<p>
-					Genom att klicka på ”Skicka intresseanmälan” nedan,godkänner du att Gefle Skivmässa och
+					Genom att klicka på ”Skicka intresseanmälan” nedan godkänner du att Gefle Skivmässa och
 					studieförbundet Medborgarskolan får behandla dina personuppgifter för att kunna fakturera
 					för din medverkan.
 				</p>
