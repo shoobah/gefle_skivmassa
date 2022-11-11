@@ -6,6 +6,10 @@
 	import Img2018 from '$lib/images/Gefle Skivmässa 2018.jpg?w=768&webp';
 	import Img2019 from '$lib/images/Gefle Skivmässa 2019.jpg?w=768&webp';
 	import Img2020 from '$lib/images/Gefle Skivmässa 2020.jpg?w=768&webp';
+	import Efterfest2016 from '$lib/images/Efterfest 2016.jpg?w=768&webp';
+	import Efterfest2017 from '$lib/images/Efterfest 2017.jpg?w=768&webp';
+	import Efterfest2018 from '$lib/images/Efterfest 2018.jpg?w=768&webp';
+	import Efterfest2019 from '$lib/images/Efterfest 2019.jpg?w=768&webp';
 
 	import BluesPills from '$lib/images/Carousel/2016 Blues Pills.jpg?w=1000&webp';
 	import Mässa2016 from '$lib/images/Carousel/2016 Mässa.jpg?w=1000&webp';
@@ -75,6 +79,7 @@
 		</p>
 		<div class="imagebox">
 			<img src={Img2016} alt="Gefle Skivmässa 2016" />
+			<img src={Efterfest2016} alt="Gefle Skivmässa, Efterfest 2016" />
 		</div>
 		<h2>2017</h2>
 		<p>
@@ -93,6 +98,7 @@
 		</p>
 		<div class="imagebox">
 			<img src={Img2017} alt="Gefle Skivmässa 2017" />
+			<img src={Efterfest2017} alt="Gefle Skivmässa, Efterfest 2017" />
 		</div>
 		<h2>2018</h2>
 		<p>
@@ -108,17 +114,19 @@
 			Gävle bibliotek var fortfarande med som medarrangörer och på litteraturscenen mötte vi Anna Jörgensdotte,
 			Annah Björk, Mattias Beijmo och Andreas Jakobsson. Konstutställningar av Linnea Strid, Viktor Hertz,
 			Peter Endahl och Erik Axl Sundh.<br />
-			På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade De ville och SilverDevil.
+			På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade Deville och SilverDevil.
 		</p>
 		<div class="imagebox">
 			<img src={Img2018} alt="Gefle Skivmässa 2018" />
+			<img src={Efterfest2018} alt="Gefle Skivmässa, Efterfest 2018" />
 		</div>
 
 		<h2>2019</h2>
 		<p>
 			Gefle Skivmässa 2019 är den mässa som fick avsluta en fin svit av årliga skivmässor i april.
 			Med ännu fler säljare i kön, fler band än någonsin som ville spela och fler besökare än väntat
-			var detta år en ri ktig succé.<br />
+			var detta år en ri ktig succé. På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade
+			S.N.O och Crescendolls<br />
 		</p>
 		<h3>Line up 2019</h3>
 		<p>
@@ -127,6 +135,7 @@
 		</p>
 		<div class="imagebox">
 			<img src={Img2019} alt="Gefle Skivmässa 2019" />
+			<img src={Efterfest2019} alt="Gefle Skivmässa, Efterfest 2019" />
 		</div>
 		<h2>2020</h2>
 		<p>2020 glömmer vi...</p>
@@ -151,9 +160,21 @@
 		padding-top: 1em;
 	}
 
+	.imagebox {
+		display: grid;
+		grid-auto-flow: column;
+		gap: 10px;
+	}
+
 	.carousel {
 		display: grid;
 		justify-content: center;
 		padding-bottom: 20px;
+	}
+
+	@media (max-width: 820px) {
+		.imagebox {
+			grid-auto-flow: row;
+		}
 	}
 </style>
