@@ -39,6 +39,8 @@ body {
 	padding: 0;
 	background-color: var(--body-bg);
 	color: var(--text-color);
+	min-height: 100vh;
+	display: grid;
 }
 
 a {
