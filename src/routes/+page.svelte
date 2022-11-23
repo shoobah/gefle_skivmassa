@@ -3,11 +3,16 @@
 	import ImageFlipper from '$lib/components/image-flipper.svelte';
 	import Mässa from '$lib/images/Webb skivmässa.jpg?w=1000&webp';
 	import Vokonis from '$lib/images/Webb Vokonis.jpg?w=1000&webp';
+	import Horndal from '$lib/images/webb horndal.jpg?w=1000&webp';
 
 	const imageList = [
 		{
 			src: Mässa,
 			alt: 'Gävle Skivmässa'
+		},
+		{
+			src: Horndal,
+			alt: 'Horndal'
 		},
 		{
 			src: Vokonis,
