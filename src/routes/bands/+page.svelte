@@ -18,35 +18,31 @@
 	</p>
 	<div class="band">
 		<div class="imagebox">
-			<img src={VokonisLogo} alt="Vokonis logo" /><br />
-		</div>
-		<div class="imagebox">
-			<img src={Vokonis} alt="Vokonis" /><br />
-		</div>
-		<a
-			target="_blank"
-			class="bandlogo"
-			href="https://vokonis.bandcamp.com/album/odyssey"
-			rel="noreferrer"
-		>
-			<h2>Vokonis på BandCamp</h2>
-		</a>
-		<a
-			target="_blank"
-			class="bandimage"
-			href="https://www.facebook.com/OfficialVokonis/"
-			rel="noreferrer"
-		>
-			<h2>Vokonis på Facebook</h2>
-		</a>
-	</div>
-	<div class="band">
-		<div class="imagebox">
 			<img src={HorndalLogo} alt="Horndal logo" /><br />
 		</div>
 		<div class="imagebox">
 			<img src={Horndal} alt="Horndal" /><br />
 		</div>
+		<a target="_blank" href="https://horndal.bandcamp.com/album/lake-drinker" rel="noreferrer">
+			<h2>Horndal på BandCamp</h2>
+		</a>
+		<a target="_blank" href="https://www.facebook.com/horndalmusic/" rel="noreferrer">
+			<h2>Horndal på Facebook</h2>
+		</a>
+	</div>
+	<div class="band">
+		<div class="imagebox">
+			<img src={VokonisLogo} alt="Vokonis logo" /><br />
+		</div>
+		<div class="imagebox">
+			<img src={Vokonis} alt="Vokonis" /><br />
+		</div>
+		<a target="_blank" href="https://vokonis.bandcamp.com/album/odyssey" rel="noreferrer">
+			<h2>Vokonis på BandCamp</h2>
+		</a>
+		<a target="_blank" href="https://www.facebook.com/OfficialVokonis/" rel="noreferrer">
+			<h2>Vokonis på Facebook</h2>
+		</a>
 	</div>
 	<h1>Band som spelat på Gefle Skivmässa:</h1>
 	<ul>
