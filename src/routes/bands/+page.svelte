@@ -1,7 +1,7 @@
 <script>
 	import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=750&webp';
 	import Vokonis from '$lib/images/Vokonis/Vokonis.jpg?w=750&webp';
-	import HorndalLogo from '$lib/images/Horndal/Horndal_logo_neg_trans.png?w=750&webp';
+	import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=750&webp';
 	import Horndal from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
 </script>
 
