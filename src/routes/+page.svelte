@@ -7,16 +7,16 @@
 
 	const imageList = [
 		{
-			src: Mässa,
-			alt: 'Gävle Skivmässa'
-		},
-		{
 			src: Horndal,
 			alt: 'Horndal'
 		},
 		{
 			src: Vokonis,
 			alt: 'Vokonis'
+		},
+		{
+			src: Mässa,
+			alt: 'Gävle Skivmässa'
 		}
 	];
 </script>
