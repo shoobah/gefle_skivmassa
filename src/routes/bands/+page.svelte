@@ -1,8 +1,10 @@
 <script>
-	import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=750&webp';
-	import Vokonis from '$lib/images/Vokonis/Vokonis.jpg?w=750&webp';
+	import WitchcraftLogo from '$lib/images/Witchcraft/Witchcraft Logo White.png?w=750&webp';
 	import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=750&webp';
+	import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=750&webp';
+	import Witchcraft from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=750&webp';
 	import Horndal from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
+	import Vokonis from '$lib/images/Vokonis/Vokonis.jpg?w=750&webp';
 </script>
 
 <svelte:head>
@@ -11,12 +13,26 @@
 
 <article>
 	<h1>Livemusik</h1>
-	<p>
+	<p class="section">
 		Gefle Skivmässa har från starten 2016 alltid haft en uppsjö av bra band på vår scen. 2023 är
-		inget undantag. Årets lineup är inte klar men redan nu kan vi stolt presentera Horndal och
+		inget undantag. Årets lineup är klar och vi kan stolt presentera Witchcraft, Horndal och
 		Vokonis!
 	</p>
-	<div class="band">
+	<div class="section">
+		<div class="imagebox">
+			<img src={WitchcraftLogo} alt="Witchcraft logo" /><br />
+		</div>
+		<div class="imagebox">
+			<img src={Witchcraft} alt="Witchcraft" /><br />
+		</div>
+		<a target="_blank" href="https://witchcraftband.com/" rel="noreferrer">
+			<h2>Hemsida</h2>
+		</a>
+		<a target="_blank" href="https://www.facebook.com/witchcraft" rel="noreferrer">
+			<h2>Witchcraft på Facebook</h2>
+		</a>
+	</div>
+	<div class="section">
 		<div class="imagebox">
 			<img src={HorndalLogo} alt="Horndal logo" /><br />
 		</div>
@@ -30,7 +46,7 @@
 			<h2>Horndal på Facebook</h2>
 		</a>
 	</div>
-	<div class="band">
+	<div class="section">
 		<div class="imagebox">
 			<img src={VokonisLogo} alt="Vokonis logo" /><br />
 		</div>
@@ -100,7 +116,7 @@
 		margin-left: -1em;
 	}
 
-	.band {
+	.section {
 		border-bottom: solid 1px var(--yellow);
 		padding-bottom: 20px;
 	}
