@@ -5,6 +5,7 @@
 	import Witchcraft from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=750&webp';
 	import Horndal from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
 	import Vokonis from '$lib/images/Vokonis/Vokonis.jpg?w=750&webp';
+	import CotS from '$lib/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg?w=750&webp';
 </script>
 
 <svelte:head>
@@ -15,15 +16,31 @@
 	<h1>Livemusik</h1>
 	<p class="section">
 		Gefle Skivmässa har från starten 2016 alltid haft en uppsjö av bra band på vår scen. 2023 är
-		inget undantag. Årets lineup är klar och vi kan stolt presentera Witchcraft, Horndal och
-		Vokonis!
+		inget undantag. Årets lineup är klar och vi kan stolt presentera Children of the Sün,
+		Witchcraft, Horndal och Vokonis!
 	</p>
 	<div class="section">
-		<div class="imagebox">
+		<!-- <div class="imagebox">
 			<img src={WitchcraftLogo} alt="Witchcraft logo" /><br />
+		</div> -->
+		<div class="imagebox">
+			<img src={CotS} alt="Children of the Sün" /><br />
+			<pre>Foto: Erik Hansen</pre>
+		</div>
+		<!-- <a target="_blank" href="https://witchcraftband.com/" rel="noreferrer">
+			<h2>Hemsida</h2>
+		</a> -->
+		<a target="_blank" href="https://www.facebook.com/Childrenofthesuun/" rel="noreferrer">
+			<h2>Children of the Sün på Facebook</h2>
+		</a>
+	</div>
+	<div class="section">
+		<div class="imagebox">
+			<img class="logo" src={WitchcraftLogo} alt="Witchcraft logo" /><br />
 		</div>
 		<div class="imagebox">
 			<img src={Witchcraft} alt="Witchcraft" /><br />
+			<pre>Foto: Ronan Goasdoué</pre>
 		</div>
 		<a target="_blank" href="https://witchcraftband.com/" rel="noreferrer">
 			<h2>Hemsida</h2>
@@ -34,7 +51,7 @@
 	</div>
 	<div class="section">
 		<div class="imagebox">
-			<img src={HorndalLogo} alt="Horndal logo" /><br />
+			<img class="logo" src={HorndalLogo} alt="Horndal logo" /><br />
 		</div>
 		<div class="imagebox">
 			<img src={Horndal} alt="Horndal" /><br />
@@ -48,7 +65,7 @@
 	</div>
 	<div class="section">
 		<div class="imagebox">
-			<img src={VokonisLogo} alt="Vokonis logo" /><br />
+			<img class="logo" src={VokonisLogo} alt="Vokonis logo" /><br />
 		</div>
 		<div class="imagebox">
 			<img src={Vokonis} alt="Vokonis" /><br />
@@ -116,8 +133,19 @@
 		margin-left: -1em;
 	}
 
+	pre {
+		text-align: end;
+		font-size: 0.7em;
+		padding: 0;
+		margin: 0;
+	}
+
 	.section {
 		border-bottom: solid 1px var(--yellow);
 		padding-bottom: 20px;
+	}
+
+	.logo {
+		width: 30vw;
 	}
 </style>
