@@ -1,10 +1,13 @@
 <script>
+	// @ts-nocheck
+
 	import WitchcraftLogo from '$lib/images/Witchcraft/Witchcraft Logo White.png?w=750&webp';
 	import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=750&webp';
 	import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=750&webp';
+	import CotSLogo from '$lib/images/CotS/Logo - Children of the Sun - White.png?w=750&webp';
 	import Witchcraft from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=750&webp';
 	import Horndal from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
-	import Vokonis from '$lib/images/Vokonis/Vokonis.jpg?w=750&webp';
+	import Vokonis from '$lib/images/Vokonis/Vokonis photo Robert Hellström.jpg?w=750&webp';
 	import CotS from '$lib/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg?w=750&webp';
 </script>
 
@@ -20,21 +23,18 @@
 		Witchcraft, Horndal och Vokonis!
 	</p>
 	<div class="section">
-		<!-- <div class="imagebox">
-			<img src={WitchcraftLogo} alt="Witchcraft logo" /><br />
-		</div> -->
+		<div class="imagebox">
+			<img class="logo" src={CotSLogo} alt="Children of the Sün logo" /><br />
+		</div>
 		<div class="imagebox">
 			<img src={CotS} alt="Children of the Sün" /><br />
 			<pre>Foto: Erik Hansen</pre>
 		</div>
-		<!-- <a target="_blank" href="https://witchcraftband.com/" rel="noreferrer">
-			<h2>Hemsida</h2>
-		</a> -->
-		<a target="_blank" href="https://www.facebook.com/Childrenofthesuun/" rel="noreferrer">
-			<h2>Children of the Sün på Facebook</h2>
-		</a>
 		<a target="_blank" href="https://childrenofthesunofficial.bandcamp.com/music" rel="noreferrer">
 			<h2>Children of the Sün på Bandcamp</h2>
+		</a>
+		<a target="_blank" href="https://www.facebook.com/Childrenofthesuun/" rel="noreferrer">
+			<h2>Children of the Sün på Facebook</h2>
 		</a>
 	</div>
 	<div class="section">
@@ -72,6 +72,7 @@
 		</div>
 		<div class="imagebox">
 			<img src={Vokonis} alt="Vokonis" /><br />
+			<pre>Foto: Robert Hellström</pre>
 		</div>
 		<a target="_blank" href="https://vokonis.bandcamp.com/album/odyssey" rel="noreferrer">
 			<h2>Vokonis på Bandcamp</h2>
