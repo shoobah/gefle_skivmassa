@@ -5,10 +5,54 @@
 	import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=750&webp';
 	import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=750&webp';
 	import CotSLogo from '$lib/images/CotS/Logo - Children of the Sun - White.png?w=750&webp';
-	import Witchcraft from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=750&webp';
-	import Horndal from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
-	import Vokonis from '$lib/images/Vokonis/Vokonis photo Robert Hellström.jpg?w=750&webp';
-	import CotS from '$lib/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg?w=750&webp';
+	import WitchcraftImage from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=750&webp';
+	import HorndalImage from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
+	import VokonisImage from '$lib/images/Vokonis/Vokonis photo Robert Hellström.jpg?w=750&webp';
+	import CotSImage from '$lib/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg?w=750&webp';
+
+	const bands = [
+		{
+			name: 'Witchcraft',
+			image: WitchcraftImage,
+			logo: WitchcraftLogo,
+			photoBy: 'Ronan Goasdoué',
+			fbLink: 'https://www.facebook.com/witchcraft/',
+			otherLinks: [{ title: 'Hemsida', href: 'https://witchcraftband.com/' }]
+		},
+		{
+			name: 'Horndal',
+			image: HorndalImage,
+			logo: HorndalLogo,
+			photoBy: '',
+			fbLink: 'https://www.facebook.com/horndalmusic/',
+			otherLinks: [
+				{ title: 'Horndal på Bandcamp', href: 'https://horndal.bandcamp.com/album/lake-drinker' }
+			]
+		},
+		{
+			name: 'Vokonis',
+			image: VokonisImage,
+			logo: VokonisLogo,
+			photoBy: 'Robert Hellström',
+			fbLink: 'https://www.facebook.com/OfficialVokonis/',
+			otherLinks: [
+				{ title: 'Vokonis på Bandcamp', href: 'https://vokonis.bandcamp.com/album/odyssey' }
+			]
+		},
+		{
+			name: 'Children of the Sün',
+			image: CotSImage,
+			logo: CotSLogo,
+			photoBy: 'Erik Hansen',
+			fbLink: 'https://www.facebook.com/Childrenofthesuun/',
+			otherLinks: [
+				{
+					title: 'Children of the Sün på Bandcamp',
+					href: 'https://childrenofthesunofficial.bandcamp.com/music'
+				}
+			]
+		}
+	];
 </script>
 
 <svelte:head>
@@ -22,65 +66,31 @@
 		inget undantag. Årets lineup är klar och vi kan stolt presentera Children of the Sün,
 		Witchcraft, Horndal och Vokonis!
 	</p>
-	<div class="section">
-		<div class="imagebox">
-			<img class="logo" src={CotSLogo} alt="Children of the Sün logo" /><br />
+	{#each bands as band}
+		<div class="section">
+			<div class="imagebox">
+				<a target="_blank" href={band.fbLink} rel="noreferrer" style="text-align: center">
+					<img class="logo" src={band.logo} alt={band.name + ' logo'} /><br />
+				</a>
+			</div>
+			<div class="imagebox">
+				<a target="_blank" href={band.fbLink} rel="noreferrer">
+					<img src={band.image} alt={band.name} /><br />
+				</a>
+				{#if band.photoBy}
+					<pre>Foto: {band.photoBy}</pre>
+				{/if}
+			</div>
+			<a target="_blank" href={band.fbLink} rel="noreferrer">
+				<h2>{band.name} på Facebook</h2>
+			</a>
+			{#each band.otherLinks as link}
+				<a target="_blank" href={link.href} rel="noreferrer">
+					<h2>{link.title}</h2>
+				</a>
+			{/each}
 		</div>
-		<div class="imagebox">
-			<img src={CotS} alt="Children of the Sün" /><br />
-			<pre>Foto: Erik Hansen</pre>
-		</div>
-		<a target="_blank" href="https://childrenofthesunofficial.bandcamp.com/music" rel="noreferrer">
-			<h2>Children of the Sün på Bandcamp</h2>
-		</a>
-		<a target="_blank" href="https://www.facebook.com/Childrenofthesuun/" rel="noreferrer">
-			<h2>Children of the Sün på Facebook</h2>
-		</a>
-	</div>
-	<div class="section">
-		<div class="imagebox">
-			<img class="logo" src={WitchcraftLogo} alt="Witchcraft logo" /><br />
-		</div>
-		<div class="imagebox">
-			<img src={Witchcraft} alt="Witchcraft" /><br />
-			<pre>Foto: Ronan Goasdoué</pre>
-		</div>
-		<a target="_blank" href="https://witchcraftband.com/" rel="noreferrer">
-			<h2>Hemsida</h2>
-		</a>
-		<a target="_blank" href="https://www.facebook.com/witchcraft" rel="noreferrer">
-			<h2>Witchcraft på Facebook</h2>
-		</a>
-	</div>
-	<div class="section">
-		<div class="imagebox">
-			<img class="logo" src={HorndalLogo} alt="Horndal logo" /><br />
-		</div>
-		<div class="imagebox">
-			<img src={Horndal} alt="Horndal" /><br />
-		</div>
-		<a target="_blank" href="https://horndal.bandcamp.com/album/lake-drinker" rel="noreferrer">
-			<h2>Horndal på Bandcamp</h2>
-		</a>
-		<a target="_blank" href="https://www.facebook.com/horndalmusic/" rel="noreferrer">
-			<h2>Horndal på Facebook</h2>
-		</a>
-	</div>
-	<div class="section">
-		<div class="imagebox">
-			<img class="logo" src={VokonisLogo} alt="Vokonis logo" /><br />
-		</div>
-		<div class="imagebox">
-			<img src={Vokonis} alt="Vokonis" /><br />
-			<pre>Foto: Robert Hellström</pre>
-		</div>
-		<a target="_blank" href="https://vokonis.bandcamp.com/album/odyssey" rel="noreferrer">
-			<h2>Vokonis på Bandcamp</h2>
-		</a>
-		<a target="_blank" href="https://www.facebook.com/OfficialVokonis/" rel="noreferrer">
-			<h2>Vokonis på Facebook</h2>
-		</a>
-	</div>
+	{/each}
 	<h1>Band som spelat på Gefle Skivmässa:</h1>
 	<ul>
 		<li>Blues Pills</li>
