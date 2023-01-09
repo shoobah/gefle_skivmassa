@@ -1,58 +1,8 @@
 <script>
-	// @ts-nocheck
-
-	import WitchcraftLogo from '$lib/images/Witchcraft/Witchcraft Logo White.png?w=750&webp';
-	import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=750&webp';
-	import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=750&webp';
-	import CotSLogo from '$lib/images/CotS/Logo - Children of the Sun - White.png?w=750&webp';
-	import WitchcraftImage from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=750&webp';
-	import HorndalImage from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
-	import VokonisImage from '$lib/images/Vokonis/Vokonis photo Robert Hellström.jpg?w=750&webp';
-	import CotSImage from '$lib/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg?w=750&webp';
-
-	const bands = [
-		{
-			name: 'Witchcraft',
-			image: WitchcraftImage,
-			logo: WitchcraftLogo,
-			photoBy: 'Ronan Goasdoué',
-			fbLink: 'https://www.facebook.com/witchcraft/',
-			otherLinks: [{ title: 'Hemsida', href: 'https://witchcraftband.com/' }]
-		},
-		{
-			name: 'Horndal',
-			image: HorndalImage,
-			logo: HorndalLogo,
-			photoBy: '',
-			fbLink: 'https://www.facebook.com/horndalmusic/',
-			otherLinks: [
-				{ title: 'Horndal på Bandcamp', href: 'https://horndal.bandcamp.com/album/lake-drinker' }
-			]
-		},
-		{
-			name: 'Vokonis',
-			image: VokonisImage,
-			logo: VokonisLogo,
-			photoBy: 'Robert Hellström',
-			fbLink: 'https://www.facebook.com/OfficialVokonis/',
-			otherLinks: [
-				{ title: 'Vokonis på Bandcamp', href: 'https://vokonis.bandcamp.com/album/odyssey' }
-			]
-		},
-		{
-			name: 'Children of the Sün',
-			image: CotSImage,
-			logo: CotSLogo,
-			photoBy: 'Erik Hansen',
-			fbLink: 'https://www.facebook.com/Childrenofthesuun/',
-			otherLinks: [
-				{
-					title: 'Children of the Sün på Bandcamp',
-					href: 'https://childrenofthesunofficial.bandcamp.com/music'
-				}
-			]
-		}
-	];
+	/**
+	 * @type {any}
+	 */
+	export let data;
 </script>
 
 <svelte:head>
@@ -63,10 +13,10 @@
 	<h1>Livemusik</h1>
 	<p class="section">
 		Gefle Skivmässa har från starten 2016 alltid haft en uppsjö av bra band på vår scen. 2023 är
-		inget undantag. Årets lineup är klar och vi kan stolt presentera Children of the Sün,
-		Witchcraft, Horndal och Vokonis!
+		inget undantag. Årets lineup är klar och vi kan stolt presentera Witchcraft, Horndal, Vokonis
+		och Children of the Sün!
 	</p>
-	{#each bands as band}
+	{#each data.bands as band}
 		<div class="section">
 			<div class="imagebox">
 				<a target="_blank" href={band.fbLink} rel="noreferrer" style="text-align: center">
