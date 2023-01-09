@@ -33,6 +33,9 @@
 		<a target="_blank" href="https://www.facebook.com/Childrenofthesuun/" rel="noreferrer">
 			<h2>Children of the Sün på Facebook</h2>
 		</a>
+		<a target="_blank" href="https://childrenofthesunofficial.bandcamp.com/music" rel="noreferrer">
+			<h2>Children of the Sün på Bandcamp</h2>
+		</a>
 	</div>
 	<div class="section">
 		<div class="imagebox">
@@ -57,7 +60,7 @@
 			<img src={Horndal} alt="Horndal" /><br />
 		</div>
 		<a target="_blank" href="https://horndal.bandcamp.com/album/lake-drinker" rel="noreferrer">
-			<h2>Horndal på BandCamp</h2>
+			<h2>Horndal på Bandcamp</h2>
 		</a>
 		<a target="_blank" href="https://www.facebook.com/horndalmusic/" rel="noreferrer">
 			<h2>Horndal på Facebook</h2>
@@ -71,7 +74,7 @@
 			<img src={Vokonis} alt="Vokonis" /><br />
 		</div>
 		<a target="_blank" href="https://vokonis.bandcamp.com/album/odyssey" rel="noreferrer">
-			<h2>Vokonis på BandCamp</h2>
+			<h2>Vokonis på Bandcamp</h2>
 		</a>
 		<a target="_blank" href="https://www.facebook.com/OfficialVokonis/" rel="noreferrer">
 			<h2>Vokonis på Facebook</h2>
