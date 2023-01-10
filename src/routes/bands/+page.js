@@ -1,13 +1,13 @@
 /** @type {import('./$types').PageLoad} */
 // @ts-nocheck
-import WitchcraftLogo from '$lib/images/Witchcraft/Witchcraft Logo White.png?w=750&webp';
-import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=750&webp';
-import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=750&webp';
-import CotSLogo from '$lib/images/CotS/Logo - Children of the Sun - White.png?w=750&webp';
-import WitchcraftImage from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=750&webp';
-import HorndalImage from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
-import VokonisImage from '$lib/images/Vokonis/Vokonis photo Robert Hellström.jpg?w=750&webp';
-import CotSImage from '$lib/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg?w=750&webp';
+import WitchcraftLogo from '$lib/images/Witchcraft/Witchcraft Logo White.png?w=1000&webp';
+import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=1000&webp';
+import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=1000&webp';
+import CotSLogo from '$lib/images/CotS/Logo - Children of the Sun - White.png?w=1000&webp';
+import WitchcraftImage from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=1000&webp';
+import HorndalImage from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=1000&webp';
+import VokonisImage from '$lib/images/Vokonis/Vokonis photo Robert Hellström.jpg?w=1000&webp';
+import CotSImage from '$lib/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg?w=1000&webp';
 
 export async function load() {
 	return {
