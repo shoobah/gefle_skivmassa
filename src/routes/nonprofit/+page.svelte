@@ -46,9 +46,8 @@
 				<input required name="phone" type="tel" placeholder="Telefon" />
 				<label for="city">Stad</label>
 				<input required name="city" type="text" placeholder="Stad" />
-				<label for="work">Person / Organisationsnummer</label>
+				<label for="work">Vad vill du hjälpa till med</label>
 				<input required name="work" type="text" placeholder="Vad vill du hjälpa till med?" />
-				<label for="numberOfTables">Antal bord</label>
 				<label for="comment">Kommentar</label>
 				<textarea name="comment" placeholder="Kommentar / övrig info" />
 				<button type="submit">Skicka intresseanmälan</button>
