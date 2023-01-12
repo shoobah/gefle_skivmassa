@@ -1,6 +1,5 @@
 import { transporter } from '$lib/aws/mail';
 
-/** @type {import('./$types').Actions} */
 export const actions = {
 	default: async ({ request }) => {
 		const data = await request.formData();
@@ -16,7 +15,7 @@ export const actions = {
 		const message = {
 			from: import.meta.env.VITE_SMTP_FROM,
 			to: import.meta.env.VITE_SMTP_TO,
-			subject: 'Anmälan till Gefleskivmassa',
+			subject: 'Jobba på Gefle Skivmassa',
 			text:
 				'Förnamn: ' +
 				data.get('firstName') +
@@ -26,12 +25,10 @@ export const actions = {
 				data.get('email') +
 				'\nTelefon: ' +
 				data.get('phone') +
-				'\nAdress: ' +
-				data.get('address') +
-				'\nOrg eller personnr: ' +
-				data.get('org') +
-				'\nAntal bord: ' +
-				data.get('numberOfTables') +
+				'\nStad: ' +
+				data.get('city') +
+				'\nJobba med: ' +
+				data.get('work') +
 				'\nKommentar: ' +
 				data.get('comment')
 		};
