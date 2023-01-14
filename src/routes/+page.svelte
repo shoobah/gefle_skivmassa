@@ -4,8 +4,14 @@
 	import Mässa from '$lib/images/Webb skivmässa.jpg?w=1000&webp';
 	import Vokonis from '$lib/images/Webb Vokonis.jpg?w=1000&webp';
 	import Horndal from '$lib/images/webb horndal.jpg?w=1000&webp';
+	import Witchcraft from '$lib/images/Webb Witchcraft.jpg?w=1000&webp';
+	import CotS from '$lib/images/Webb CotS.jpg?w=1000&webp';
 
 	const imageList = [
+		{
+			src: Witchcraft,
+			alt: 'Witchcraft'
+		},
 		{
 			src: Horndal,
 			alt: 'Horndal'
@@ -13,6 +19,10 @@
 		{
 			src: Vokonis,
 			alt: 'Vokonis'
+		},
+		{
+			src: CotS,
+			alt: 'Children of the Sün'
 		},
 		{
 			src: Mässa,

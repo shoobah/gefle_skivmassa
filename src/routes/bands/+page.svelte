@@ -1,8 +1,8 @@
 <script>
-	import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=750&webp';
-	import Vokonis from '$lib/images/Vokonis/Vokonis.jpg?w=750&webp';
-	import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=750&webp';
-	import Horndal from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=750&webp';
+	/**
+	 * @type {any}
+	 */
+	export let data;
 </script>
 
 <svelte:head>
@@ -11,39 +11,36 @@
 
 <article>
 	<h1>Livemusik</h1>
-	<p>
+	<p class="section">
 		Gefle Skivmässa har från starten 2016 alltid haft en uppsjö av bra band på vår scen. 2023 är
-		inget undantag. Årets lineup är inte klar men redan nu kan vi stolt presentera Horndal och
-		Vokonis!
+		inget undantag. Årets lineup är klar och vi kan stolt presentera Witchcraft, Horndal, Vokonis
+		och Children of the Sün!
 	</p>
-	<div class="band">
-		<div class="imagebox">
-			<img src={HorndalLogo} alt="Horndal logo" /><br />
+	{#each data.bands as band}
+		<div class="section">
+			<div class="imagebox">
+				<a target="_blank" href={band.fbLink} rel="noreferrer" style="text-align: center">
+					<img class="logo" src={band.logo} alt={band.name + ' logo'} /><br />
+				</a>
+			</div>
+			<div class="imagebox">
+				<a target="_blank" href={band.fbLink} rel="noreferrer">
+					<img src={band.image} alt={band.name} /><br />
+				</a>
+				{#if band.photoBy}
+					<pre>Foto: {band.photoBy}</pre>
+				{/if}
+			</div>
+			<a target="_blank" href={band.fbLink} rel="noreferrer">
+				<h2>{band.name} på Facebook</h2>
+			</a>
+			{#each band.otherLinks as link}
+				<a target="_blank" href={link.href} rel="noreferrer">
+					<h2>{link.title}</h2>
+				</a>
+			{/each}
 		</div>
-		<div class="imagebox">
-			<img src={Horndal} alt="Horndal" /><br />
-		</div>
-		<a target="_blank" href="https://horndal.bandcamp.com/album/lake-drinker" rel="noreferrer">
-			<h2>Horndal på BandCamp</h2>
-		</a>
-		<a target="_blank" href="https://www.facebook.com/horndalmusic/" rel="noreferrer">
-			<h2>Horndal på Facebook</h2>
-		</a>
-	</div>
-	<div class="band">
-		<div class="imagebox">
-			<img src={VokonisLogo} alt="Vokonis logo" /><br />
-		</div>
-		<div class="imagebox">
-			<img src={Vokonis} alt="Vokonis" /><br />
-		</div>
-		<a target="_blank" href="https://vokonis.bandcamp.com/album/odyssey" rel="noreferrer">
-			<h2>Vokonis på BandCamp</h2>
-		</a>
-		<a target="_blank" href="https://www.facebook.com/OfficialVokonis/" rel="noreferrer">
-			<h2>Vokonis på Facebook</h2>
-		</a>
-	</div>
+	{/each}
 	<h1>Band som spelat på Gefle Skivmässa:</h1>
 	<ul>
 		<li>Blues Pills</li>
@@ -100,8 +97,19 @@
 		margin-left: -1em;
 	}
 
-	.band {
+	pre {
+		text-align: end;
+		font-size: 0.7em;
+		padding: 0;
+		margin: 0;
+	}
+
+	.section {
 		border-bottom: solid 1px var(--yellow);
 		padding-bottom: 20px;
+	}
+
+	.logo {
+		width: 30vw;
 	}
 </style>

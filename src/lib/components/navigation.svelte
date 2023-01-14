@@ -6,7 +6,8 @@
 <nav>
 	{#each $state.paths as path}
 		<a
-			data-sveltekit-prefetch
+			data-sveltekit-preload-code="eager"
+			data-sveltekit-preload-data
 			class:active={$page.url.pathname === path.path}
 			href={path.path}
 			target={path.target}>{path.name}</a

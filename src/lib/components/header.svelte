@@ -11,7 +11,7 @@
 	<img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png" />
 </a>
 <div class="header">
-	{#if innerWidth > 1230}
+	{#if innerWidth > 1500}
 		<Navigation />
 	{:else}
 		<MobileNavigation />

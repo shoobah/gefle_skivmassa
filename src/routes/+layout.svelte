@@ -48,6 +48,11 @@
 					<img src="/icons/region_gavleborg vit.svg" alt="Region gävleborg" />
 				</a>
 			</div>
+			<div>
+				<a href="https://www.folkbildningsforum.se/" target="_blank" rel="noreferrer">
+					<img src="/icons/Folkbildningsforum_Logo_Liggande.png" alt="Folkbildningsforum" />
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
