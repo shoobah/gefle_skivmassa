@@ -30,6 +30,7 @@
 				Vi behöver folk till entréer, scenen och bärhjälp vid nedmontering av själva mässan. Jobba
 				tre - fyra timmar och få fri entré till hela arrangemanget.
 			</p>
+			<p>Du måste vara minst 15 år för att jobba som volontär på Gefle Skivmässa</p>
 			<p>
 				Fyll i dina kontaktuppgifter i formuläret nedan så återkommer vi om det finns plats kvar.
 			</p>
