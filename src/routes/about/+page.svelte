@@ -85,6 +85,8 @@
 		</p>
 		<div class="imagebox">
 			<img src={Img2016} alt="Gefle Skivmässa 2016" />
+		</div>
+		<div class="imagebox">
 			<img src={Efterfest2016} alt="Gefle Skivmässa, Efterfest 2016" />
 		</div>
 		<h2>2017</h2>
@@ -104,6 +106,8 @@
 		</p>
 		<div class="imagebox">
 			<img src={Img2017} alt="Gefle Skivmässa 2017" />
+		</div>
+		<div class="imagebox">
 			<img src={Efterfest2017} alt="Gefle Skivmässa, Efterfest 2017" />
 		</div>
 		<h2>2018</h2>
@@ -124,6 +128,8 @@
 		</p>
 		<div class="imagebox">
 			<img src={Img2018} alt="Gefle Skivmässa 2018" />
+		</div>
+		<div class="imagebox">
 			<img src={Efterfest2018} alt="Gefle Skivmässa, Efterfest 2018" />
 		</div>
 
@@ -141,6 +147,8 @@
 		</p>
 		<div class="imagebox">
 			<img src={Img2019} alt="Gefle Skivmässa 2019" />
+		</div>
+		<div class="imagebox">
 			<img src={Efterfest2019} alt="Gefle Skivmässa, Efterfest 2019" />
 		</div>
 		<h2>2020</h2>
@@ -150,9 +158,23 @@
 		</div>
 		<h2>2023</h2>
 		<p>
-			2023 är det dags igen.<br />
+			I år är det dags igen.<br />
 			Välkomna tillbaka till Gävle Skivmässa!
 		</p>
+		<h2>Skivmässans playlist</h2>
+		<div>
+			<iframe
+				title="Skivmässan Spotify playlist"
+				style="border-radius:12px"
+				src="https://open.spotify.com/embed/playlist/64EcxxnO76seybyQ4GvXn2?utm_source=generator"
+				width="100%"
+				height="352"
+				frameBorder="0"
+				allowfullscreen=""
+				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+				loading="lazy"
+			/>
+		</div>
 	</article>
 </div>
 
