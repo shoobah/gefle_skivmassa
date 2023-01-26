@@ -69,4 +69,10 @@
 		grid-auto-flow: column;
 		gap: 10px;
 	}
+
+	@media (max-width: 820px) {
+		.imagebox img {
+			width: 80vw;
+		}
+	}
 </style>
