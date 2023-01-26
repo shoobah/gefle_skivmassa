@@ -6,6 +6,7 @@
 	import Horndal from '$lib/images/webb horndal.jpg?w=1000&webp';
 	import Witchcraft from '$lib/images/Webb Witchcraft.jpg?w=1000&webp';
 	import CotS from '$lib/images/Webb CotS.jpg?w=1000&webp';
+	import Poster from '$lib/images/FrontPoster.jpg?w=1000&webp';
 
 	const imageList = [
 		{
@@ -36,9 +37,12 @@
 </svelte:head>
 
 <div>
-	<ImageFlipper {imageList} />
+	<!-- <ImageFlipper {imageList} /> -->
+	<div class="imagebox">
+		<img src={Poster} alt="Poster" />
+	</div>
 	<a href={$state.ticketLink} target="_blank" rel="noreferrer">
-		<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
+		<img class="ticketButton" src="/icons/Köp biljett.png" alt="Köp biljetter" />
 	</a>
 </div>
 
@@ -55,9 +59,14 @@
 		font-size: 1.5rem;
 	}
 
-	img {
+	.ticketButton {
 		width: 20vw;
 		max-width: 200px;
 		min-width: 100px;
+	}
+	.imagebox {
+		display: grid;
+		grid-auto-flow: column;
+		gap: 10px;
 	}
 </style>
