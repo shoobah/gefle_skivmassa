@@ -53,6 +53,11 @@
 					<img src="/icons/Folkbildningsforum_Logo_Liggande.png" alt="Folkbildningsforum" />
 				</a>
 			</div>
+			<div>
+				<a href="https://elite.se/sv/hotell/gavle/grand-hotel/" target="_blank" rel="noreferrer">
+					<img src="/icons/EliteGrand_logo.png" alt="Elite Grand Gävle" />
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
