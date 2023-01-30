@@ -37,7 +37,6 @@
 </svelte:head>
 
 <div>
-	<!-- <ImageFlipper {imageList} /> -->
 	<div class="imagebox">
 		<img src={Poster} alt="Poster" />
 	</div>
