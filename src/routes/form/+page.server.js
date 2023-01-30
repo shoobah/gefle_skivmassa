@@ -1,5 +1,5 @@
 import { transporter } from '$lib/aws/mail';
-
+export const prerender = false;
 /** @type {import('./$types').Actions} */
 export const actions = {
 	default: async ({ request }) => {

@@ -1,6 +1,8 @@
 import { transporter } from '$lib/aws/mail';
+export const prerender = false;
 
 export const actions = {
+	// @ts-ignore
 	default: async ({ request }) => {
 		const data = await request.formData();
 

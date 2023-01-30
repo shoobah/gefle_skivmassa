@@ -99,6 +99,7 @@ article .imagebox {
 	grid-template-rows: 120px auto 66px;
 	grid-template-columns: auto;
 	grid-template-areas: 'header' 'content' 'footer';
+	align-content: center;
 	background: var(--body-bg);
 }
 
@@ -115,7 +116,6 @@ article .imagebox {
 	font-family: agency-bold;
 	grid-area: footer;
 	display: grid;
-	grid-auto-flow: column;
 	justify-items: center;
 	align-items: center;
 	border-top: solid 1px var(--black);
@@ -126,7 +126,8 @@ article .imagebox {
 
 .footer-content {
 	display: grid;
-	grid-auto-flow: column;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 8px;
 	justify-items: center;
 	align-items: center;
 	width: 70vw;
@@ -150,6 +151,7 @@ img.kommun {
 
 	.footer-content {
 		width: 100vw;
+		grid-template-columns: repeat(3, 1fr);
 	}
 
 	.footer-content img {

@@ -17,6 +17,7 @@
 		justify-items: center;
 		align-content: center;
 		height: 100vh;
+		width: 100vw;
 		font-size: 2em;
 	}
 

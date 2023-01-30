@@ -12,7 +12,6 @@
 </script>
 
 <div
-	data-sveltekit-prefetch
 	class="main"
 	style="--doc-height:{innerHeight}px; --content-height:{innerHeight - 120 - 66}px;"
 >
@@ -24,7 +23,7 @@
 	</div>
 	<div class="footer">
 		<div class="footer-content">
-			<div>
+			<div style="grid-row:1">
 				<a href="https://www.gavle.se/" target="_blank" rel="noreferrer">
 					<img class="kommun" src="/icons/Gavle_kommun.svg" alt="Gävle kommun" />
 				</a>
