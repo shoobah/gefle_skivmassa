@@ -27,11 +27,6 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
-					<img src="/icons/gasklockorna loggo.png" alt="Gasklockorna" />
-				</a>
-			</div>
-			<div>
 				<a href="https://www.medborgarskolan.se/" target="_blank" rel="noreferrer">
 					<img src="/icons/mebo_vit.svg" alt="Medborgarskolan" />
 				</a>
@@ -43,6 +38,11 @@
 					rel="noreferrer"
 				>
 					<img src="/icons/region_gavleborg vit.svg" alt="Region gävleborg" />
+				</a>
+			</div>
+			<div>
+				<a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
+					<img src="/icons/gasklockorna loggo.png" alt="Gasklockorna" />
 				</a>
 			</div>
 			<div>
