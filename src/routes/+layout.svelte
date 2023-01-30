@@ -7,8 +7,6 @@
 	import Header from '$lib/components/header.svelte';
 
 	let innerHeight = 0;
-
-	export const prerender = true;
 </script>
 
 <div
