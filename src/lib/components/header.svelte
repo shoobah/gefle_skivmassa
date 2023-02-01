@@ -60,7 +60,7 @@
 		border-radius: 50%;
 	}
 
-	@media (max-width: 820px) {
+	@media (max-width: 888px) {
 		.logo {
 			top: -30px;
 			left: -30px;

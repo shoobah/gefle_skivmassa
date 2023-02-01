@@ -195,7 +195,7 @@
 		padding-bottom: 20px;
 	}
 
-	@media (max-width: 820px) {
+	@media (max-width: 888px) {
 		.imagebox {
 			grid-auto-flow: row;
 		}

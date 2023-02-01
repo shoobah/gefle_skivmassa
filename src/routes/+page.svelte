@@ -69,7 +69,7 @@
 		gap: 10px;
 	}
 
-	@media (max-width: 820px) {
+	@media (max-width: 888px) {
 		.imagebox img {
 			width: 80vw;
 		}

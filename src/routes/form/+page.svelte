@@ -118,7 +118,7 @@
 		box-shadow: rgba(217, 233, 80, 0.596) 0px 2px 4px;
 	}
 
-	@media (max-width: 820px) {
+	@media (max-width: 888px) {
 		.the-form {
 			width: 90vw;
 		}
