@@ -52,7 +52,7 @@
 			</div>
 			<div>
 				<a
-					href="https://bookings.elite.se/ibe/details.aspx?propertyid=16745&nights=1&checkin=2023-05-06&group=8036464&lang=sv"
+					href="https://bookings.elite.se/ibe/details.aspx?propertyid=16745&nights=1&checkin=2023-05-06&group=8036464"
 					target="_blank"
 					rel="noreferrer"
 				>
