@@ -8,7 +8,8 @@ export const state = writable({
 		{ path: '/nonprofit', name: 'Volontär', target: '_self' },
 		{ path: '/bands', name: 'Livemusik', target: '_self' },
 		{ path: '/about', name: 'Om', target: '_self' },
-		{ path: '/contact', name: 'Kontakt', target: '_self' }
+		{ path: '/contact', name: 'Kontakt', target: '_self' },
+		{ path: '/schedule', name: 'Schema', target: '_self' }
 	],
 	ticketLink: 'https://secure.tickster.com/sv/eyed05ag4hu0m4l/products'
 });
