@@ -51,7 +51,11 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://elite.se/sv/hotell/gavle/grand-hotel/" target="_blank" rel="noreferrer">
+				<a
+					href="https://bookings.elite.se/ibe/details.aspx?propertyid=16745&nights=1&checkin=2023-05-06&group=8036464"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<img src="/icons/EliteGrand_logo.png" alt="Elite Grand Gävle" />
 				</a>
 			</div>
