@@ -1,9 +1,7 @@
 <script>
 	import '../app.css';
-	import { page } from '$app/stores';
 	import { state } from '$lib/stores/state';
 
-	import PageTransition from '$lib/components/page-transition.svelte';
 	import Header from '$lib/components/header.svelte';
 
 	let innerHeight = 0;
@@ -15,51 +13,7 @@
 >
 	<Header />
 	<div class="content">
-		<PageTransition url={$page.url.toString()}>
-			<slot />
-		</PageTransition>
-	</div>
-	<div class="footer">
-		<div class="footer-content">
-			<div style="grid-row:1">
-				<a href="https://www.gavle.se/" target="_blank" rel="noreferrer">
-					<img class="kommun" src="/icons/Gavle_kommun.svg" alt="Gävle kommun" />
-				</a>
-			</div>
-			<div>
-				<a href="https://www.medborgarskolan.se/" target="_blank" rel="noreferrer">
-					<img src="/icons/mebo_vit.svg" alt="Medborgarskolan" />
-				</a>
-			</div>
-			<div>
-				<a
-					href="https://www.regiongavleborg.se/kultur/verksamhet/musik/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<img src="/icons/region_gavleborg vit.svg" alt="Region gävleborg" />
-				</a>
-			</div>
-			<div>
-				<a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
-					<img src="/icons/gasklockorna loggo.png" alt="Gasklockorna" />
-				</a>
-			</div>
-			<div>
-				<a href="https://www.folkbildningsforum.se/" target="_blank" rel="noreferrer">
-					<img src="/icons/Folkbildningsforum_Logo_Liggande.png" alt="Folkbildningsforum" />
-				</a>
-			</div>
-			<div>
-				<a
-					href="https://bookings.elite.se/ibe/details.aspx?propertyid=16745&nights=1&checkin=2023-05-06&group=8036464"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<img src="/icons/EliteGrand_logo.png" alt="Elite Grand Gävle" />
-				</a>
-			</div>
-		</div>
+		<slot />
 	</div>
 </div>
 

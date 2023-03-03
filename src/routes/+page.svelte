@@ -1,52 +1,66 @@
 <script>
 	import { state } from '$lib/stores/state';
-	import ImageFlipper from '$lib/components/image-flipper.svelte';
-	import Mässa from '$lib/images/Webb skivmässa.jpg?w=1000&webp';
-	import Vokonis from '$lib/images/Webb Vokonis.jpg?w=1000&webp';
-	import Horndal from '$lib/images/webb horndal.jpg?w=1000&webp';
-	import Witchcraft from '$lib/images/Webb Witchcraft.jpg?w=1000&webp';
-	import CotS from '$lib/images/Webb CotS.jpg?w=1000&webp';
 	import Poster from '$lib/images/FrontPoster.jpg?w=1000&webp';
-
-	const imageList = [
-		{
-			src: Witchcraft,
-			alt: 'Witchcraft'
-		},
-		{
-			src: Horndal,
-			alt: 'Horndal'
-		},
-		{
-			src: Vokonis,
-			alt: 'Vokonis'
-		},
-		{
-			src: CotS,
-			alt: 'Children of the Sün'
-		},
-		{
-			src: Mässa,
-			alt: 'Gävle Skivmässa'
-		}
-	];
+	export const prerender = true;
 </script>
 
 <svelte:head>
 	<meta name="description" content="Gefle Skivmässa. Startsida" />
 </svelte:head>
 
-<div>
+<div class="page-content">
 	<div class="imagebox">
 		<img src={Poster} alt="Poster" />
 	</div>
-	<a href={$state.ticketLink} target="_blank" rel="noreferrer">
-		<img class="ticketButton" src="/icons/Köp biljett.png" alt="Köp biljetter" />
-	</a>
+	<div>
+		<a href={$state.ticketLink} target="_blank" rel="noreferrer">
+			<img class="ticketButton" src="/icons/Köp biljett.png" alt="Köp biljetter" />
+		</a>
+	</div>
+	<div class="footer-content">
+		<div style="grid-row:1">
+			<a href="https://www.gavle.se/" target="_blank" rel="noreferrer">
+				<img class="kommun" src="/icons/Gavle_kommun.svg" alt="Gävle kommun" />
+			</a>
+		</div>
+		<div>
+			<a href="https://www.medborgarskolan.se/" target="_blank" rel="noreferrer">
+				<img src="/icons/mebo_vit.svg" alt="Medborgarskolan" />
+			</a>
+		</div>
+		<div>
+			<a
+				href="https://www.regiongavleborg.se/kultur/verksamhet/musik/"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<img src="/icons/region_gavleborg vit.svg" alt="Region gävleborg" />
+			</a>
+		</div>
+		<div>
+			<a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
+				<img src="/icons/gasklockorna loggo.png" alt="Gasklockorna" />
+			</a>
+		</div>
+		<div>
+			<a href="https://www.folkbildningsforum.se/" target="_blank" rel="noreferrer">
+				<img src="/icons/Folkbildningsforum_Logo_Liggande.png" alt="Folkbildningsforum" />
+			</a>
+		</div>
+		<div>
+			<a
+				href="https://bookings.elite.se/ibe/details.aspx?propertyid=16745&nights=1&checkin=2023-05-06&group=8036464"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<img src="/icons/EliteGrand_logo.png" alt="Elite Grand Gävle" />
+			</a>
+		</div>
+	</div>
 </div>
 
 <style>
-	div {
+	.page-content {
 		display: grid;
 		justify-items: center;
 		gap: 20px;
@@ -69,6 +83,19 @@
 		gap: 10px;
 	}
 
+	.footer-content {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 8px;
+		justify-items: center;
+		align-items: center;
+		width: 70vw;
+		justify-items: center;
+	}
+
+	.footer-content img {
+		height: 40px;
+	}
 	@media (max-width: 888px) {
 		.imagebox img {
 			width: 80vw;

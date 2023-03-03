@@ -1,10 +1,14 @@
 <script>
 	import { state } from '$lib/stores/state';
 	import { fade } from 'svelte/transition';
+	import { page } from '$app/stores';
 	import DropDownMenu from './drop-down-menu.svelte';
+
+	$: currentPage = $state.paths.find((path) => path.path === $page.url.pathname);
 </script>
 
 <nav>
+	<span>{currentPage?.name}</span>
 	<button in:fade on:click|stopPropagation={() => ($state.menuVisible = !$state.menuVisible)}>
 		<img src="/icons/hamburger.svg" alt="menu" />
 	</button>

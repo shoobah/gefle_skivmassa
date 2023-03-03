@@ -112,31 +112,6 @@ article .imagebox {
 	overflow: auto;
 }
 
-.footer {
-	font-family: agency-bold;
-	grid-area: footer;
-	display: grid;
-	justify-items: center;
-	align-items: center;
-	border-top: solid 1px var(--black);
-	color: var(--black);
-	background-color: var(--purple);
-	height: 65px;
-}
-
-.footer-content {
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	gap: 8px;
-	justify-items: center;
-	align-items: center;
-	width: 70vw;
-}
-
-.footer-content img {
-	height: 40px;
-}
-
 img.kommun {
 	height: 50px;
 }
