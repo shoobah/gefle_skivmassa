@@ -17,7 +17,7 @@
 			<img class="ticketButton" src="/icons/Köp biljett.png" alt="Köp biljetter" />
 		</a>
 	</div>
-	<div class="footer-content">
+	<div class="logos-content">
 		<div style="grid-row:1">
 			<a href="https://www.gavle.se/" target="_blank" rel="noreferrer">
 				<img class="kommun" src="/icons/Gavle_kommun.svg" alt="Gävle kommun" />
@@ -83,7 +83,7 @@
 		gap: 10px;
 	}
 
-	.footer-content {
+	.logos-content {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 8px;
@@ -93,7 +93,7 @@
 		justify-items: center;
 	}
 
-	.footer-content img {
+	.logos-content img {
 		height: 40px;
 	}
 	@media (max-width: 888px) {
