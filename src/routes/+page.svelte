@@ -48,6 +48,11 @@
 			</a>
 		</div>
 		<div>
+			<a href="https://musikhuset.nu/" target="_blank" rel="noreferrer">
+				<img src="/icons/musikhuset-liggande.png" alt="Musikhuset" />
+			</a>
+		</div>
+		<div>
 			<a
 				href="https://bookings.elite.se/ibe/details.aspx?propertyid=16745&nights=1&checkin=2023-05-06&group=8036464"
 				target="_blank"
@@ -85,8 +90,8 @@
 
 	.logos-content {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 8px;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
 		justify-items: center;
 		align-items: center;
 		width: 70vw;
@@ -99,6 +104,11 @@
 	@media (max-width: 888px) {
 		.imagebox img {
 			width: 80vw;
+		}
+
+		.logos-content {
+			grid-template-columns: repeat(2, 1fr);
+			width: 90vw;
 		}
 	}
 </style>

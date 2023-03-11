@@ -5,6 +5,7 @@ export const state = writable({
 	paths: [
 		{ path: '/', name: 'Hem', target: '_self' },
 		{ path: '/bands', name: 'Livemusik', target: '_self' },
+		{ path: '/retorten', name: 'Retorten', target: '_self' },
 		{ path: '/about', name: 'Om', target: '_self' },
 		{ path: '/contact', name: 'Kontakt', target: '_self' },
 		{ path: '/schedule', name: 'Schema', target: '_self' }
