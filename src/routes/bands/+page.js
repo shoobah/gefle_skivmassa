@@ -2,27 +2,13 @@
 // @ts-nocheck
 export const prerender = true;
 
-import WitchcraftLogo from '$lib/images/Witchcraft/Witchcraft Logo White.png?w=1000&webp';
-import HorndalLogo from '$lib/images/Horndal/horndal_logo_neg_trans.png?w=1000&webp';
-import VokonisLogo from '$lib/images/Vokonis/Vokonis_logo.jpg?w=1000&webp';
-import CotSLogo from '$lib/images/CotS/Logo - Children of the Sun - White.png?w=1000&webp';
-import WitchcraftImage from '$lib/images/Witchcraft/WITCHCRAFT2022.png?w=1000&webp';
-import HorndalImage from '$lib/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg?w=1000&webp';
-import VokonisImage from '$lib/images/Vokonis/Vokonis photo Robert Hellström.jpg?w=1000&webp';
-import CotSImage from '$lib/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg?w=1000&webp';
-import JosephineSkoglund from '$lib/images/Retorten/GSM Josephine Skoglund INSTAGRAM.jpg?w=500&webp';
-import Linesmen from '$lib/images/Retorten/GSM Linesmen INSTAGRAM.jpg?w=500&webp';
-import Nonsa from '$lib/images/Retorten/GSM Nonsa INSTAGRAM.jpg?w=500&webp';
-import Lucille from '$lib/images/Retorten/GSM Lucille INSTAGRAM.jpg?w=500&webp';
-import Ryggrad from '$lib/images/Retorten/GSM RyggradINSTAGRAM.jpg?w=500&webp';
-
 export async function load() {
 	return {
 		bands: [
 			{
 				name: 'Children of the Sün',
-				image: CotSImage,
-				logo: CotSLogo,
+				image: '/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg',
+				logo: '/images/CotS/Logo - Children of the Sun - White.png',
 				photoBy: 'Erik Hansen',
 				fbLink: 'https://www.facebook.com/Childrenofthesuun/',
 				otherLinks: [
@@ -40,8 +26,8 @@ export async function load() {
 			},
 			{
 				name: 'Vokonis',
-				image: VokonisImage,
-				logo: VokonisLogo,
+				image: '/images/Vokonis/Vokonis photo Robert Hellström.jpg',
+				logo: '/images/Vokonis/Vokonis_logo.jpg',
 				photoBy: 'Robert Hellström',
 				fbLink: 'https://www.facebook.com/OfficialVokonis/',
 				otherLinks: [
@@ -60,8 +46,8 @@ export async function load() {
 			},
 			{
 				name: 'Horndal',
-				image: HorndalImage,
-				logo: HorndalLogo,
+				image: '/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg',
+				logo: '/images/Witchcraft/Witchcraft Logo White.png',
 				photoBy: '',
 				fbLink: 'https://www.facebook.com/horndalmusic/',
 				otherLinks: [
@@ -78,8 +64,8 @@ export async function load() {
 
 			{
 				name: 'Witchcraft',
-				image: WitchcraftImage,
-				logo: WitchcraftLogo,
+				image: '/images/Witchcraft/WITCHCRAFT2022.png',
+				logo: '/images/Witchcraft/Witchcraft Logo White.png',
 				photoBy: 'Ronan Goasdoué',
 				fbLink: 'https://www.facebook.com/witchcraft/',
 				otherLinks: [{ title: 'Hemsida', href: 'https://witchcraftband.com/' }],
@@ -93,7 +79,7 @@ export async function load() {
 		bands_retort: [
 			{
 				name: 'Josephine Sundblad',
-				image: JosephineSkoglund,
+				image: '/images/Retorten/GSM Josephine Skoglund INSTAGRAM.jpg',
 				links: undefined,
 				heading: '13:00 Josephine Sundblad',
 				description: `Söderhamnstjejen Josephine Sundblad har sysslat och pluggat med musik hela sitt liv. 
@@ -102,7 +88,7 @@ export async function load() {
 			},
 			{
 				name: 'Ryggrad',
-				image: Ryggrad,
+				image: '/images/Retorten/GSM RyggradINSTAGRAM.jpg',
 				links: [
 					{
 						title: 'Spotify',
@@ -120,7 +106,7 @@ export async function load() {
 			},
 			{
 				name: 'Lucille',
-				image: Lucille,
+				image: '/images/Retorten/GSM Lucille INSTAGRAM.jpg',
 				links: [
 					{
 						title: 'Facebook',
@@ -137,7 +123,7 @@ export async function load() {
 			},
 			{
 				name: 'The Linesmen',
-				image: Linesmen,
+				image: '/images/Retorten/GSM Linesmen INSTAGRAM.jpg',
 				links: [
 					{
 						title: 'Soundcloud',
@@ -159,7 +145,7 @@ export async function load() {
 			},
 			{
 				name: 'Nonsa',
-				image: Nonsa,
+				image: '/images/Retorten/GSM Nonsa INSTAGRAM.jpg',
 				links: [
 					{
 						title: 'Spotify',

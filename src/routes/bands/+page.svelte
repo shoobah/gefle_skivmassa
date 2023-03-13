@@ -1,5 +1,4 @@
 <script>
-	import DropDownMenu from '$lib/components/drop-down-menu.svelte';
 	import { state } from '$lib/stores/state';
 
 	export let data;

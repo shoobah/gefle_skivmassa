@@ -1,36 +1,36 @@
 <script>
 	// @ts-nocheck
 	import ImageFlipper from '$lib/components/image-flipper.svelte';
-	import Img2016 from '$lib/images/Gefle Skivmässa 2016.jpg?w=768&webp';
-	import Img2017 from '$lib/images/Gefle Skivmässa 2017.jpg?w=768&webp';
-	import Img2018 from '$lib/images/Gefle Skivmässa 2018.jpg?w=768&webp';
-	import Img2019 from '$lib/images/Gefle Skivmässa 2019.jpg?w=768&webp';
-	import Img2020 from '$lib/images/Gefle Skivmässa 2020.jpg?w=768&webp';
-	import Efterfest2016 from '$lib/images/Efterfest 2016.jpg?w=768&webp';
-	import Efterfest2017 from '$lib/images/Efterfest 2017.jpg?w=768&webp';
-	import Efterfest2018 from '$lib/images/Efterfest 2018.jpg?w=768&webp';
-	import Efterfest2019 from '$lib/images/Efterfest 2019.jpg?w=768&webp';
+	const Img2016 = '/images/Gefle Skivmässa 2016.jpg?w=768&webp';
+	const Img2017 = '/images/Gefle Skivmässa 2017.jpg?w=768&webp';
+	const Img2018 = '/images/Gefle Skivmässa 2018.jpg?w=768&webp';
+	const Img2019 = '/images/Gefle Skivmässa 2019.jpg?w=768&webp';
+	const Img2020 = '/images/Gefle Skivmässa 2020.jpg?w=768&webp';
+	const Efterfest2016 = '/images/Efterfest 2016.jpg?w=768&webp';
+	const Efterfest2017 = '/images/Efterfest 2017.jpg?w=768&webp';
+	const Efterfest2018 = '/images/Efterfest 2018.jpg?w=768&webp';
+	const Efterfest2019 = '/images/Efterfest 2019.jpg?w=768&webp';
 
-	import BluesPills from '$lib/images/Carousel/2016 Blues Pills.jpg?w=1000&webp';
-	import Mässa2016 from '$lib/images/Carousel/2016 Mässa.jpg?w=1000&webp';
-	import Spiders from '$lib/images/Carousel/2016 Spiders.jpg?w=1000&webp';
-	import Anekdoten from '$lib/images/Carousel/2017 Anekdoten.jpg?w=1000&webp';
-	import GoodHarvest from '$lib/images/Carousel/2017 Good Harvest.jpg?w=1000&webp';
-	import MaidaVale from '$lib/images/Carousel/2017 MaidaVale.jpg?w=1000&webp';
-	import Mässa2017_2 from '$lib/images/Carousel/2017 Mässa 2.jpg?w=1000&webp';
-	import Mässa2017 from '$lib/images/Carousel/2017 Mässa.jpg?w=1000&webp';
-	import Besvärjelsen from '$lib/images/Carousel/2018 Besvärjelsen.jpg?w=1000&webp';
-	import ImpreialStateElectric from '$lib/images/Carousel/2018 Imperial state electric.jpg?w=1000&webp';
-	import Mässa2018_2 from '$lib/images/Carousel/2018 Mässa 2.jpg?w=1000&webp';
-	import Mässa from '$lib/images/Carousel/2018 Mässa.jpg?w=1000&webp';
-	import Sator from '$lib/images/Carousel/2018 Sator.jpg?w=1000&webp';
-	import SlimVic from '$lib/images/Carousel/2018 Slim Vic.jpg?w=1000&webp';
-	import Liondub from '$lib/images/Carousel/2019 Liondub.jpg?w=1000&webp';
-	import Lucifer from '$lib/images/Carousel/2019 Lucifer.jpg?w=1000&webp';
-	import Mässa2019 from '$lib/images/Carousel/2019 Mässa.jpg?w=1000&webp';
-	import Merch from '$lib/images/Carousel/2019 Merch.jpg?w=1000&webp';
-	import Paatos2 from '$lib/images/Carousel/2019 Paatos 2.jpg?w=1000&webp';
-	import Paatos from '$lib/images/Carousel/2019 Paatos.jpg?w=1000&webp';
+	const BluesPills = '/images/Carousel/2016 Blues Pills.jpg?w=1000&webp';
+	const Mässa2016 = '/images/Carousel/2016 Mässa.jpg?w=1000&webp';
+	const Spiders = '/images/Carousel/2016 Spiders.jpg?w=1000&webp';
+	const Anekdoten = '/images/Carousel/2017 Anekdoten.jpg?w=1000&webp';
+	const GoodHarvest = '/images/Carousel/2017 Good Harvest.jpg?w=1000&webp';
+	const MaidaVale = '/images/Carousel/2017 MaidaVale.jpg?w=1000&webp';
+	const Mässa2017_2 = '/images/Carousel/2017 Mässa 2.jpg?w=1000&webp';
+	const Mässa2017 = '/images/Carousel/2017 Mässa.jpg?w=1000&webp';
+	const Besvärjelsen = '/images/Carousel/2018 Besvärjelsen.jpg?w=1000&webp';
+	const ImpreialStateElectric = '/images/Carousel/2018 Imperial state electric.jpg?w=1000&webp';
+	const Mässa2018_2 = '/images/Carousel/2018 Mässa 2.jpg?w=1000&webp';
+	const Mässa = '/images/Carousel/2018 Mässa.jpg?w=1000&webp';
+	const Sator = '/images/Carousel/2018 Sator.jpg?w=1000&webp';
+	const SlimVic = '/images/Carousel/2018 Slim Vic.jpg?w=1000&webp';
+	const Liondub = '/images/Carousel/2019 Liondub.jpg?w=1000&webp';
+	const Lucifer = '/images/Carousel/2019 Lucifer.jpg?w=1000&webp';
+	const Mässa2019 = '/images/Carousel/2019 Mässa.jpg?w=1000&webp';
+	const Merch = '/images/Carousel/2019 Merch.jpg?w=1000&webp';
+	const Paatos2 = '/images/Carousel/2019 Paatos 2.jpg?w=1000&webp';
+	const Paatos = '/images/Carousel/2019 Paatos.jpg?w=1000&webp';
 
 	const imageList = [
 		{ src: BluesPills, alt: 'Blues Pills' },
@@ -52,7 +52,7 @@
 		{ src: Mässa2019, alt: 'Mässa 2019' },
 		{ src: Merch, alt: 'Merch' },
 		{ src: Paatos2, alt: 'Paatos' },
-		{ src: Paatos, alt: 'Paatos' }
+		{ src: Paatos, alt: 'Paatos' },
 	];
 </script>
 

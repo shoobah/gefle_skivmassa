@@ -1,6 +1,5 @@
 <script>
 	import { state } from '$lib/stores/state';
-	import Poster from '$lib/images/FrontPoster.jpg?w=1000&webp';
 </script>
 
 <svelte:head>
@@ -9,7 +8,7 @@
 
 <div class="page-content">
 	<div class="imagebox">
-		<img src={Poster} alt="Poster" />
+		<img src="/images/FrontPoster.jpg" alt="Poster" />
 	</div>
 	<div>
 		<a href={$state.ticketLink} target="_blank" rel="noreferrer">
