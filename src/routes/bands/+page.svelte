@@ -15,40 +15,42 @@
 		<p><a target="_blank" rel="noreferrer" href={$state.ticketLink}>Förköp 375kr</a></p>
 		<p>på plats: 400kr</p>
 	</div>
-	{#each data.bands as band}
-		<div class="section">
-			<h2>{band.heading}</h2>
-			<div class="imagebox">
-				<a target="_blank" href={band.fbLink} rel="noreferrer" style="text-align: center">
-					<img class="logo" src={band.logo} alt={band.name + ' logo'} /><br />
-				</a>
-			</div>
-			<div>{band.description}</div>
-			<br />
-			<div class="imagebox">
+	<div class="main-section">
+		{#each data.bands as band}
+			<div class="section">
+				<h2 id={band.heading}>{band.heading}</h2>
+				<div class="imagebox">
+					<a target="_blank" href={band.fbLink} rel="noreferrer" style="text-align: center">
+						<img class="logo" src={band.logo} alt={band.name + ' logo'} /><br />
+					</a>
+				</div>
+				<div>{band.description}</div>
+				<br />
+				<div class="imagebox">
+					<a target="_blank" href={band.fbLink} rel="noreferrer">
+						<img src={band.image} alt={band.name} /><br />
+					</a>
+					{#if band.photoBy}
+						<pre>Foto: {band.photoBy}</pre>
+					{/if}
+				</div>
 				<a target="_blank" href={band.fbLink} rel="noreferrer">
-					<img src={band.image} alt={band.name} /><br />
+					<h3>{band.name} på Facebook</h3>
 				</a>
-				{#if band.photoBy}
-					<pre>Foto: {band.photoBy}</pre>
-				{/if}
+				{#each band.otherLinks as link}
+					<a target="_blank" href={link.href} rel="noreferrer">
+						<h3>{link.title}</h3>
+					</a>
+				{/each}
 			</div>
-			<a target="_blank" href={band.fbLink} rel="noreferrer">
-				<h3>{band.name} på Facebook</h3>
-			</a>
-			{#each band.otherLinks as link}
-				<a target="_blank" href={link.href} rel="noreferrer">
-					<h3>{link.title}</h3>
-				</a>
-			{/each}
-		</div>
-	{/each}
+		{/each}
+	</div>
 	<div class="section">
 		<h1>Livemusik på scen RETORTEN under Gefle Skivmässa 6 maj.</h1>
 		<p>Restaurang, bar och fri entré hela dagen. Öppnar kl 12:00</p>
 		{#each data.bands_retort as band}
 			<div class="section">
-				<h2>{band.heading}</h2>
+				<h2 id={band.heading}>{band.heading}</h2>
 				<div class="retort_description">
 					<div>{band.description}</div>
 					<div>
@@ -96,9 +98,9 @@
 			<li>Oscar Löfstrand.</li>
 		</ul>
 
-		Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på&nbsp;<a
+		<!-- Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på&nbsp;<a
 			href="mailto:gefleskivmassa@gmail.com">gefleskivmassa@gmail.com</a
-		>
+		> -->
 	</div>
 </article>
 
@@ -131,6 +133,15 @@
 	.section {
 		border-bottom: solid 1px var(--yellow);
 		padding-bottom: 20px;
+	}
+
+	.main-section {
+		border-bottom: solid 8px var(--yellow);
+		padding-bottom: 20px;
+	}
+
+	.main-section .section:last-child {
+		border-bottom: none;
 	}
 
 	.logo {

@@ -7,7 +7,7 @@ export async function load() {
 		bands: [
 			{
 				name: 'Children of the Sün',
-				image: '/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg',
+				image: '/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg',
 				logo: '/images/CotS/Logo - Children of the Sun - White.png',
 				photoBy: 'Erik Hansen',
 				fbLink: 'https://www.facebook.com/Childrenofthesuun/',
@@ -26,7 +26,7 @@ export async function load() {
 			},
 			{
 				name: 'Vokonis',
-				image: '/images/Vokonis/Vokonis photo Robert Hellström.jpg',
+				image: '/images/Vokonis/Vokonis photo Robert Hellström.jpg',
 				logo: '/images/Vokonis/Vokonis_logo.jpg',
 				photoBy: 'Robert Hellström',
 				fbLink: 'https://www.facebook.com/OfficialVokonis/',
@@ -46,8 +46,8 @@ export async function load() {
 			},
 			{
 				name: 'Horndal',
-				image: '/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpeg',
-				logo: '/images/Witchcraft/Witchcraft Logo White.png',
+				image: '/images/Horndal/FAV-Horndal_210106_Lake_HZ_01-1.jpg',
+				logo: '/images/Horndal/horndal_logo_neg_trans.png',
 				photoBy: '',
 				fbLink: 'https://www.facebook.com/horndalmusic/',
 				otherLinks: [
@@ -64,7 +64,7 @@ export async function load() {
 
 			{
 				name: 'Witchcraft',
-				image: '/images/Witchcraft/WITCHCRAFT2022.png',
+				image: '/images/Witchcraft/WITCHCRAFT2022.jpg',
 				logo: '/images/Witchcraft/Witchcraft Logo White.png',
 				photoBy: 'Ronan Goasdoué',
 				fbLink: 'https://www.facebook.com/witchcraft/',

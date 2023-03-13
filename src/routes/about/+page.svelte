@@ -1,15 +1,15 @@
 <script>
 	// @ts-nocheck
 	import ImageFlipper from '$lib/components/image-flipper.svelte';
-	const Img2016 = '/images/Gefle Skivmässa 2016.jpg?w=768&webp';
-	const Img2017 = '/images/Gefle Skivmässa 2017.jpg?w=768&webp';
-	const Img2018 = '/images/Gefle Skivmässa 2018.jpg?w=768&webp';
-	const Img2019 = '/images/Gefle Skivmässa 2019.jpg?w=768&webp';
-	const Img2020 = '/images/Gefle Skivmässa 2020.jpg?w=768&webp';
-	const Efterfest2016 = '/images/Efterfest 2016.jpg?w=768&webp';
-	const Efterfest2017 = '/images/Efterfest 2017.jpg?w=768&webp';
-	const Efterfest2018 = '/images/Efterfest 2018.jpg?w=768&webp';
-	const Efterfest2019 = '/images/Efterfest 2019.jpg?w=768&webp';
+	const Img2016 = '/images/About/Gefle Skivmässa 2016.jpg?w=768&webp';
+	const Img2017 = '/images/About/Gefle Skivmässa 2017.jpg?w=768&webp';
+	const Img2018 = '/images/About/Gefle Skivmässa 2018.jpg?w=768&webp';
+	const Img2019 = '/images/About/Gefle Skivmässa 2019.jpg?w=768&webp';
+	const Img2020 = '/images/About/Gefle Skivmässa 2020.jpg?w=768&webp';
+	const Efterfest2016 = '/images/About/Efterfest 2016.jpg?w=768&webp';
+	const Efterfest2017 = '/images/About/Efterfest 2017.jpg?w=768&webp';
+	const Efterfest2018 = '/images/About/Efterfest 2018.jpg?w=768&webp';
+	const Efterfest2019 = '/images/About/Efterfest 2019.jpg?w=768&webp';
 
 	const BluesPills = '/images/Carousel/2016 Blues Pills.jpg?w=1000&webp';
 	const Mässa2016 = '/images/Carousel/2016 Mässa.jpg?w=1000&webp';
@@ -190,7 +190,7 @@
 	}
 
 	.imagebox img {
-		width: 80vw;
+		max-width: 50vw;
 	}
 
 	.carousel {
@@ -202,6 +202,10 @@
 	@media (max-width: 888px) {
 		.imagebox {
 			grid-auto-flow: row;
+		}
+
+		.imagebox img {
+			max-width: 80vw;
 		}
 	}
 </style>
