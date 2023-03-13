@@ -7,7 +7,7 @@ export async function load() {
 		bands: [
 			{
 				name: 'Children of the Sün',
-				image: '/images/CotS/Children of the Sün 3_Photo Erik Hansen.jpg',
+				image: '/images/CotS/cots.jpg',
 				logo: '/images/CotS/Logo - Children of the Sun - White.png',
 				photoBy: 'Erik Hansen',
 				fbLink: 'https://www.facebook.com/Childrenofthesuun/',
