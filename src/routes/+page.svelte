@@ -1,7 +1,6 @@
 <script>
 	import { state } from '$lib/stores/state';
 	import Poster from '$lib/images/FrontPoster.jpg?w=1000&webp';
-	export const prerender = true;
 </script>
 
 <svelte:head>
