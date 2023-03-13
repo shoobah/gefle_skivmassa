@@ -189,6 +189,10 @@
 		gap: 10px;
 	}
 
+	.imagebox img {
+		width: 80vw;
+	}
+
 	.carousel {
 		display: grid;
 		justify-content: center;
