@@ -26,7 +26,7 @@ export async function load() {
 			},
 			{
 				name: 'Vokonis',
-				image: '/images/Vokonis/Vokonis photo Robert Hellström.jpg',
+				image: '/images/Vokonis/vokonis.jpg',
 				logo: '/images/Vokonis/Vokonis_logo.jpg',
 				photoBy: 'Robert Hellström',
 				fbLink: 'https://www.facebook.com/OfficialVokonis/',
