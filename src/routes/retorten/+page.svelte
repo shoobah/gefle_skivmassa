@@ -10,7 +10,7 @@
 
 <article>
 	<div class="main-section">
-		<h1>Livemusik på scen RETORTEN under Gefle Skivmässa 6 maj.</h1>
+		<h1>Livemusik, loppis och servering i RETORTEN under Gefle Skivmässa 6 maj.</h1>
 		<p>Restaurang, bar och fri entré hela dagen. Öppnar kl 12:00</p>
 		{#each data.bands as band}
 			<div class="section">
@@ -63,6 +63,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		column-gap: 10px;
 	}
 
 	.retort_image {
@@ -72,6 +73,7 @@
 	@media (max-width: 600px) {
 		.retort_description {
 			flex-direction: column;
+			padding: none;
 		}
 		.retort_image {
 			width: 90vw;

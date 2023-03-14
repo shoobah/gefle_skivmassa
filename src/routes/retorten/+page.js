@@ -6,6 +6,19 @@ export async function load() {
 	return {
 		bands: [
 			{
+				name: 'Musikloppis',
+				image: '/images/Retorten/GMS Musikloppis instagram.jpg',
+				links: [
+					{ title: 'Mail: Philip Sterner', href: 'mailto:philip.sterner@studieframjandet.se' },
+				],
+				heading: '12:00-18:00 Musikloppis',
+				description: `Folkbildningsforum arrangerar en musik- & kulturloppis i Lilla retorten vid Gasklockorna! Vill
+				du vara med och sälja under denna loppis? Att boka bord är gratis, hör av dig till
+				philip.sterner@studieframjandet.se. (se länk nedan)
+				Här kan du sälja allt som är musikrelaterat förutom skivor – som ju säljs på skivmässan i Stora
+				Gasklockan med start kl 12:00. Entré till skivmässan är 50 kr.`,
+			},
+			{
 				name: 'Josephine Sundblad',
 				image: '/images/Retorten/GSM Josephine Skoglund INSTAGRAM.jpg',
 				links: undefined,
