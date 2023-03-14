@@ -44,24 +44,6 @@
 	img {
 		border: none;
 	}
-	ul {
-		list-style-type: none;
-	}
-	ul li::before {
-		content: '‣';
-		color: var(--yellow);
-		font-weight: normal;
-		display: inline-block;
-		width: 1em;
-		margin-left: -1em;
-	}
-
-	pre {
-		text-align: end;
-		font-size: 0.7em;
-		padding: 0;
-		margin: 0;
-	}
 
 	.section {
 		border-bottom: solid 1px var(--yellow);
@@ -77,10 +59,6 @@
 		border-bottom: none;
 	}
 
-	.logo {
-		width: 20vw;
-	}
-
 	.retort_description {
 		display: flex;
 		flex-direction: row;
@@ -92,9 +70,6 @@
 	}
 
 	@media (max-width: 600px) {
-		.logo {
-			width: 60vw;
-		}
 		.retort_description {
 			flex-direction: column;
 		}
