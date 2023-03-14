@@ -176,6 +176,43 @@
 			/>
 		</div>
 	</article>
+	<div class="section">
+		<h1>Band som spelat på Gefle Skivmässa:</h1>
+		<ul>
+			<li>Blues Pills</li>
+			<li>Spiders</li>
+			<li>Anekdoten</li>
+			<li>Paatos</li>
+			<li>Imperial State Electric</li>
+			<li>Sator</li>
+			<li>Besvärjelsen</li>
+			<li>MaidaVale</li>
+			<li>Lucifer</li>
+			<li>Good Harvest</li>
+			<li>Svartanatt</li>
+			<li>Silver Devil</li>
+			<li>Slim Vic</li>
+			<li>LionDub</li>
+			<li>Symbio</li>
+			<li>Anna Frank</li>
+			<li>Stenbrott</li>
+			<li>Lisa och Kroffe</li>
+			<li>PRO424</li>
+			<li>Axel E</li>
+			<li>Adora Eye</li>
+			<li>Trio Safoura</li>
+			<li>Pillisnorks</li>
+			<li>Mondegreen</li>
+			<li>AKB</li>
+			<li>Jenny C</li>
+			<li>Fami</li>
+			<li>Oscar Löfstrand.</li>
+		</ul>
+
+		Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på&nbsp;<a
+			href="mailto:gefleskivmassa@gmail.com">gefleskivmassa@gmail.com</a
+		>
+	</div>
 </div>
 
 <style>
