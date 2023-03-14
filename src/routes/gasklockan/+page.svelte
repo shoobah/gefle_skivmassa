@@ -10,7 +10,11 @@
 
 <article>
 	<div class="section">
-		<h1>Livemusik på scen GASKLOCKAN. Öppnar 18:00</h1>
+		<h1>Skivmässa i Stora Gasklockan. Öppnar kl 12:00.</h1>
+		<p>Förköp och entré: 50kr Fikaservering</p>
+	</div>
+	<div class="section">
+		<h1>Livemusik i Lilla Gasklockan. Öppnar 18:00</h1>
 		<p>Bar och merch</p>
 		<p>
 			<a target="_blank" rel="noreferrer" href={$state.ticketLink}>Förköp 375kr.</a> På plats: 400kr
