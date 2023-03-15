@@ -19,11 +19,11 @@ export async function load() {
 				Gasklockan med start kl 12:00. Entré till skivmässan är 50 kr.`,
 			},
 			{
-				name: 'Josephine Sundblad',
+				name: 'Josephine Skoglund',
 				image: '/images/Retorten/GSM Josephine Skoglund INSTAGRAM.jpg',
 				links: undefined,
-				heading: '13:00 Josephine Sundblad',
-				description: `Söderhamnstjejen Josephine Sundblad har sysslat och pluggat med musik hela sitt liv. 
+				heading: '13:00 Josephine Skoglund',
+				description: `Söderhamnstjejen Josephine Skoglund har sysslat och pluggat med musik hela sitt liv. 
 				Att få sjunga inför folk, att lyckas beröra publiken är något av det bästa med att stå på scenen. 
 				I Josephines repertoar finns både blues, pop, country och soul`,
 			},
