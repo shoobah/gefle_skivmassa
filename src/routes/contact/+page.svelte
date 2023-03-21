@@ -23,9 +23,8 @@
 		<a href="https://www.medborgarskolan.se" target="_blank" rel="noreferrer">
 			Medborgarskolan
 		</a><br />
-		<a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
-			Gasklockorna
-		</a><br />
+		<a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer"> Gasklockorna </a>
+		<br />
 		<a
 			href="https://www.regiongavleborg.se/kultur/verksamhet/musik/"
 			target="_blank"
@@ -33,6 +32,12 @@
 		>
 			Region Gävleborg, musik
 		</a>
+		<br />
+		<a href="https://www.folkbildningsforum.se/" target="_blank" rel="noreferrer">
+			Folkbildninsforum
+		</a>
+		<br />
+		<a href="https://musikhuset.nu/" target="_blank" rel="noreferrer"> Musikhuset </a>
 		<Map />
 	</article>
 </div>

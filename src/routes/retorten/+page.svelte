@@ -35,6 +35,13 @@
 			</div>
 		{/each}
 	</div>
+	<div class="section flexy">
+		<img class="logo" src="/icons/Folkbildningsforum_Logo_Liggande.png" alt="Folkbildningsforum" />
+		<span>
+			Arrangeras i samarbete med Folkbildningsforum och de fyra studieförbunden ABF, Bilda,
+			Studiefrämjandet och SV
+		</span>
+	</div>
 </article>
 
 <style>
@@ -48,6 +55,15 @@
 	.section {
 		border-bottom: solid 1px var(--yellow);
 		padding-bottom: 20px;
+	}
+
+	.flexy {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		gap: 10px;
+		padding-top: 15px;
 	}
 
 	.main-section {
@@ -68,6 +84,11 @@
 
 	.retort_image {
 		width: 30vw;
+	}
+
+	.logo {
+		height: 40px;
+		width: 152px;
 	}
 
 	@media (max-width: 600px) {
