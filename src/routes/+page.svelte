@@ -59,6 +59,9 @@
 				<img src="/icons/EliteGrand_logo.png" alt="Elite Grand Gävle" />
 			</a>
 		</div>
+		<div>
+			<img src="/icons/gunvor_goransson.svg" alt="Gunvor Göranssons Kulturstiftelse" />
+		</div>
 	</div>
 </div>
 
