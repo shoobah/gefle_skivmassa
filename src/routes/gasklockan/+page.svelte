@@ -19,6 +19,7 @@
 		<p>
 			<a target="_blank" rel="noreferrer" href={$state.ticketLink}>Förköp 375kr.</a> På plats: 400kr
 		</p>
+		<p>Åldersgräns 13 år.</p>
 	</div>
 	<div class="main-section">
 		{#each data.bands as band}
