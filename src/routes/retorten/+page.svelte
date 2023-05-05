@@ -10,7 +10,7 @@
 
 <article>
 	<div class="main-section">
-		<h1>Livemusik, loppis och servering i RETORTEN under Gefle Skivmässa 6 maj.</h1>
+		<h1>Livemusik och servering i RETORTEN under Gefle Skivmässa 6 maj.</h1>
 		<p>Restaurang, bar och fri entré hela dagen. Öppnar kl 12:00</p>
 		{#each data.bands as band}
 			<div class="section">

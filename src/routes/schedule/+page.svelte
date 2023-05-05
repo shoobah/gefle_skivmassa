@@ -23,14 +23,6 @@
 				<strong> Skivmässa </strong><br />
 				<span> ca 150 meter skivbord<br />Fikaförsäljning </span></td
 			>
-			<td rowspan="12" class="light-orange event">
-				<strong> Musikloppis </strong><br />
-				<span>
-					Fynda instrument,<br />
-					tillbehör och mycket<br />
-					annat i musikväg
-				</span></td
-			>
 			<td rowspan="2" class="light-green event">
 				<strong> Restaurangen håller<br />öppet hela dagen</strong><br />
 				<span>
