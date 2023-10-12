@@ -3,7 +3,7 @@
 	import { state } from '$lib/stores/state';
 
 	import Header from '$lib/components/header.svelte';
-
+	export const prerender = true;
 	let innerHeight = 0;
 </script>
 

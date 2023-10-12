@@ -13,9 +13,6 @@
 			target={path.target}>{path.name}</a
 		>
 	{/each}
-	<a href={$state.ticketLink} target="_blank" rel="noreferrer">
-		<img class="tickster" src="/icons/Tickster_Grey.svg" alt="Tickster" />
-	</a>
 </nav>
 
 <style>

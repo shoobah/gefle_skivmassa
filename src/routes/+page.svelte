@@ -10,11 +10,6 @@
 	<div class="imagebox">
 		<img src="/images/FrontPoster.jpg" alt="Poster" />
 	</div>
-	<div>
-		<a href={$state.ticketLink} target="_blank" rel="noreferrer">
-			<img class="ticketButton" src="/icons/Köp biljett.png" alt="Köp biljetter" />
-		</a>
-	</div>
 	<div class="logos-content">
 		<div style="grid-row:1">
 			<a href="https://www.gavle.se/" target="_blank" rel="noreferrer">

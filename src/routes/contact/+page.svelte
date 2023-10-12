@@ -16,9 +16,6 @@
 		Instagram:
 		<a href="https://www.instagram.com/gefleskivmassa">www.instagram.com/gefleskivmassa</a><br />
 		<br />
-		<a href={$state.ticketLink} target="_blank" rel="noreferrer">
-			<img src="/icons/Köp biljett.png" alt="Köp biljetter" />
-		</a>
 		<h2>Samarbetspartners</h2>
 		<a href="https://www.medborgarskolan.se" target="_blank" rel="noreferrer">
 			Medborgarskolan

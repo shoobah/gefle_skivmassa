@@ -8,7 +8,7 @@
 	{#each $state.paths as path}
 		<li>
 			<a
-				data-sveltekit-prefetch
+				data-sveltekit-preload-data
 				class:active={$page.url.pathname === path.path}
 				href={path.path}
 				target={path.target}
@@ -19,11 +19,6 @@
 			</a>
 		</li>
 	{/each}
-	<li>
-		<a href={$state.ticketLink} target="_blank" rel="noreferrer">
-			<img class="tickster" src="/icons/Tickster_Grey.svg" alt="Tickster" />
-		</a>
-	</li>
 </ul>
 
 <style>
@@ -49,10 +44,6 @@
 		list-style-position: outside;
 		padding: 5px;
 		box-shadow: 6px 10px 27px 0px rgba(0, 0, 0, 0.75);
-	}
-
-	.tickster {
-		height: 0.9em;
 	}
 
 	.active {
