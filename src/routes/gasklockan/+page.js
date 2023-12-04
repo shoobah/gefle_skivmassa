@@ -1,7 +1,5 @@
 /** @type {import('./$types').PageLoad} */
 // @ts-nocheck
-export const prerender = true;
-
 export async function load() {
 	return {
 		bands: [

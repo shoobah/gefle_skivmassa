@@ -1,52 +1,56 @@
 <script>
-	import { page } from '$app/stores';
-	import { state } from '$lib/stores/state';
+  import { page } from '$app/stores';
+  import { state } from '$lib/stores/state';
 </script>
 
 <nav>
-	{#each $state.paths as path}
-		<a
-			data-sveltekit-preload-code="eager"
-			data-sveltekit-preload-data
-			class:active={$page.url.pathname === path.path}
-			href={path.path}
-			target={path.target}>{path.name}</a
-		>
-	{/each}
+  {#each $state.paths as path}
+    <a
+      data-sveltekit-preload-code="eager"
+      data-sveltekit-preload-data
+      class:active={$page.url.pathname === path.path}
+      href={path.path}
+      target={path.target}>{path.name}</a
+    >
+  {/each}
 </nav>
 
 <style>
-	nav {
-		background-color: var(--menu-background);
-		color: var(--black);
-		font-size: 2em;
-		font-family: agency-bold;
-		width: 100vw;
-		display: grid;
-		grid-auto-flow: column;
-		justify-items: center;
-		grid-gap: 40px;
-		justify-items: center;
-		align-items: center;
-		justify-content: center;
-	}
+  nav {
+    background-color: var(--menu-background);
+    color: var(--white);
+    font-size: 2em;
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    width: 100vw;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
 
-	nav a {
-		font-stretch: expanded;
-		text-transform: uppercase;
-		text-decoration: none;
-	}
+  nav a {
+    font-stretch: expanded;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: var(--white);
+    filter: brihtness(0.5);
+  }
 
-	nav a:hover {
-		transition: all 0.2s ease;
-		color: var(--purple);
-	}
+  nav a:hover {
+    color: var(--yellow);
+    filter: brihtness(1);
+  }
 
-	.active {
-		color: var(--purple);
-	}
+  .active {
+    color: var(--yellow);
+  }
 
-	.tickster {
-		height: 0.9em;
-	}
+  .tickster {
+    height: 0.9em;
+  }
 </style>

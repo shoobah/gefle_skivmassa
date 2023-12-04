@@ -10,7 +10,7 @@
 <div>
 	<h1>Kontakt</h1>
 	<article>
-		Mail: <a href="mailto:gefleskivmassa@gmail.com">gefleskivmassa@gmail.com</a><br />
+		Mail: <a href="mailto:info@soundsfair.com">info@soundsfair.com</a><br />
 		Facebook:
 		<a href="https://www.facebook.com/gefleskivmassa">www.facebook.com/gefleskivmassa</a><br />
 		Instagram:

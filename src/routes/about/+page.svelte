@@ -6,6 +6,7 @@
 	const Img2018 = '/images/About/Gefle Skivmässa 2018.jpg?w=768&webp';
 	const Img2019 = '/images/About/Gefle Skivmässa 2019.jpg?w=768&webp';
 	const Img2020 = '/images/About/Gefle Skivmässa 2020.jpg?w=768&webp';
+	const Img2023 = '/images/About/Gefle Skivmässa 2023.jpg?w=768&webp';
 	const Efterfest2016 = '/images/About/Efterfest 2016.jpg?w=768&webp';
 	const Efterfest2017 = '/images/About/Efterfest 2017.jpg?w=768&webp';
 	const Efterfest2018 = '/images/About/Efterfest 2018.jpg?w=768&webp';
@@ -137,7 +138,7 @@
 		<p>
 			Gefle Skivmässa 2019 är den mässa som fick avsluta en fin svit av årliga skivmässor i april.
 			Med ännu fler säljare i kön, fler band än någonsin som ville spela och fler besökare än väntat
-			var detta år en ri ktig succé. På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade
+			var detta år en riktig succé. På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade
 			S.N.O och Crescendolls<br />
 		</p>
 		<h3>Line up 2019</h3>
@@ -151,17 +152,24 @@
 		<div class="imagebox">
 			<img src={Efterfest2019} alt="Gefle Skivmässa, Efterfest 2019" />
 		</div>
+
 		<h2>2020</h2>
 		<p>2020 glömmer vi...</p>
 		<div class="imagebox">
 			<img src={Img2020} alt="Gefle Skivmässa 2020" />
 		</div>
+
 		<h2>2023</h2>
 		<p>
 			I år är det dags igen.<br />
 			Välkomna tillbaka till Gävle Skivmässa!
 		</p>
-		<h2>Skivmässans playlist</h2>
+		<h3>Line up 2023</h3>
+		<div class="imagebox">
+			<img src={Img2023} alt="Gefle Skivmässa 2023" />
+		</div>
+		<p>TODO: Fyll på med band som spelade på mässan 2023.</p>
+		<!-- <h2>Skivmässans playlist</h2>
 		<div>
 			<iframe
 				title="Skivmässan Spotify playlist"
@@ -174,7 +182,7 @@
 				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 				loading="lazy"
 			/>
-		</div>
+		</div> -->
 	</article>
 	<div class="section">
 		<h1>Band som spelat på Gefle Skivmässa:</h1>
@@ -207,10 +215,14 @@
 			<li>Jenny C</li>
 			<li>Fami</li>
 			<li>Oscar Löfstrand.</li>
+			<li>Children of the Sün</li>
+			<li>Horndal</li>
+			<li>Vokonis</li>
+			<li>Witchcraft</li>
 		</ul>
 
 		Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på&nbsp;<a
-			href="mailto:gefleskivmassa@gmail.com">gefleskivmassa@gmail.com</a
+			href="mailto:info@soundsfair.se">info@soundsfair.se</a
 		>
 	</div>
 </div>
