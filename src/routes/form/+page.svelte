@@ -18,20 +18,19 @@
   {:else}
     <article>
       <h1>Anmälan</h1>
+
       <p>
-        Vad kul att du vill medverka på Gefle Skivmässa i maj!<br />
-        Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle Skivmässa 2024.<br />
-        Arrangemanget går av stapeln fredag-lördag 3-4 maj mellan kl xx - xx.<br />Skivmässan är på lördagen 4:e maj
-        mellan xx - xx<br />
-        vid Gasklockorna i Gävle, Atlasgatan 3.
+        Vad kul att du vill medverka på Gefle Skivmässa i maj! Nytt för i år är att vi utökar till en tvådagarsfest där
+        skivmässan (som alltid) är på lördagen. Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle
+        Skivmässa 2024.
       </p>
       <p>
         Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på våra bord. Faktura på hela beloppet
-        skickas från vår nära samarbetspart Medborgarskolan och ska vara betald i god tid innan arrangemanget.
+        skickas i början av 2024 och ska vara betald i god tid innan arrangemanget.
       </p>
       <p>
-        Borden på Gefle Skivmässa kostar 300kr/st och de mäter 200x69 cm. Max antal bord/säljare är tre, dvs sex meter
-        bord. Undantagsfall kan diskuteras.
+        Borden på Gefle Skivmässa kostar 350kr/st och de mäter 200x69 cm. Max antal bord/säljare är tre, dvs sex meter
+        bord.
       </p>
 
       <h2>Varje bokad försäljare får, förutom bokad plats:</h2>
@@ -65,8 +64,8 @@
         <label for="comment">Kommentar</label>
         <textarea name="comment" placeholder="Kommentar" />
         <p>
-          Genom att klicka på ”Skicka intresseanmälan” nedan godkänner du att Gefle Skivmässa och studieförbundet
-          Medborgarskolan får behandla dina personuppgifter för att kunna fakturera för din medverkan.
+          Genom att klicka på ”Skicka intresseanmälan” nedan godkänner du att Gefle Skivmässa får behandla dina
+          personuppgifter för att kunna fakturera för din medverkan.
         </p>
         <button type="submit">Skicka intresseanmälan</button>
       </form>
