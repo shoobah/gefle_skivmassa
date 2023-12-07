@@ -8,11 +8,6 @@
   </div>
   <div class="logos-content">
     <div>
-      <a href="https://www.medborgarskolan.se/" target="_blank" rel="noreferrer">
-        <img src="/icons/mebo_vit.svg" alt="Medborgarskolan" />
-      </a>
-    </div>
-    <div>
       <a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
         <img src="/icons/gasklockorna loggo.png" alt="Gasklockorna" />
       </a>
@@ -115,5 +110,6 @@
       grid-template-columns: repeat(2, 1fr);
       width: 90vw;
     }
+    /* TODO Minska storlek på loggor */
   }
 </style>

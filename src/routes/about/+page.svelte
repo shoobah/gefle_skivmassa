@@ -174,20 +174,6 @@
       <img src={Img2023} alt="Gefle Skivmässa 2023" />
     </div>
     <p>TODO: Fyll på med band som spelade på mässan 2023.</p>
-    <!-- <h2>Skivmässans playlist</h2>
-		<div>
-			<iframe
-				title="Skivmässan Spotify playlist"
-				style="border-radius:12px"
-				src="https://open.spotify.com/embed/playlist/64EcxxnO76seybyQ4GvXn2?utm_source=generator"
-				width="100%"
-				height="352"
-				frameBorder="0"
-				allowfullscreen=""
-				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-				loading="lazy"
-			/>
-		</div> -->
   </article>
   <div class="section">
     <h1>Band som spelat på Gefle Skivmässa:</h1>

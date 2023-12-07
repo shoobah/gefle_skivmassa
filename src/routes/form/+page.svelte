@@ -17,7 +17,7 @@
     </div>
   {:else}
     <article>
-      <h1>Anmälan</h1>
+      <h1>Anmälan till skivmässa lördag 4:e maj</h1>
 
       <p>
         Vad kul att du vill medverka på Gefle Skivmässa i maj! Nytt för i år är att vi utökar till en tvådagarsfest där
