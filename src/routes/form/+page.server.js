@@ -1,56 +1,40 @@
-import { transporter } from '$lib/aws/mail';
+import postmark from 'postmark';
+
 export const prerender = false;
 /** @type {import('./$types').Actions} */
 export const actions = {
   default: async ({ request }) => {
-    const data = await request.formData();
-
-    transporter.verify(function (error) {
-      if (error) {
-        console.log(error);
-      } else {
-        console.log('SMTP server is ready to take our messages');
-      }
-    });
-
-    const message = {
-      from: import.meta.env.VITE_SMTP_FROM,
-      to: import.meta.env.VITE_SMTP_TO,
-      subject: 'Anmälan till Gefle skivmassa 2024',
-      text:
-        'Förnamn: ' +
-        data.get('firstName') +
-        '\nEfternamn: ' +
-        data.get('lastName') +
-        '\nE-post: ' +
-        data.get('email') +
-        '\nTelefon: ' +
-        data.get('phone') +
-        '\nAdress: ' +
-        data.get('address') +
-        '\nOrg eller personnr: ' +
-        data.get('org') +
-        '\nAntal bord: ' +
-        data.get('numberOfTables') +
-        '\nKommentar: ' +
-        data.get('comment'),
-    };
-
-    let response = false;
-    await new Promise((resolve, reject) => {
-      transporter.sendMail(message, function (err, info) {
-        if (err) {
-          console.error(err);
-          response = false;
-          reject(err);
-        } else {
-          console.log(info);
-          response = true;
-          resolve(info);
-        }
+    try {
+      const data = await request.formData();
+      var client = new postmark.ServerClient('034d9f51-910d-410f-975b-b5df8e2dddd8');
+      await client.sendEmail({
+        From: import.meta.env.VITE_SMTP_FROM,
+        To: import.meta.env.VITE_SMTP_TO,
+        Subject: 'Anmälan till Gefle skivmassa 2024',
+        TextBody:
+          'Förnamn: ' +
+          data.get('firstName') +
+          '\nEfternamn: ' +
+          data.get('lastName') +
+          '\nE-post: ' +
+          data.get('email') +
+          '\nTelefon: ' +
+          data.get('phone') +
+          '\nAdress: ' +
+          data.get('address') +
+          '\nOrg eller personnr: ' +
+          data.get('org') +
+          '\nAntal bord: ' +
+          data.get('numberOfTables') +
+          '\nKommentar: ' +
+          data.get('comment'),
+        MessageStream: 'outbound',
       });
-    });
+    } catch (error) {
+      console.log('Error while sending email', error);
+      return { success: false };
+    }
 
-    return { success: response };
+    return { success: true };
   },
 };
