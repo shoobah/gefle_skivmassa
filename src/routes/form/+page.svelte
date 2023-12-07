@@ -9,13 +9,20 @@
 </svelte:head>
 
 <div class="the-form">
-  {#if form?.success}
+  {#if form?.success === true}
     <div>
       <h2>Tack för din anmälan!</h2>
       <p>Vi har mottagit din anmälan och kommer att kontakta dig inom kort.</p>
       <a href="/">Tillbaka till startsidan</a>
     </div>
-  {:else}
+  {/if}
+  {#if form?.success === false}
+    <div>
+      <h2>Något gick fel</h2>
+      <a href="/">Tillbaka till startsidan</a>
+    </div>
+  {/if}
+  {#if !form}
     <article>
       <h1>Anmälan till skivmässa lördag 4:e maj</h1>
 
