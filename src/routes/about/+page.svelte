@@ -73,6 +73,17 @@
 </svelte:head>
 
 <div>
+  <article>
+    <h1>Om oss</h1>
+    <p>
+      Gefle Skivmässa arrangeras numera av kulturföreningen Sounds Fair (org 802544-0911). Styrelsen består av Anders
+      Sjöberg, Jerry van Kooten och Emil Alstermark som var med och startade skivmässan i Gasklockorna 2016. Vill du
+      komma i kontakt med styrelsen, kanske har idéer på andra arrangemang eller bli medlem? Maila: <a
+        href="mailto:info@soundsfair.se">info@soundsfair.se</a
+      >
+      Läs mer om alla våra arrangemang här nedan.
+    </p>
+  </article>
   <h2>Bilder från tidigare mässor.</h2>
   <h3>Fotografer: Erik Larsson & Anders Sjöberg</h3>
   <div class="carousel">
@@ -166,14 +177,18 @@
 
     <h2>2023</h2>
     <p>
-      I år är det dags igen.<br />
-      Välkomna tillbaka till Gävle Skivmässa!
+      Det hann gå fyra år och komma en pandemi mellan upplaga fyra och fem. En del nyheter presenterades också detta år.
+      Skivmässan och spelningarna bytte lokal med varandra. Skivmässan fick större utrymme i Stora gasklockan och
+      spelningarna blev ännu mer intima och klubbkänslan infann sig verkligen. Efterfesten med skön musik och häng
+      skedde på Musikhuset. En inofficiell förfest på Centralteatern med banden Fireside och Leiah var också en del av
+      denna superhelg i musikens tecken.
     </p>
     <h3>Line up 2023</h3>
+    <p></p>
+    Witchcraft, Horndal, Vokonis, Children of the Sün, Nonsa, The Linesmen, Ryggrad, Lucille och Josephine Skoglund.
     <div class="imagebox">
       <img src={Img2023} alt="Gefle Skivmässa 2023" />
     </div>
-    <p>TODO: Fyll på med band som spelade på mässan 2023.</p>
   </article>
   <div class="section">
     <h1>Band som spelat på Gefle Skivmässa:</h1>
