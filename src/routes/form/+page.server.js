@@ -14,6 +14,6 @@ export const actions = {
     Antal bord: ${data.get('numberOfTables')}
     Kommentar: ${data.get('comment')}`;
     const subject = 'Anmälan till Gefle skivmassa 2024';
-    sendMail(body, subject);
+    return sendMail(body, subject);
   },
 };
