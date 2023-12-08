@@ -32,7 +32,7 @@
   const Merch = '/images/Carousel/2019 Merch.jpg?w=1000&webp';
   const Paatos2 = '/images/Carousel/2019 Paatos 2.jpg?w=1000&webp';
   const Paatos = '/images/Carousel/2019 Paatos.jpg?w=1000&webp';
-  const Mässa2023 = '/images/Carousel/2023 Mässa.jpg?w=1000&webp';
+  const Mässa2023 = '/images/Carousel/2023 Massa.jpg?w=1000&webp';
   const CotS = '/images/Carousel/2023 CotS.jpg?w=1000&webp';
   const Vokonis = '/images/Carousel/2023 Vokonis.jpg?w=1000&webp';
   const Horndal = '/images/Carousel/2023 Horndal.jpg?w=1000&webp';
