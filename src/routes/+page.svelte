@@ -4,7 +4,7 @@
 
 <div class="page-content">
   <div class="imagebox">
-    <img src="/images/startimage.jpg" alt="Poster" />
+    <img src="/images/webbpic 1.jpg" alt="Poster" />
   </div>
   <div class="logos-content">
     <div>
