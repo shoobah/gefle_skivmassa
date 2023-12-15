@@ -19,6 +19,11 @@
       </a>
     </li>
   {/each}
+  <li>
+    <a href={$state.ticketLink} target="_blank">
+      <img class="ticket" src="/icons/ticketbutton.png" alt="Köp biljett" />
+    </a>
+  </li>
 </ul>
 
 <style>
@@ -48,5 +53,9 @@
 
   .active {
     color: var(--yellow);
+  }
+
+  .ticket {
+    height: 1.2em;
   }
 </style>
