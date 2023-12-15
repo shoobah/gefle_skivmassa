@@ -1,3 +1,7 @@
+<script>
+  import { state } from '$lib/stores/state';
+</script>
+
 <svelte:head>
   <meta name="description" content="Gefle Skivmässa. Startsida" />
 </svelte:head>
@@ -5,6 +9,11 @@
 <div class="page-content">
   <div class="imagebox">
     <img src="/images/webbpic 1.jpg" alt="Poster" />
+  </div>
+  <div>
+    <a href={$state.ticketLink} target="_blank">
+      <img class="ticketButton" src="/icons/ticketbutton.png" alt="Köp biljett" />
+    </a>
   </div>
   <div class="logos-content">
     <div>

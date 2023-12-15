@@ -13,6 +13,9 @@
       target={path.target}>{path.name}</a
     >
   {/each}
+  <a href={$state.ticketLink} target="_blank">
+    <img class="ticket" src="/icons/ticketbutton.png" alt="Köp biljett" />
+  </a>
 </nav>
 
 <style>
@@ -50,7 +53,8 @@
     color: var(--yellow);
   }
 
-  .tickster {
-    height: 0.9em;
+  .ticket {
+    height: 1.2em;
+    margin-top: 10px
   }
 </style>

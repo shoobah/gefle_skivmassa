@@ -5,9 +5,9 @@ export const state = writable({
   paths: [
     { path: '/', name: 'Hem', target: '_self' },
     { path: '/form', name: 'Sälj', target: '_self' },
+    { path: '/lineup', name: 'Lineup', target: '_self' },
     { path: '/about', name: 'Om', target: '_self' },
     { path: '/contact', name: 'Kontakt', target: '_self' },
   ],
-  ticketLink: 'https://billetto.se/users/gasklockorna-gavle',
-  //TODO: Ändra från tickster.
+  ticketLink: 'https://billetto.se/e/gefle-skivmassa-biljetter-905937',
 });
