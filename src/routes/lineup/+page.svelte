@@ -14,7 +14,7 @@
         nya låtar och de andades Beardfish rätt igenom. Efter världshistoriens kortaste 
         överläggning med övriga i bandet, ser vi alltså åter Beardfish på livescenerna 
         igen! En ny skiva spelas in i detta nu och innan de beger sig till We Love Rock-
-        festivlaen i Norge och Night of the Progg i Tyskland ses de på Gefle Skivmässas 
+        festivalen i Norge och Night of the Progg i Tyskland ses de på Gefle Skivmässas 
         scen under lördagen 4 maj. Räkna med ett spelsuget band, full med ny energi 
         och nya låtar. 
     </p>
