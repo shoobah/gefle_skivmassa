@@ -9,7 +9,6 @@
         bandet 2016. 
     </p>
     <p>
-
         Sex år senare, alltså 2022, väcktes ändå bandet till liv igen. Rikard hade skrivit 
         nya låtar och de andades Beardfish rätt igenom. Efter världshistoriens kortaste 
         överläggning med övriga i bandet, ser vi alltså åter Beardfish på livescenerna 
@@ -23,6 +22,11 @@
     </p>
     <p>&nbsp;</p>
     <img src="/images/Beardfish/Beardfish 2023 in studio.jpg" alt="Beardfish" />
+</article>
+<article>
+    <img src="/images/Skraeckodlan/logotype.png" alt="Skrecködlan logo" />
+    <p></p>
+    <img src="/images/Skraeckodlan/Skraeckoedlan-2-Foto Mats Ek.jpg" alt="Skraecködlan" />
   </article>
 </div>
 
