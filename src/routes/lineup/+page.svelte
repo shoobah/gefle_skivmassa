@@ -37,10 +37,12 @@
     </p>
     <p>
       “Alright, as your Captain I order you all, myself included, to stop with whatever you are doing. We are listening
-      to this fourth album of theirs right now. What's it called, Aijk?” “One sec… here we go. It's the… you're not
-      gonna believe this, Captain. It's called The Vermillion Sky!” “Holy Bumblebeast! No way? I guess some Northerners
-      have better tastes than others then. Well come on, play it! And make it loud. Like Mech-loud.” “Hold on, Captain.
-      Looks like we have a message incoming.” “...trol to… million…”
+      to this fourth album of theirs right now. What's it called, Aijk?”<br />
+      “One sec… here we go. It's the… you're not gonna believe this, Captain. It's called The Vermillion Sky!”<br />
+      “Holy Bumblebeast! No way? I guess some Northerners have better tastes than others then. Well come on, play it! And
+      make it loud. Like Mech-loud.”<br />
+      “Hold on, Captain. Looks like we have a message incoming.”<br />
+      “...trol to… million…”
     </p>
     <p>Skraeckoedlan presenteras i samarbete med Blackbird Artists</p>
 
