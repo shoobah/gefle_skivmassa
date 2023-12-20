@@ -8,7 +8,9 @@
 
 <div class="page-content">
   <div class="imagebox">
-    <img src="/images/webbpic 1.jpg" alt="Poster" />
+    <a href={$state.ticketLink} target="_blank">
+      <img src="/images/start.jpg" alt="Poster" />
+    </a>
   </div>
   <div>
     <a href={$state.ticketLink} target="_blank">
@@ -53,6 +55,9 @@
           </g>
         </svg>
       </a>
+    </div>
+    <div>
+      <img src="/icons/BBAlogowhite.png" alt="Blackbird Artists" />
     </div>
   </div>
 </div>
