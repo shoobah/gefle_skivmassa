@@ -6,7 +6,7 @@
   const Img2018 = '/images/About/Gefle Skivmässa 2018.jpg?w=768&webp';
   const Img2019 = '/images/About/Gefle Skivmässa 2019.jpg?w=768&webp';
   const Img2020 = '/images/About/Gefle Skivmässa 2020.jpg?w=768&webp';
-  const Img2023 = '/images/About/Gefle Skivmässa 2023.jpg?w=768&webp';
+  const Img2023 = '/images/About/Gefle Skivmässa 2023.jpg?w=768&webp';
   const Efterfest2016 = '/images/About/Efterfest 2016.jpg?w=768&webp';
   const Efterfest2017 = '/images/About/Efterfest 2017.jpg?w=768&webp';
   const Efterfest2018 = '/images/About/Efterfest 2018.jpg?w=768&webp';
