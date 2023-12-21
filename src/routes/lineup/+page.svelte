@@ -4,7 +4,9 @@
 
 <div>
   <article>
-    <img src="/images/Skraeckoedlan/logotype.png" alt="Skraeckoedlan logo" />
+    <div class="imagebox">
+      <img src="/images/Skraeckoedlan/logotype.png" alt="Skraeckoedlan logo" />
+    </div>
     <p>
       <a href={$state.ticketLink} target="_blank"> Skraeckoedlan spelar fredag 3:e maj </a>
     </p>
@@ -24,12 +26,34 @@
       “...trol to… million…”
     </p>
     <p>Skraeckoedlan presenteras i samarbete med Blackbird Artists</p>
-
-    <img src="/images/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg" alt="Skraeckoedlan" />
+    <div class="imagebox">
+      <img src="/images/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg" alt="Skraeckoedlan" />
+    </div>
   </article>
-  <hr />
+  <div class="divider"></div>
   <article>
-    <img src="/images/Beardfish/Logo.png" alt="Beardfish logo" />
+    <div class="imagebox">
+      <img src="/images/Xorsist/Xorsist_logga_vit.png" alt="Xorsist logo" />
+    </div>
+    <p>
+      <a href={$state.ticketLink} target="_blank"> Xorsist spelar fredag 3:e maj </a>
+    </p>
+    <p>
+      Xorsist från Stockholm spelar klassisk, svensk Death Metal. Trots att bandmedlemmarna inte ens var födda under den
+      eran är bandet fast beslutna att föra denna stolta tradition vidare internationellt. Den 6 oktober släppte XORSIST
+      sitt nya album "At the Somber Steps to Serenity" genom det klassiska amerikanska skivbolaget Prosthetic Records,
+      och skivan har producerats av gudfadern himself, Mr Tomas Skogsberg. HM-2:or och rens! SVT:s Per Sinding-Larsen om
+      bandet: ”Xorsist är den nya generationens svenska dödsmetall!”.
+    </p>
+    <div class="imagebox">
+      <img src="/images/Xorsist/xorsist_lindaflorin-39.jpg" alt="Xorsist" />
+    </div>
+  </article>
+  <div class="divider"></div>
+  <article>
+    <div class="imagebox">
+      <img src="/images/Beardfish/Logo.png" alt="Beardfish logo" />
+    </div>
     <p>
       <a href={$state.ticketLink} target="_blank"> Beardfish spelar lördag 4:e maj </a>
     </p>
@@ -47,12 +71,39 @@
     </p>
     <p>Beardfish är Rikard Sjöblom, David Zackrison, Robert Hansen och Magnus Östgren.</p>
     <p>&nbsp;</p>
-    <img src="/images/Beardfish/Beardfish 2023 in studio.jpg" alt="Beardfish" />
+    <div class="imagebox">
+      <img src="/images/Beardfish/Beardfish 2023 in studio.jpg" alt="Beardfish" />
+    </div>
   </article>
 </div>
 
 <style>
   img {
     border: none;
+  }
+
+  .imagebox {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+  }
+
+  .imagebox img {
+    max-width: 50vw;
+  }
+
+  .divider {
+    margin: 20px 0;
+    border-bottom: 2px solid var(--yellow);
+  }
+
+  @media (max-width: 888px) {
+    .imagebox {
+      grid-auto-flow: row;
+    }
+
+    .imagebox img {
+      max-width: 80vw;
+    }
   }
 </style>
