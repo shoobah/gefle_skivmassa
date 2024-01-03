@@ -19,7 +19,7 @@
   </div>
   <div class="logos-content">
     <div>
-      <img src="/icons/Sounds_Fair_vit_cirkel.png" alt="Blackbird Artists" />
+      <img src="/icons/Sounds_Fair_vit.png" alt="Blackbird Artists" />
     </div>
     <div>
       <a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
