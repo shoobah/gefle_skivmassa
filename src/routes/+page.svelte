@@ -19,6 +19,9 @@
   </div>
   <div class="logos-content">
     <div>
+      <img src="/icons/Sounds_Fair_vit.png" alt="Blackbird Artists" />
+    </div>
+    <div>
       <a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
         <img src="/icons/gasklockorna loggo.png" alt="Gasklockorna" />
       </a>
@@ -92,7 +95,7 @@
 
   .logos-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
     align-items: center;
