@@ -4,7 +4,7 @@
 
 <div>
   <article>
-    <div class="imagebox">
+    <div class="logobox">
       <img src="/images/Skraeckoedlan/logotype.png" alt="Skraeckoedlan logo" />
     </div>
     <p>
@@ -32,7 +32,7 @@
   </article>
   <div class="divider"></div>
   <article>
-    <div class="imagebox">
+    <div class="logobox">
       <img src="/images/Xorsist/Xorsist_logga_vit.png" alt="Xorsist logo" />
     </div>
     <p>
@@ -51,7 +51,7 @@
   </article>
   <div class="divider"></div>
   <article>
-    <div class="imagebox">
+    <div class="logobox">
       <img src="/images/Beardfish/Logo.png" alt="Beardfish logo" />
     </div>
     <p>
@@ -75,6 +75,36 @@
       <img src="/images/Beardfish/Beardfish 2023 in studio.jpg" alt="Beardfish" />
     </div>
   </article>
+  <div class="divider"></div>
+  <article>
+    <div class="logobox">
+      <img src="/images/SienaRoot/SienaRoot_Logo vit.png" alt="Siena Root logo" />
+    </div>
+    <p>
+      <a href={$state.ticketLink} target="_blank"> Siena Root spelar lördag 4:e maj </a>
+    </p>
+    <p>
+      Siena Root började redan på sent 90-tal att ge konserter i Stockholmsområdet och 2003 spelades debutalbumet in.
+      Detta var en tid då många kastade sina gamla vinylsamlingar och ställde sina skivspelare på vinden. Ända från
+      start strävade Siena Root efter att förfina det analoga musikskapandet. Med sju album i bagaget anses bandet idag
+      vara pionjärer inom samtida root rock. Bandet har delat scen med alltifrån legender som Deep Purple och Ten Year
+      After till samtida band inom scenen som Blues Pills, All Them Witches och Kadavar.
+    </p>
+    <p>
+      Konserterna är kompromisslösa på alla sätt, alltifrån att ta med all den tunga vintageutrustningen som de flesta
+      band saknar passion att få med sig på scen till det att ingen konsert är den andra lik då bandet ständigt tänjer
+      på de musikaliska gränserna och förnyar sig. Det enorma engagemanget för att ta den klassiska rocken till scenen
+      får Siena Root att stå ut från mängden.
+    </p>
+    <p>
+      Den turnerande grunden med gitarr, sång, orgel, bas och trummor är Sam Riffer, Love H Forsberg, Johan Borgström
+      och Zubaida Solid.
+    </p>
+    <p>&nbsp;</p>
+    <div class="imagebox">
+      <img src="/images/SienaRoot/Siena Root - Promobild 2022 44.jpeg" alt="Siena Root" />
+    </div>
+  </article>
 </div>
 
 <style>
@@ -82,7 +112,7 @@
     border: none;
   }
 
-  .imagebox {
+  .imagebox, .logobox {
     display: grid;
     grid-auto-flow: column;
     gap: 10px;
@@ -92,17 +122,21 @@
     max-width: 50vw;
   }
 
+  .logobox img {
+    max-width: 30vw;
+  }
+
   .divider {
     margin: 20px 0;
     border-bottom: 2px solid var(--yellow);
   }
 
   @media (max-width: 888px) {
-    .imagebox {
+    .imagebox, .logobox {
       grid-auto-flow: row;
     }
 
-    .imagebox img {
+    .imagebox img, .logobox img {
       max-width: 80vw;
     }
   }

@@ -9,7 +9,7 @@
 <div class="page-content">
   <div class="imagebox">
     <a href={$state.ticketLink} target="_blank">
-      <img src="/images/Webbpic 3.jpg" alt="Poster" />
+      <img src="/images/Webbpic 4.jpg" alt="Poster" />
     </a>
   </div>
   <div>
