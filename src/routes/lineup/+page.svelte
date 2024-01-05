@@ -52,6 +52,7 @@
       och skivan har producerats av gudfadern himself, Mr Tomas Skogsberg. HM-2:or och rens! SVT:s Per Sinding-Larsen om
       bandet: ”Xorsist är den nya generationens svenska dödsmetall!”.
     </p>
+    <p>Xorsist presenteras i samarbete med Republic 66.</p>
   </article>
   <div class="divider"></div>
   <div class="bandimages">
@@ -111,6 +112,7 @@
       Den turnerande grunden med gitarr, sång, orgel, bas och trummor är Sam Riffer, Love H Forsberg, Johan Borgström
       och Zubaida Solid.
     </p>
+    <p>Siena Root presenteras i samarbete med Walk On Agency.</p>
     <p>&nbsp;</p>
   </article>
 </div>

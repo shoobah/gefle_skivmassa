@@ -59,8 +59,16 @@
         </svg>
       </a>
     </div>
+  </div>
+  <div class="logos-content">
     <div>
       <img src="/icons/BBAlogowhite.png" alt="Blackbird Artists" />
+    </div>
+    <div>
+      <img src="/icons/Rep66_logo.png" alt="Republic 66" />
+    </div>
+    <div>
+      <img src="/icons/walk on agency_white.png" alt="Walk On Agency" />
     </div>
   </div>
 </div>
@@ -95,7 +103,7 @@
 
   .logos-content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
     align-items: center;
@@ -123,7 +131,7 @@
     }
 
     .logos-content {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       width: 90vw;
     }
     /* TODO Minska storlek på loggor */
