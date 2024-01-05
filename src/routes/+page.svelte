@@ -76,10 +76,14 @@
       <img src="/icons/BBAlogowhite.png" alt="Blackbird Artists" />
     </div>
     <div>
-      <img src="/icons/Rep66_logo.png" alt="Republic 66" />
+      <a href="https://www.republic66.com/projekt" target="_blank" rel="noreferrer">
+        <img src="/icons/Rep66_logo.png" alt="Republic 66" />
+      </a>
     </div>
     <div>
-      <img src="/icons/walk on agency_white.png" alt="Walk On Agency" />
+      <a href="https://www.walkonagency.com/" target="_blank" rel="noreferrer">
+        <img src="/icons/walk on agency_white.png" alt="Walk On Agency" />
+      </a>
     </div>
   </div>
 </div>
