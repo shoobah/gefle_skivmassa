@@ -1,5 +1,12 @@
 <script>
   import { state } from '$lib/stores/state';
+  import { onMount } from 'svelte';
+
+  let mobile=false;
+
+  onMount(() => {
+    mobile = window.innerWidth < 888;
+  });
 </script>
 
 <svelte:head>
@@ -9,7 +16,11 @@
 <div class="page-content">
   <div class="imagebox">
     <a href={$state.ticketLink} target="_blank">
-      <img src="/images/Webbpic 3.jpg" alt="Poster" />
+      {#if mobile}
+        <img src="/images/Webbpic standing.jpg" alt="Poster" />
+      {:else}
+        <img src="/images/Webbpic 4.jpg" alt="Poster" />
+      {/if}
     </a>
   </div>
   <div>
@@ -59,8 +70,16 @@
         </svg>
       </a>
     </div>
+  </div>
+  <div class="logos-content">
     <div>
       <img src="/icons/BBAlogowhite.png" alt="Blackbird Artists" />
+    </div>
+    <div>
+      <img src="/icons/Rep66_logo.png" alt="Republic 66" />
+    </div>
+    <div>
+      <img src="/icons/walk on agency_white.png" alt="Walk On Agency" />
     </div>
   </div>
 </div>
@@ -95,7 +114,7 @@
 
   .logos-content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
     align-items: center;
@@ -106,7 +125,7 @@
   .logos-content img,
   .logos-content svg {
     transition: filter 0.2s ease-in-out;
-    filter: brightness(0.4);
+    filter: brightness(0.6);
   }
 
   .logos-content img:hover,
@@ -114,7 +133,8 @@
     filter: brightness(1);
   }
 
-  .logos-content img {
+  .logos-content img,
+  .logos-content svg {
     height: 40px;
   }
   @media (max-width: 888px) {
@@ -123,9 +143,13 @@
     }
 
     .logos-content {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       width: 90vw;
     }
-    /* TODO Minska storlek på loggor */
+
+    .logos-content img,
+    .logos-content svg {
+      height: 30px;
+    }
   }
 </style>

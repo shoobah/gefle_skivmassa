@@ -3,10 +3,15 @@
 </script>
 
 <div>
-  <article>
-    <div class="imagebox">
+  <div class="bandimages">
+    <div class="logobox">
       <img src="/images/Skraeckoedlan/logotype.png" alt="Skraeckoedlan logo" />
     </div>
+    <div class="imagebox">
+      <img src="/images/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg" alt="Skraeckoedlan" />
+    </div>
+  </div>
+  <article>
     <p>
       <a href={$state.ticketLink} target="_blank"> Skraeckoedlan spelar fredag 3:e maj </a>
     </p>
@@ -26,15 +31,17 @@
       “...trol to… million…”
     </p>
     <p>Skraeckoedlan presenteras i samarbete med Blackbird Artists</p>
-    <div class="imagebox">
-      <img src="/images/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg" alt="Skraeckoedlan" />
-    </div>
   </article>
   <div class="divider"></div>
-  <article>
-    <div class="imagebox">
+  <div class="bandimages">
+    <div class="logobox">
       <img src="/images/Xorsist/Xorsist_logga_vit.png" alt="Xorsist logo" />
     </div>
+    <div class="imagebox">
+      <img src="/images/Xorsist/xorsist_lindaflorin-39.jpg" alt="Xorsist" />
+    </div>
+  </div>
+  <article>
     <p>
       <a href={$state.ticketLink} target="_blank"> Xorsist spelar fredag 3:e maj </a>
     </p>
@@ -45,15 +52,18 @@
       och skivan har producerats av gudfadern himself, Mr Tomas Skogsberg. HM-2:or och rens! SVT:s Per Sinding-Larsen om
       bandet: ”Xorsist är den nya generationens svenska dödsmetall!”.
     </p>
-    <div class="imagebox">
-      <img src="/images/Xorsist/xorsist_lindaflorin-39.jpg" alt="Xorsist" />
-    </div>
+    <p>Xorsist presenteras i samarbete med Republic 66.</p>
   </article>
   <div class="divider"></div>
-  <article>
-    <div class="imagebox">
+  <div class="bandimages">
+    <div class="logobox">
       <img src="/images/Beardfish/Logo.png" alt="Beardfish logo" />
     </div>
+    <div class="imagebox">
+      <img src="/images/Beardfish/Beardfish 2023 in studio.jpg" alt="Beardfish" />
+    </div>
+  </div>
+  <article>
     <p>
       <a href={$state.ticketLink} target="_blank"> Beardfish spelar lördag 4:e maj </a>
     </p>
@@ -71,38 +81,77 @@
     </p>
     <p>Beardfish är Rikard Sjöblom, David Zackrison, Robert Hansen och Magnus Östgren.</p>
     <p>&nbsp;</p>
-    <div class="imagebox">
-      <img src="/images/Beardfish/Beardfish 2023 in studio.jpg" alt="Beardfish" />
+  </article>
+  <div class="divider"></div>
+  <div class="bandimages">
+    <div class="logobox">
+      <img src="/images/SienaRoot/SienaRoot_Logo vit.png" alt="Siena Root logo" />
     </div>
+    <div class="imagebox">
+      <img src="/images/SienaRoot/Siena Root - Promobild 2022 44.jpeg" alt="Siena Root" />
+    </div>
+  </div>
+  <article>
+    <p>
+      <a href={$state.ticketLink} target="_blank"> Siena Root spelar lördag 4:e maj </a>
+    </p>
+    <p>
+      Siena Root började redan på sent 90-tal att ge konserter i Stockholmsområdet och 2003 spelades debutalbumet in.
+      Detta var en tid då många kastade sina gamla vinylsamlingar och ställde sina skivspelare på vinden. Ända från
+      start strävade Siena Root efter att förfina det analoga musikskapandet. Med sju album i bagaget anses bandet idag
+      vara pionjärer inom samtida root rock. Bandet har delat scen med alltifrån legender som Deep Purple och Ten Year
+      After till samtida band inom scenen som Blues Pills, All Them Witches och Kadavar.
+    </p>
+    <p>
+      Konserterna är kompromisslösa på alla sätt, alltifrån att ta med all den tunga vintageutrustningen som de flesta
+      band saknar passion att få med sig på scen till det att ingen konsert är den andra lik då bandet ständigt tänjer
+      på de musikaliska gränserna och förnyar sig. Det enorma engagemanget för att ta den klassiska rocken till scenen
+      får Siena Root att stå ut från mängden.
+    </p>
+    <p>
+      Den turnerande grunden med gitarr, sång, orgel, bas och trummor är Sam Riffer, Love H Forsberg, Johan Borgström
+      och Zubaida Solid.
+    </p>
+    <p>Siena Root presenteras i samarbete med Walk On Agency.</p>
+    <p>&nbsp;</p>
   </article>
 </div>
 
 <style>
   img {
     border: none;
+    width: 35vw;
   }
 
-  .imagebox {
+  .bandimages {
     display: grid;
     grid-auto-flow: column;
     gap: 10px;
-  }
-
-  .imagebox img {
-    max-width: 50vw;
+    align-items: center;
   }
 
   .divider {
     margin: 20px 0;
-    border-bottom: 2px solid var(--yellow);
+    border-bottom: 1px solid var(--purple);
   }
 
   @media (max-width: 888px) {
-    .imagebox {
+    .bandimages {
+      display: grid;
+      grid-auto-flow: row;
+      gap: 10px;
+      align-items: center;
+    }
+    img{
+      width: 80vw;
+    }
+    .imagebox,
+    .logobox {
       grid-auto-flow: row;
     }
 
-    .imagebox img {
+    .imagebox img,
+    .logobox img {
       max-width: 80vw;
     }
   }
