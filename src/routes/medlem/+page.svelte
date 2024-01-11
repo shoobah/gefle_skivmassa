@@ -1,4 +1,7 @@
 <div>
+    <div>
+        <img src="/icons/Sounds_Fair_vit_cirkel.png" alt="Skivmässa" />
+    </div>
   <article>
     <h1>Stödmedlem</h1>
     <p></p>
@@ -38,3 +41,18 @@
     </p>
   </article>
 </div>
+
+<style>
+img {
+  width: 30vw;
+  max-width: 300px;
+  margin: 10px auto;
+  display: block;
+}
+
+@media (max-width: 888px) {
+    img {
+        width: 50vw;
+    }
+}
+</style>

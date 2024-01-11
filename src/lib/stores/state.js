@@ -7,7 +7,7 @@ export const state = writable({
     { path: '/form', name: 'Sälj', target: '_self' },
     { path: '/lineup', name: 'Lineup', target: '_self' },
     { path: '/about', name: 'Om', target: '_self' },
-    { path: '/member', name: 'Medlem', target: '_self' },
+    { path: '/medlem', name: 'Medlem', target: '_self' },
     { path: '/contact', name: 'Kontakt', target: '_self' },
   ],
   ticketLink: 'https://billetto.se/e/gefle-skivmassa-biljetter-905937',
