@@ -25,8 +25,9 @@
       Stormgatan 76<br/>
       802 75 Gävle<br/>
       <br/>
-      Organisationsnummer 802544-0911<br/>
-      BankGiro: 381-4480 E-post: info@soundsfair.se
+      Organisationsnummer: 802544-0911<br/>
+      BankGiro: 381-4480<br/>
+      E-post: <a href="mailto:info@soundsfair.se">info@soundsfair.se</a>
     </p>
     <h2>Styrelse</h2>
     <p>
