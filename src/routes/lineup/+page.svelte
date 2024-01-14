@@ -152,7 +152,7 @@
       align-items: center;
     }
     img {
-      width: 80vw;
+      width: 100%;
     }
     .imagebox,
     .logobox {
@@ -161,7 +161,7 @@
 
     .imagebox img,
     .logobox img {
-      max-width: 80vw;
+      max-width: 100%;
     }
   }
 </style>
