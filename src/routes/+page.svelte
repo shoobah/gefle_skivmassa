@@ -1,8 +1,10 @@
 <script>
   import { state } from '$lib/stores/state';
   import { onMount } from 'svelte';
-  import startimage from '$lib/images/Webbpic 4.jpg';
-  import startimageMobile from '$lib/images/Webbpic standing.jpg';
+  
+  import startimage from '$lib/images/Webbpic 4.webp';
+  import startimageMobile from '$lib/images/Webbpic standing.webp';
+
   import Bildalogo from '$lib/images/icons/Bildalogo.svelte';
   import ticketButton from '$lib/images/icons/ticketbutton.png';
   import gasklockorna from '$lib/images/icons/gasklockorna loggo.png';
