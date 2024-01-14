@@ -5,7 +5,6 @@
   import DropDownMenu from './drop-down-menu.svelte';
   import hamburger from '$lib/images/icons/hamburger.svg';
 
-
   $: currentPage = $state.paths.find((path) => path.path === $page.url.pathname);
 </script>
 
