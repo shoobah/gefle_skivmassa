@@ -3,6 +3,8 @@
   import { fade } from 'svelte/transition';
   import { page } from '$app/stores';
   import DropDownMenu from './drop-down-menu.svelte';
+  import hamburger from '$lib/images/icons/hamburger.svg';
+
 
   $: currentPage = $state.paths.find((path) => path.path === $page.url.pathname);
 </script>
@@ -10,7 +12,7 @@
 <nav>
   <span>{currentPage?.name}</span>
   <button in:fade on:click|stopPropagation={() => ($state.menuVisible = !$state.menuVisible)}>
-    <img src="/icons/hamburger.svg" alt="menu" />
+    <img src={hamburger} alt="menu" />
   </button>
   {#if $state.menuVisible}
     <DropDownMenu on:click={() => ($state.menuVisible = false)} />

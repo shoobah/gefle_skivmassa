@@ -3,16 +3,63 @@
   import { onDestroy, onMount } from 'svelte';
   import { tweened } from 'svelte/motion';
 
-  /**
-   * @type {string | any[]}
-   */
-  export let imageList;
+  import Mässa2016 from '$lib/images/Carousel/2016 Mässa.jpg';
+  import Mässa2018 from '$lib/images/Carousel/2018 Mässa.jpg';
+  import Mässa2018_2 from  '$lib/images/Carousel/2018 Mässa 2.jpg';
+  import Mässa2019 from '$lib/images/Carousel/2019 Mässa.jpg';
+  import Mässa2023 from '$lib/images/Carousel/2023 Massa.jpg';
 
-  export let size = 1250;
-  let interval = 2000;
-  export let ar = 0.5625;
+  import Anekdoten from '$lib/images/Carousel/2017 Anekdoten.jpg';
+  import Besvärjelsen from '$lib/images/Carousel/2018 Besvärjelsen.jpg';
+  import BluesPills from '$lib/images/Carousel/2016 Blues Pills.jpg';
+  import CotS from '$lib/images/Carousel/2023 CotS.jpg';
+  import GoodHarvest from '$lib/images/Carousel/2017 Good Harvest.jpg';
+  import Horndal from '$lib/images/Carousel/2023 Horndal.jpg';
+  import ImpreialStateElectric from '$lib/images/Carousel/2018 Imperial state electric.jpg';
+  import Liondub from '$lib/images/Carousel/2019 Liondub.jpg';
+  import Lucifer from '$lib/images/Carousel/2019 Lucifer.jpg';
+  import MaidaVale from '$lib/images/Carousel/2017 MaidaVale.jpg';
+  import Merch from '$lib/images/Carousel/2019 Merch.jpg';
+  import Paatos from '$lib/images/Carousel/2019 Paatos.jpg';
+  import Paatos2 from '$lib/images/Carousel/2019 Paatos 2.jpg';
+  import Sator from '$lib/images/Carousel/2018 Sator.jpg';
+  import SlimVic from '$lib/images/Carousel/2018 Slim Vic.jpg';
+  import Spiders from '$lib/images/Carousel/2016 Spiders.jpg';
+  import Vokonis from '$lib/images/Carousel/2023 Vokonis.jpg';
+  import Witchcraft from '$lib/images/Carousel/2023 Witchcraft.jpg';
 
+  const imageList = [
+    { src: Mässa2023, alt: 'Mässa 2023' },
+    { src: CotS, alt: 'Children of the Sün 2023' },
+    { src: Vokonis, alt: 'Vokonis 2023' },
+    { src: Horndal, alt: 'Horndal 2023' },
+    { src: Witchcraft, alt: 'Witchcraft 2023' },
+    { src: Mässa2019, alt: 'Mässa 2019' },
+    { src: MaidaVale, alt: 'MaidaVale' },
+    { src: Mässa2018, alt: 'Mässa 2018' },
+    { src: Besvärjelsen, alt: 'Besvärjelsen' },
+    { src: Liondub, alt: 'Liondub' },
+    { src: Paatos, alt: 'Paatos' },
+    { src: SlimVic, alt: 'Slim Vic' },
+    { src: Sator, alt: 'Sator' },
+    { src: Mässa2018, alt: 'Mässa 2018' },
+    { src: Lucifer, alt: 'Lucifer' },
+    { src: Mässa2018_2, alt: 'Mässa 2018' },
+    { src: ImpreialStateElectric, alt: 'Impreial State Electric' },
+    { src: Merch, alt: 'Merch' },
+    { src: Paatos2, alt: 'Paatos' },
+    { src: GoodHarvest, alt: 'Good Harvest' },
+    { src: Anekdoten, alt: 'Anekdoten' },
+    { src: Spiders, alt: 'Spiders' },
+    { src: Mässa2016, alt: 'Mässa 2016' },
+    { src: BluesPills, alt: 'Blues Pills' },
+  ];
+
+  const size = 1024;
+  const interval = 3000;
+  const ar = 0.666;
   let innerWidth = 2048;
+
   let index = 0;
   /**
    * @type {number}
@@ -51,11 +98,6 @@
 
 <svelte:window bind:innerWidth />
 
-<!-- <pre>
-    {firstVisible}
-    {index + ': ' + $opacity1}
-    {nextIndex + ': ' + $opacity2}
-</pre> -->
 <div
   class="flipper-div"
   style="width: {sliderWidth}px; height: {sliderWidth * ar}px;"

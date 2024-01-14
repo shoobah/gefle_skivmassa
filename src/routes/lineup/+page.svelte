@@ -1,14 +1,23 @@
 <script>
   import { state } from '$lib/stores/state';
+
+  import SkreackoedlanLogo from '$lib/images/bands/Skraeckoedlan/logotype.png';
+  import Skreackoedlan from '$lib/images/bands/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg';
+  import XorsistLogo from '$lib/images/bands/Xorsist/Xorsist_logga_vit.png';
+  import Xorsist from '$lib/images/bands/Xorsist/xorsist_lindaflorin-39.jpg';
+  import BeardfishLogo from '$lib/images/bands/Beardfish/Logo.png';
+  import Beardfish from '$lib/images/bands/Beardfish/Beardfish 2023 in studio.jpg';
+  import SienaRootLogo from '$lib/images/bands/SienaRoot/SienaRoot_Logo vit.png';
+  import SienaRoot from '$lib/images/bands/SienaRoot/Siena Root - Promobild 2022 44.jpeg';
 </script>
 
 <div>
   <div class="bandimages">
     <div class="logobox">
-      <img src="/images/Skraeckoedlan/logotype.png" alt="Skraeckoedlan logo" />
+      <img src={SkreackoedlanLogo} alt="Skraeckoedlan logo" />
     </div>
     <div class="imagebox">
-      <img src="/images/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg" alt="Skraeckoedlan" />
+      <img src={Skreackoedlan} alt="Skraeckoedlan" />
     </div>
   </div>
   <article>
@@ -35,10 +44,10 @@
   <div class="divider"></div>
   <div class="bandimages">
     <div class="logobox">
-      <img src="/images/Xorsist/Xorsist_logga_vit.png" alt="Xorsist logo" />
+      <img src={XorsistLogo} alt="Xorsist logo" />
     </div>
     <div class="imagebox">
-      <img src="/images/Xorsist/xorsist_lindaflorin-39.jpg" alt="Xorsist" />
+      <img src={Xorsist} alt="Xorsist" />
     </div>
   </div>
   <article>
@@ -57,10 +66,10 @@
   <div class="divider"></div>
   <div class="bandimages">
     <div class="logobox">
-      <img src="/images/Beardfish/Logo.png" alt="Beardfish logo" />
+      <img src={BeardfishLogo} alt="Beardfish logo" />
     </div>
     <div class="imagebox">
-      <img src="/images/Beardfish/Beardfish 2023 in studio.jpg" alt="Beardfish" />
+      <img src={Beardfish} alt="Beardfish" />
     </div>
   </div>
   <article>
@@ -85,10 +94,10 @@
   <div class="divider"></div>
   <div class="bandimages">
     <div class="logobox">
-      <img src="/images/SienaRoot/SienaRoot_Logo vit.png" alt="Siena Root logo" />
+      <img src={SienaRootLogo} alt="Siena Root logo" />
     </div>
     <div class="imagebox">
-      <img src="/images/SienaRoot/Siena Root - Promobild 2022 44.jpeg" alt="Siena Root" />
+      <img src={SienaRoot} alt="Siena Root" />
     </div>
   </div>
   <article>
@@ -142,7 +151,7 @@
       gap: 10px;
       align-items: center;
     }
-    img{
+    img {
       width: 80vw;
     }
     .imagebox,

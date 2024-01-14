@@ -26,13 +26,6 @@
 </div>
 
 <style>
-  img {
-    border: none;
-    width: 20vw;
-    max-width: 200px;
-    min-width: 100px;
-  }
-
   div {
     width: 50vw;
     padding-bottom: 20px;

@@ -1,15 +1,15 @@
 <script>
   import { state } from '$lib/stores/state';
   import { onMount } from 'svelte';
-  import Countdown from '$lib/components/countdown.svelte';
   import startimage from '$lib/images/Webbpic 4.jpg';
   import startimageMobile from '$lib/images/Webbpic standing.jpg';
   import Bildalogo from '$lib/images/icons/Bildalogo.svelte';
   import ticketButton from '$lib/images/icons/ticketbutton.png';
   import gasklockorna from '$lib/images/icons/gasklockorna loggo.png';
   import BBALogo from '$lib/images/icons/BBAlogowhite.png';
-  import WoALogo from '$lib/icons/walk on agency_white.png';
+  import WoALogo from '$lib/images/icons/walk on agency_white.png';
   import Republic66Logo from '$lib/images/icons/Rep66_logo.png';
+  import SoundsFairLogo from '$lib/images/icons/Sounds_Fair_vit.png';
 
   let mobile = false;
 
@@ -39,7 +39,7 @@
   </div>
   <div class="logos-content">
     <div>
-      <img src="/icons/Sounds_Fair_vit.png" alt="Blackbird Artists" />
+      <img src={SoundsFairLogo} alt="Blackbird Artists" />
     </div>
     <div>
       <a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
@@ -107,19 +107,16 @@
     justify-items: center;
   }
 
-  .logos-content img,
-  .logos-content svg {
+  .logos-content img {
     transition: filter 0.2s ease-in-out;
     filter: brightness(0.6);
   }
 
-  .logos-content img:hover,
-  .logos-content svg:hover {
+  .logos-content img:hover {
     filter: brightness(1);
   }
 
-  .logos-content img,
-  .logos-content svg {
+  .logos-content img {
     height: 40px;
   }
   @media (max-width: 888px) {
@@ -132,8 +129,7 @@
       width: 90vw;
     }
 
-    .logos-content img,
-    .logos-content svg {
+    .logos-content img {
       height: 30px;
     }
   }

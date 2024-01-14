@@ -1,6 +1,11 @@
+<script>
+  import BoardImage from '$lib/images/sounds_fair_board.webp'
+  import SoundsFairLogo from '$lib/images/icons/Sounds_Fair_vit_cirkel.png'
+</script>
+
 <div>
   <div>
-    <img class="logo" src="/icons/Sounds_Fair_vit_cirkel.png" alt="Skivmässa" />
+    <img class="logo" src={SoundsFairLogo} alt="Sounds Fair logo" />
   </div>
   <article>
     <h1>Stödmedlem</h1>
@@ -45,7 +50,7 @@
   </article>
   <div class="board_image">
     <div class="board">
-      <img src="/images/sounds_fair_board.jpg" alt="Skivmässa" />
+      <img src={BoardImage} alt="Styrelsen" />
       <div class="text">
         <sub>Styrelsen: Emil, Anders, Jerry. Foto: Johan Öbrink</sub>
       </div>
