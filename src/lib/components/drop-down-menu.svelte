@@ -2,6 +2,7 @@
   import { page } from '$app/stores';
   import { slide } from 'svelte/transition';
   import { state } from '$lib/stores/state';
+  import ticketbutton from '$lib/images/icons/ticketbutton.png';
 </script>
 
 <ul transition:slide={{ duration: 100 }}>
@@ -21,7 +22,7 @@
   {/each}
   <li>
     <a href={$state.ticketLink} target="_blank">
-      <img class="ticket" src="/icons/ticketbutton.png" alt="Köp biljett" />
+      <img class="ticket" src={ticketbutton} alt="Köp biljett" />
     </a>
   </li>
 </ul>
