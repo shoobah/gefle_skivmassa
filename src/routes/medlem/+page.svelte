@@ -23,7 +23,7 @@
     </p>
     <h2>För att bli stödmedlem</h2>
     <ol>
-      <li>Sätt in 100 kr på Bankgiro 381-4480 och ange ditt namn vid betalning</li>
+      <li>Swisha 100 kr till 123 696 60 06 och ange ditt namn vid betalning</li>
       <li>
         Skicka ett mail till: <a href="mailto:info@soundsfair.se">info@soundsfair.se</a> och meddela oss att du betalat
       </li>
