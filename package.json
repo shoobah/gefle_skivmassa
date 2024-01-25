@@ -33,6 +33,5 @@
     "vite": "^5.0.5"
   },
   "type": "module",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
