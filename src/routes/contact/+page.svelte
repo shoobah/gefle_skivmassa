@@ -17,7 +17,7 @@
     <a href="https://www.instagram.com/gefleskivmassa">www.instagram.com/gefleskivmassa</a><br />
     <br />
     <h2>Samarbetspartners</h2>
-    <a href="https://www.medborgarskolan.se" target="_blank" rel="noreferrer"> Medborgarskolan </a><br />
+    <a href=" https://www.folkbildningsforum.se/" target="_blank" rel="noreferrer"> Folkbildningsforum </a><br />
     <a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer"> Gasklockorna </a>
     <br />
     <a href="https://www.bilda.nu/" target="_blank" rel="noreferrer"> Bilda </a>

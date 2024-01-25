@@ -12,6 +12,7 @@
   import WoALogo from '$lib/images/icons/walk on agency_white.png';
   import Republic66Logo from '$lib/images/icons/Rep66_logo.png';
   import SoundsFairLogo from '$lib/images/icons/Sounds_Fair_vit.png';
+  import FolkbildningsforumLogo from '$lib/images/icons/Folkbildningsforum_Logo_Liggande.png';
 
   let mobile = false;
 
@@ -66,6 +67,11 @@
     <div>
       <a href="https://www.walkonagency.com/" target="_blank" rel="noreferrer">
         <img src={WoALogo} alt="Walk On Agency" />
+      </a>
+    </div>
+    <div>
+      <a href=" https://www.folkbildningsforum.se/" target="_blank" rel="noreferrer">
+        <img src={FolkbildningsforumLogo} alt="Folkbildningsforum" />
       </a>
     </div>
   </div>
