@@ -1,15 +1,59 @@
 <script>
-  import { state } from '$lib/stores/state';
+  import { state } from "$lib/stores/state";
 
-  import SkreackoedlanLogo from '$lib/images/bands/Skraeckoedlan/logotype.png';
-  import Skreackoedlan from '$lib/images/bands/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg';
-  import XorsistLogo from '$lib/images/bands/Xorsist/Xorsist_logga_vit.png';
-  import Xorsist from '$lib/images/bands/Xorsist/xorsist_lindaflorin-39.jpg';
-  import BeardfishLogo from '$lib/images/bands/Beardfish/Logo.png';
-  import Beardfish from '$lib/images/bands/Beardfish/Beardfish 2023 in studio.jpg';
-  import SienaRootLogo from '$lib/images/bands/SienaRoot/SienaRoot_Logo vit.png';
-  import SienaRoot from '$lib/images/bands/SienaRoot/Siena Root - Promobild 2022 44.jpeg';
+  import SkreackoedlanLogo from "$lib/images/bands/Skraeckoedlan/logotype.png";
+  import Skreackoedlan from "$lib/images/bands/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg";
+  import XorsistLogo from "$lib/images/bands/Xorsist/Xorsist_logga_vit.png";
+  import Xorsist from "$lib/images/bands/Xorsist/xorsist_lindaflorin-39.jpg";
+  import BeardfishLogo from "$lib/images/bands/Beardfish/Logo.png";
+  import Beardfish from "$lib/images/bands/Beardfish/Beardfish 2023 in studio.jpg";
+  import SienaRootLogo from "$lib/images/bands/SienaRoot/SienaRoot_Logo vit.png";
+  import SienaRoot from "$lib/images/bands/SienaRoot/Siena Root - Promobild 2022 44.jpeg";
+  import HelgaLogo from "$lib/images/bands/Helga/HELGA Logo white.png";
+  import Helga from "$lib/images/bands/Helga/HELGA-EsterSegarra-3443.jpg";
+  import OrkanLogo from "$lib/images/bands/Orkan/Orkan logga vit.png";
+  import Orkan from "$lib/images/bands/Orkan/Orkan 1.jpg";
 </script>
+
+<style>
+  img {
+    border: none;
+    width: 35vw;
+  }
+
+  .bandimages {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .divider {
+    margin: 20px 0;
+    border-bottom: 1px solid var(--purple);
+  }
+
+  @media (max-width: 888px) {
+    .bandimages {
+      display: grid;
+      grid-auto-flow: row;
+      gap: 10px;
+      align-items: center;
+    }
+    img {
+      width: 100%;
+    }
+    .imagebox,
+    .logobox {
+      grid-auto-flow: row;
+    }
+
+    .imagebox img,
+    .logobox img {
+      max-width: 100%;
+    }
+  }
+</style>
 
 <div>
   <div class="bandimages">
@@ -62,6 +106,32 @@
       bandet: ”Xorsist är den nya generationens svenska dödsmetall!”.
     </p>
     <p>Xorsist presenteras i samarbete med Republic 66.</p>
+  </article>
+  <div class="divider"></div>
+  <div class="bandimages">
+    <div class="logobox">
+      <img src={HelgaLogo} alt="Helga logo" />
+    </div>
+    <div class="imagebox">
+      <img src={Helga} alt="Helga" />
+    </div>
+  </div>
+  <article>
+    <p>
+      <a href={$state.ticketLink} target="_blank"> Helga spelar fredag 3:e maj </a>
+    </p>
+    <p>
+      Med musik starkt präglad av körarrangemang, folkmusik och progressiv metal vandrar den dalabördiga och tidigare
+      soloartisten Helga, genom de täta skogarna, ackompanjerad av fyra York-baserade musiker. Filmiskt, drömskt och
+      vackert samtidigt kompromisslöst, tungt och tekniskt.
+    </p>
+    <p>
+      Texterna är skrivna på både engelska och svenska, och just språket är viktigt för låtskrivare och frontperson
+      Helga Gabriel. – ”Ibland går det inte att översätta från svenskan utan att det känns som ett svek mot var låten
+      kommer ifrån”, säger Helga.
+    </p>
+    <p>Helga presenteras i samarbete med Doomstar Bookings.</p>
+    <p>&nbsp;</p>
   </article>
   <div class="divider"></div>
   <div class="bandimages">
@@ -124,44 +194,29 @@
     <p>Siena Root presenteras i samarbete med Walk On Agency.</p>
     <p>&nbsp;</p>
   </article>
+  <div class="divider"></div>
+  <div class="bandimages">
+    <div class="logobox">
+      <img src={OrkanLogo} alt="Orkan logo" />
+    </div>
+    <div class="imagebox">
+      <img src={Orkan} alt="Orkan" />
+    </div>
+  </div>
+  <article>
+    <p>
+      <a href={$state.ticketLink} target="_blank">Orkan spelar lördag 4:e maj</a>
+    </p>
+    <p>
+      Ett av de mest spännande och starkast lysande namnen inom den svenska rockscenen just nu är proggkvintetten Orkan.
+      Bandet berättar om systemets orättvisor, samhällets hänsynslöshet och naturens motstånd och hämnd, allt medan
+      förstärkarna skriker och publiken jublar.
+    </p>
+    <p>
+      Orkans koncept är tveklöst inspirerat av 70-talets svenska politiska proggrörelse, men bandet är knappast något
+      nostalgiprojekt. Medan den ena foten vilar i arvet från proggen står den andra stadigt placerad i samtiden med
+      berörande och insiktsfulla låttexter, vilka uppmuntrar till solidaritet och eftertänksamhet.
+    </p>
+    <p>&nbsp;</p>
+  </article>
 </div>
-
-<style>
-  img {
-    border: none;
-    width: 35vw;
-  }
-
-  .bandimages {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .divider {
-    margin: 20px 0;
-    border-bottom: 1px solid var(--purple);
-  }
-
-  @media (max-width: 888px) {
-    .bandimages {
-      display: grid;
-      grid-auto-flow: row;
-      gap: 10px;
-      align-items: center;
-    }
-    img {
-      width: 100%;
-    }
-    .imagebox,
-    .logobox {
-      grid-auto-flow: row;
-    }
-
-    .imagebox img,
-    .logobox img {
-      max-width: 100%;
-    }
-  }
-</style>

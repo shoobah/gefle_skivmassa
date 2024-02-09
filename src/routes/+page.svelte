@@ -10,6 +10,7 @@
   import gasklockorna from '$lib/images/icons/gasklockorna loggo.png';
   import BBALogo from '$lib/images/icons/BBAlogowhite.png';
   import WoALogo from '$lib/images/icons/walk on agency_white.png';
+  import DsLogo from '$lib/images/icons/Doomstar.png';
   import Republic66Logo from '$lib/images/icons/Rep66_logo.png';
   import SoundsFairLogo from '$lib/images/icons/Sounds_Fair_vit.png';
   import FolkbildningsforumLogo from '$lib/images/icons/Folkbildningsforum_Logo_Liggande.png';
@@ -67,6 +68,11 @@
     <div>
       <a href="https://www.walkonagency.com/" target="_blank" rel="noreferrer">
         <img src={WoALogo} alt="Walk On Agency" />
+      </a>
+    </div>
+    <div>
+      <a href="https://doomstarbookings.com/artists/helga/" target="_blank" rel="noreferrer">
+        <img src={DsLogo} alt="Doomstar bookings" />
       </a>
     </div>
     <div>
