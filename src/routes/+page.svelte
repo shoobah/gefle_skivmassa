@@ -2,8 +2,8 @@
   import { state } from '$lib/stores/state';
   import { onMount } from 'svelte';
   
-  import startimage from '$lib/images/Webbpic 4.webp';
-  import startimageMobile from '$lib/images/Webbpic standing.webp';
+  import startimage from '$lib/images/Webbpic 5.jpg';
+  import startimageMobile from '$lib/images/Webbpic standing 2.jpg';
 
   import Bildalogo from '$lib/images/icons/Bildalogo.svelte';
   import ticketButton from '$lib/images/icons/ticketbutton.png';
