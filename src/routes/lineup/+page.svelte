@@ -13,6 +13,8 @@
   import Helga from "$lib/images/bands/Helga/HELGA-EsterSegarra-3443.jpg";
   import OrkanLogo from "$lib/images/bands/Orkan/Orkan logga vit.png";
   import Orkan from "$lib/images/bands/Orkan/Orkan 1.jpg";
+  import BerguvLogo from "$lib/images/bands/Berguv/Logga Vit.png";
+  import Berguv from "$lib/images/bands/Berguv/Berguv Band.jpg";
 </script>
 
 <style>
@@ -58,6 +60,7 @@
     }
   }
 </style>
+
 <br />
 <div>
   <div class="bandimages">
@@ -222,9 +225,38 @@
       berörande och insiktsfulla låttexter, vilka uppmuntrar till solidaritet och eftertänksamhet.
     </p>
     <p>&nbsp;</p>
+    <div class="divider"></div>
+    <div class="bandimages">
+      <div class="logobox">
+        <img src={BerguvLogo} alt="Berguv logo" />
+      </div>
+      <div class="imagebox">
+        <img src={Berguv} alt="Berguv" />
+      </div>
+    </div>
+    <article>
+      <p>
+        <a href={$state.ticketLink} target="_blank">Berguv spelar lördag 4:e maj</a>
+      </p>
+      <p>
+        Med ”mörk rock från Gävletrakten” som mantra föddes 2019 idén till Berguv. Tanken var från början att göra något
+        liknande The Sounds, men efter att ha skapat låten Måla hela världen svart blev det uppenbart att soundet för
+        tankarna till ett ”rockigt Kent”.
+      </p>
+      <p>
+        Berguv är - med sina tunga riff, ledsna melodier och texter förankrade i verkliga händelser och situationer -
+        sin egen varelse.
+      </p>
+      <p>
+        Ett självbetitlat album gavs ut 2021 via digitala plattformar och i dagsläget pågår färdigställandet av ett
+        uppföljande album. <br />
+        Förväntat släpp 2024.
+      </p>
+      <p>Berguv presenteras i samarbete med Bilda.</p>
+      <p>&nbsp;</p>
+    </article>
   </article>
   <div class="playlists">
-
     <h1>Lyssna på årets band</h1>
     <iframe
       title="Spotify playlist"
