@@ -38,6 +38,9 @@
   iframe {
     padding: 1em;
     max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
   }
 
   @media (max-width: 888px) {
@@ -261,22 +264,18 @@
     <h1>Lyssna på årets band</h1>
     <iframe
       title="Spotify playlist"
-      style="border-radius:12px"
       src="https://open.spotify.com/embed/playlist/2ImcmB8WX5w3reer47ICJA?utm_source=generator"
-      width="100%"
       height="450"
       frameBorder="0"
       allowfullscreen="true"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
-      ></iframe>
-      <iframe
+    ></iframe>
+    <iframe
       title="Apple Music playlist"
       allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
       frameborder="0"
-      width="100%"
       height="450"
-      style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;"
       sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
       src="https://embed.music.apple.com/se/playlist/gefle-skivm%C3%A4ssa-2024/pl.u-zPyLl9Rux8V5p4?l=en-GB"
     ></iframe>
