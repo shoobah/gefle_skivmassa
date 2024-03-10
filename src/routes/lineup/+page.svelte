@@ -66,8 +66,25 @@
 </style>
 
 <br />
+<ul>
+  <li>
+    <a href="#Skraeckoedlan">Skraeckoedlan</a>
+  </li>
+  <li>
+    <a href="#Xorsist">Xorsist</a>
+  </li>
+  <li>
+    <a href="#Helga">Helga</a>
+  </li>
+  <li>
+    <a href="#Beardfish">Beardfish</a>
+  </li>
+  <li>
+    <a href="#SienaRoot">SienaRoot</a>
+  </li>
+</ul>
 <div>
-  <div class="bandimages">
+  <div class="bandimages" id="Skraeckoedlan">
     <div class="logobox">
       <img src={SkreackoedlanLogo} alt="Skraeckoedlan logo" />
     </div>
@@ -97,7 +114,7 @@
     <p>Skraeckoedlan presenteras i samarbete med Blackbird Artists</p>
   </article>
   <div class="divider"></div>
-  <div class="bandimages">
+  <div class="bandimages" id="Xorsist">
     <div class="logobox">
       <img src={XorsistLogo} alt="Xorsist logo" />
     </div>
@@ -119,7 +136,7 @@
     <p>Xorsist presenteras i samarbete med Republic 66.</p>
   </article>
   <div class="divider"></div>
-  <div class="bandimages">
+  <div class="bandimages" id="Helga">
     <div class="logobox">
       <img src={HelgaLogo} alt="Helga logo" />
     </div>
@@ -145,7 +162,7 @@
     <p>&nbsp;</p>
   </article>
   <div class="divider"></div>
-  <div class="bandimages">
+  <div class="bandimages" id="Beardfish">
     <div class="logobox">
       <img src={BeardfishLogo} alt="Beardfish logo" />
     </div>
@@ -173,7 +190,7 @@
     <p>&nbsp;</p>
   </article>
   <div class="divider"></div>
-  <div class="bandimages">
+  <div class="bandimages" id="SienaRoot">
     <div class="logobox">
       <img src={SienaRootLogo} alt="Siena Root logo" />
     </div>
