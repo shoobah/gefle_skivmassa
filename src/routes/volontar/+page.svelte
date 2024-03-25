@@ -4,6 +4,66 @@
   $: console.log("form", form);
 </script>
 
+<svelte:head>
+  <meta name="description" content="Gefle Skivmässa. Anmälningsformulär" />
+</svelte:head>
+
+<div class="the-form">
+  {#if form?.success}
+    <div>
+      <h2>Tack för din anmälan!</h2>
+      <p>Vi har mottagit din anmälan och kommer att kontakta dig inom kort.</p>
+      <a href="/">Tillbaka till startsidan</a>
+    </div>
+  {:else}
+    <article>
+      <h1>Anmälan</h1>
+      <p>Vill du bidra till arrangemanget Gefle Skivmässa som volontär?</p>
+      <p>
+        Vi bakom eventet jobbar helt ideellt och är alltså inte avlönade eller
+        tjänar pengar på detta. Det innebär en tight budget och ibland har vi
+        inte tillräckligt många händer.
+      </p>
+      <p>
+        Vi behöver folk till entréer, scenen och bärhjälp vid nedmontering av
+        själva mässan. Jobba tre - fyra timmar och få fri entré till hela
+        arrangemanget.
+      </p>
+      <p>
+        Du måste vara minst 15 år för att jobba som volontär på Gefle Skivmässa
+      </p>
+      <p>
+        Fyll i dina kontaktuppgifter i formuläret nedan så återkommer vi om det
+        finns plats kvar.
+      </p>
+    </article>
+    <div>
+      <form method="POST">
+        <label for="firstName">Förnamn</label>
+        <input required name="firstName" type="text" placeholder="Förnamn" />
+        <label for="lastName">Efternamn</label>
+        <input required name="lastName" type="text" placeholder="Efternamn" />
+        <label for="email">E-post</label>
+        <input required name="email" type="email" placeholder="E-post" />
+        <label for="phone">Telefon</label>
+        <input required name="phone" type="tel" placeholder="Telefon" />
+        <label for="city">Stad</label>
+        <input required name="city" type="text" placeholder="Stad" />
+        <label for="work">Vad vill du hjälpa till med</label>
+        <input
+          required
+          name="work"
+          type="text"
+          placeholder="Vad vill du hjälpa till med?"
+        />
+        <label for="comment">Kommentar</label>
+        <textarea name="comment" placeholder="Kommentar / övrig info" />
+        <button type="submit">Skicka intresseanmälan</button>
+      </form>
+    </div>
+  {/if}
+</div>
+
 <style>
   .the-form {
     width: 50vw;
@@ -51,51 +111,3 @@
     }
   }
 </style>
-
-<svelte:head>
-  <meta name="description" content="Gefle Skivmässa. Anmälningsformulär" />
-</svelte:head>
-
-<div class="the-form">
-  {#if form?.success}
-    <div>
-      <h2>Tack för din anmälan!</h2>
-      <p>Vi har mottagit din anmälan och kommer att kontakta dig inom kort.</p>
-      <a href="/">Tillbaka till startsidan</a>
-    </div>
-  {:else}
-    <article>
-      <h1>Anmälan</h1>
-      <p>Vill du bidra till arrangemanget Gefle Skivmässa som volontär?</p>
-      <p>
-        Vi bakom eventet jobbar helt ideellt och är alltså inte avlönade eller tjänar pengar på detta. Det innebär en
-        tight budget och ibland har vi inte tillräckligt många händer.
-      </p>
-      <p>
-        Vi behöver folk till entréer, scenen och bärhjälp vid nedmontering av själva mässan. Jobba tre - fyra timmar och
-        få fri entré till hela arrangemanget.
-      </p>
-      <p>Du måste vara minst 15 år för att jobba som volontär på Gefle Skivmässa</p>
-      <p>Fyll i dina kontaktuppgifter i formuläret nedan så återkommer vi om det finns plats kvar.</p>
-    </article>
-    <div>
-      <form method="POST">
-        <label for="firstName">Förnamn</label>
-        <input required name="firstName" type="text" placeholder="Förnamn" />
-        <label for="lastName">Efternamn</label>
-        <input required name="lastName" type="text" placeholder="Efternamn" />
-        <label for="email">E-post</label>
-        <input required name="email" type="email" placeholder="E-post" />
-        <label for="phone">Telefon</label>
-        <input required name="phone" type="tel" placeholder="Telefon" />
-        <label for="city">Stad</label>
-        <input required name="city" type="text" placeholder="Stad" />
-        <label for="work">Vad vill du hjälpa till med</label>
-        <input required name="work" type="text" placeholder="Vad vill du hjälpa till med?" />
-        <label for="comment">Kommentar</label>
-        <textarea name="comment" placeholder="Kommentar / övrig info" />
-        <button type="submit">Skicka intresseanmälan</button>
-      </form>
-    </div>
-  {/if}
-</div>

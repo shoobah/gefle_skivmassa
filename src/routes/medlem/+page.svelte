@@ -1,6 +1,6 @@
 <script>
-  import BoardImage from '$lib/images/sounds_fair_board.webp'
-  import SoundsFairLogo from '$lib/images/icons/Sounds_Fair_vit_cirkel.png'
+  import BoardImage from "$lib/images/sounds_fair_board.webp";
+  import SoundsFairLogo from "$lib/images/icons/Sounds_Fair_vit_cirkel.png";
 </script>
 
 <div>
@@ -13,19 +13,23 @@
     <h2>Vill du bli stödmedlem i den ideella Kulturföreningen Sounds Fair?</h2>
     <br />
     <p>
-      Hjälp oss att växa och stöd den lokala arrangörskulturen genom att bli stödmedlem i föreningen Sounds Fair som
-      arrangerar Gefle Skivmässa. Som stödmedlem läggs du till i vår e-postlista och får info om våra arrangemang. Vi
-      siktar även på att komma med erbjudanden kring biljetter, merch och andra samarbeten längre fram.
+      Hjälp oss att växa och stöd den lokala arrangörskulturen genom att bli
+      stödmedlem i föreningen Sounds Fair som arrangerar Gefle Skivmässa. Som
+      stödmedlem läggs du till i vår e-postlista och får info om våra
+      arrangemang. Vi siktar även på att komma med erbjudanden kring biljetter,
+      merch och andra samarbeten längre fram.
     </p>
     <p>
-      Som betalande stödmedlem ingår entré till skivmässan lördag 4 maj (värde 50 kr) under eventet Gefle Skivmässa 3-4
-      maj.
+      Som betalande stödmedlem ingår entré till skivmässan lördag 4 maj (värde
+      50 kr) under eventet Gefle Skivmässa 3-4 maj.
     </p>
     <h2>För att bli stödmedlem</h2>
     <ol>
       <li>Swisha 100 kr till 123 696 60 06 och ange ditt namn vid betalning</li>
       <li>
-        Skicka ett mail till: <a href="mailto:info@soundsfair.se">info@soundsfair.se</a> och meddela oss att du betalat
+        Skicka ett mail till: <a href="mailto:info@soundsfair.se"
+          >info@soundsfair.se</a
+        > och meddela oss att du betalat
       </li>
     </ol>
     <p>Vi lägger till din e-postadress i vår e-postlista</p>

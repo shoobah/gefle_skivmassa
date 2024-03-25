@@ -1,6 +1,6 @@
 <script>
-  import Navigation from './navigation.svelte';
-  import MobileNavigation from './mobile-navigation.svelte';
+  import Navigation from "./navigation.svelte";
+  import MobileNavigation from "./mobile-navigation.svelte";
 
   let innerWidth = 0;
 </script>
@@ -8,7 +8,10 @@
 <svelte:window bind:innerWidth />
 
 <a class="logo rotate" href="/">
-  <img alt="gefle skivmässa logo" src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png" />
+  <img
+    alt="gefle skivmässa logo"
+    src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png"
+  />
 </a>
 <div class="header">
   {#if innerWidth > 1500}
@@ -35,7 +38,7 @@
   }
 
   .header-heading {
-    font-family: 'Saira', sans-serif;
+    font-family: "Saira", sans-serif;
     font-size: 2em;
     font-weight: 700;
     color: var(--black);

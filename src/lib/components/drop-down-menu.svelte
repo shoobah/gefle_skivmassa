@@ -1,8 +1,8 @@
 <script>
-  import { page } from '$app/stores';
-  import { slide } from 'svelte/transition';
-  import { state } from '$lib/stores/state';
-  import ticketbutton from '$lib/images/icons/ticketbutton.png';
+  import { page } from "$app/stores";
+  import { slide } from "svelte/transition";
+  import { state } from "$lib/stores/state";
+  import ticketbutton from "$lib/images/icons/ticketbutton.png";
 </script>
 
 <ul transition:slide={{ duration: 100 }}>

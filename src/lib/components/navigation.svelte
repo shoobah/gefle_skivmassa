@@ -1,14 +1,13 @@
 <script>
-  import { page } from '$app/stores';
-  import { state } from '$lib/stores/state';
-  import ticketbutton from '$lib/images/icons/ticketbutton.png';
+  import { page } from "$app/stores";
+  import { state } from "$lib/stores/state";
+  import ticketbutton from "$lib/images/icons/ticketbutton.png";
 </script>
 
 <nav>
   {#each $state.paths as path}
-    <a
-      class:active={$page.url.pathname === path.path}
-      href={path.path}>{path.name}</a
+    <a class:active={$page.url.pathname === path.path} href={path.path}
+      >{path.name}</a
     >
   {/each}
   <a href={$state.ticketLink} target="_blank">
@@ -21,7 +20,7 @@
     background-color: var(--menu-background);
     color: var(--white);
     font-size: 2em;
-    font-family: 'Saira', sans-serif;
+    font-family: "Saira", sans-serif;
     font-weight: 700;
     width: 100vw;
     display: grid;
@@ -53,6 +52,6 @@
 
   .ticket {
     height: 1.2em;
-    margin-top: 10px
+    margin-top: 10px;
   }
 </style>

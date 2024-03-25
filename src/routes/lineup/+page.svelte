@@ -17,6 +17,292 @@
   import Berguv from "$lib/images/bands/Berguv/Berguv Band.jpg";
 </script>
 
+<br />
+<div class="main">
+  <div class="submenu">
+    <div>
+      <a href="#Skraeckoedlan">Skraeckoedlan</a>
+    </div>
+    <div>
+      <a href="#Xorsist">Xorsist</a>
+    </div>
+    <div>
+      <a href="#Helga">Helga</a>
+    </div>
+    <div>
+      <a href="#Beardfish">Beardfish</a>
+    </div>
+    <div>
+      <a href="#SienaRoot">SienaRoot</a>
+    </div>
+    <div>
+      <a href="#Orkan">Orkan</a>
+    </div>
+    <div>
+      <a href="#Berguv">Berguv</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="bands">
+      <div class="bandimages" id="Skraeckoedlan">
+        <div class="logobox">
+          <img src={SkreackoedlanLogo} alt="Skraeckoedlan logo" />
+        </div>
+        <div class="imagebox">
+          <img src={Skreackoedlan} alt="Skraeckoedlan" />
+        </div>
+      </div>
+      <article>
+        <p>
+          <a href={$state.ticketLink} target="_blank">
+            Skraeckoedlan spelar fredag 3:e maj
+          </a>
+        </p>
+        <p>
+          Norrköpingsbaserade Skreackoedlan har sedan starten 2009 levererat
+          svängig, mörk och fuzzig stonerrock som gett eko över hela världen.
+          Faktiskt även ut i den mörka världsrymden och vidare i galaxen. Snart
+          kommer The Vermillion Sky, album nummer fyra och det firas såklart med
+          turné, fest och gamman. I en galax inte allt för långt borta
+          diskuteras släppet redan:
+        </p>
+        <p>
+          “Alright, as your Captain I order you all, myself included, to stop
+          with whatever you are doing. We are listening to this fourth album of
+          theirs right now. What's it called, Aijk?”<br />
+          “One sec… here we go. It's the… you're not gonna believe this, Captain.
+          It's called The Vermillion Sky!”<br />
+          “Holy Bumblebeast! No way? I guess some Northerners have better tastes
+          than others then. Well come on, play it! And make it loud. Like Mech-loud.”<br
+          />
+          “Hold on, Captain. Looks like we have a message incoming.”<br />
+          “...trol to… million…”
+        </p>
+        <p>Skraeckoedlan presenteras i samarbete med Blackbird Artists</p>
+      </article>
+      <div class="divider"></div>
+      <div class="bandimages" id="Xorsist">
+        <div class="logobox">
+          <img src={XorsistLogo} alt="Xorsist logo" />
+        </div>
+        <div class="imagebox">
+          <img src={Xorsist} alt="Xorsist" />
+        </div>
+      </div>
+      <article>
+        <p>
+          <a href={$state.ticketLink} target="_blank">
+            Xorsist spelar fredag 3:e maj
+          </a>
+        </p>
+        <p>
+          Xorsist från Stockholm spelar klassisk, svensk Death Metal. Trots att
+          bandmedlemmarna inte ens var födda under den eran är bandet fast
+          beslutna att föra denna stolta tradition vidare internationellt. Den 6
+          oktober släppte XORSIST sitt nya album "At the Somber Steps to
+          Serenity" genom det klassiska amerikanska skivbolaget Prosthetic
+          Records, och skivan har producerats av gudfadern himself, Mr Tomas
+          Skogsberg. HM-2:or och rens! SVT:s Per Sinding-Larsen om bandet:
+          ”Xorsist är den nya generationens svenska dödsmetall!”.
+        </p>
+        <p>Xorsist presenteras i samarbete med Republic 66.</p>
+      </article>
+      <div class="divider"></div>
+      <div class="bandimages" id="Helga">
+        <div class="logobox">
+          <img src={HelgaLogo} alt="Helga logo" />
+        </div>
+        <div class="imagebox">
+          <img src={Helga} alt="Helga" />
+        </div>
+      </div>
+      <article>
+        <p>
+          <a href={$state.ticketLink} target="_blank">
+            Helga spelar fredag 3:e maj
+          </a>
+        </p>
+        <p>
+          Med musik starkt präglad av körarrangemang, folkmusik och progressiv
+          metal vandrar den dalabördiga och tidigare soloartisten Helga, genom
+          de täta skogarna, ackompanjerad av fyra York-baserade musiker.
+          Filmiskt, drömskt och vackert samtidigt kompromisslöst, tungt och
+          tekniskt.
+        </p>
+        <p>
+          Texterna är skrivna på både engelska och svenska, och just språket är
+          viktigt för låtskrivare och frontperson Helga Gabriel. – ”Ibland går
+          det inte att översätta från svenskan utan att det känns som ett svek
+          mot var låten kommer ifrån”, säger Helga.
+        </p>
+        <p>Helga presenteras i samarbete med Doomstar Bookings.</p>
+        <p>&nbsp;</p>
+      </article>
+      <div class="divider"></div>
+      <div class="bandimages" id="Beardfish">
+        <div class="logobox">
+          <img src={BeardfishLogo} alt="Beardfish logo" />
+        </div>
+        <div class="imagebox">
+          <img src={Beardfish} alt="Beardfish" />
+        </div>
+      </div>
+      <article>
+        <p>
+          <a href={$state.ticketLink} target="_blank">
+            Beardfish spelar lördag 4:e maj
+          </a>
+        </p>
+        <p>
+          Gävlebandet Beardfish har sedan starten 2001 levererat flertalet album
+          med delikat progressiv rock. De turnerade flitigt i stora delar av
+          Europa, USA och Sydamerika men valde efter albumet ”+4626 COMFORTZONE”
+          att lägga ner bandet 2016.
+        </p>
+        <p>
+          Sex år senare, alltså 2022, väcktes ändå bandet till liv igen. Rikard
+          hade skrivit nya låtar och de andades Beardfish rätt igenom. Efter
+          världshistoriens kortaste överläggning med övriga i bandet, ser vi
+          alltså åter Beardfish på livescenerna igen! En ny skiva spelas in i
+          detta nu och innan de beger sig till We Love Rock- festivalen i Norge
+          och Night of the Progg i Tyskland ses de på Gefle Skivmässas scen
+          under lördagen 4 maj. Räkna med ett spelsuget band, full med ny energi
+          och nya låtar.
+        </p>
+        <p>
+          Beardfish är Rikard Sjöblom, David Zackrison, Robert Hansen och Magnus
+          Östgren.
+        </p>
+        <p>&nbsp;</p>
+      </article>
+      <div class="divider"></div>
+      <div class="bandimages" id="SienaRoot">
+        <div class="logobox">
+          <img src={SienaRootLogo} alt="Siena Root logo" />
+        </div>
+        <div class="imagebox">
+          <img src={SienaRoot} alt="Siena Root" />
+        </div>
+      </div>
+      <article>
+        <p>
+          <a href={$state.ticketLink} target="_blank">
+            Siena Root spelar lördag 4:e maj
+          </a>
+        </p>
+        <p>
+          Siena Root började redan på sent 90-tal att ge konserter i
+          Stockholmsområdet och 2003 spelades debutalbumet in. Detta var en tid
+          då många kastade sina gamla vinylsamlingar och ställde sina
+          skivspelare på vinden. Ända från start strävade Siena Root efter att
+          förfina det analoga musikskapandet. Med sju album i bagaget anses
+          bandet idag vara pionjärer inom samtida root rock. Bandet har delat
+          scen med alltifrån legender som Deep Purple och Ten Year After till
+          samtida band inom scenen som Blues Pills, All Them Witches och
+          Kadavar.
+        </p>
+        <p>
+          Konserterna är kompromisslösa på alla sätt, alltifrån att ta med all
+          den tunga vintageutrustningen som de flesta band saknar passion att få
+          med sig på scen till det att ingen konsert är den andra lik då bandet
+          ständigt tänjer på de musikaliska gränserna och förnyar sig. Det
+          enorma engagemanget för att ta den klassiska rocken till scenen får
+          Siena Root att stå ut från mängden.
+        </p>
+        <p>
+          Den turnerande grunden med gitarr, sång, orgel, bas och trummor är Sam
+          Riffer, Love H Forsberg, Johan Borgström och Zubaida Solid.
+        </p>
+        <p>Siena Root presenteras i samarbete med Walk On Agency.</p>
+        <p>&nbsp;</p>
+      </article>
+      <div class="divider"></div>
+      <div class="bandimages" id="Orkan">
+        <div class="logobox">
+          <img src={OrkanLogo} alt="Orkan logo" />
+        </div>
+        <div class="imagebox">
+          <img src={Orkan} alt="Orkan" />
+        </div>
+      </div>
+      <article>
+        <p>
+          <a href={$state.ticketLink} target="_blank"
+            >Orkan spelar lördag 4:e maj</a
+          >
+        </p>
+        <p>
+          Ett av de mest spännande och starkast lysande namnen inom den svenska
+          rockscenen just nu är proggkvintetten Orkan. Bandet berättar om
+          systemets orättvisor, samhällets hänsynslöshet och naturens motstånd
+          och hämnd, allt medan förstärkarna skriker och publiken jublar.
+        </p>
+        <p>
+          Orkans koncept är tveklöst inspirerat av 70-talets svenska politiska
+          proggrörelse, men bandet är knappast något nostalgiprojekt. Medan den
+          ena foten vilar i arvet från proggen står den andra stadigt placerad i
+          samtiden med berörande och insiktsfulla låttexter, vilka uppmuntrar
+          till solidaritet och eftertänksamhet.
+        </p>
+        <p>&nbsp;</p>
+        <div class="divider"></div>
+        <div class="bandimages" id="Berguv">
+          <div class="logobox">
+            <img src={BerguvLogo} alt="Berguv logo" />
+          </div>
+          <div class="imagebox">
+            <img src={Berguv} alt="Berguv" />
+          </div>
+        </div>
+        <article>
+          <p>
+            <a href={$state.ticketLink} target="_blank"
+              >Berguv spelar lördag 4:e maj</a
+            >
+          </p>
+          <p>
+            Med ”mörk rock från Gävletrakten” som mantra föddes 2019 idén till
+            Berguv. Tanken var från början att göra något liknande The Sounds,
+            men efter att ha skapat låten Måla hela världen svart blev det
+            uppenbart att soundet för tankarna till ett ”rockigt Kent”.
+          </p>
+          <p>
+            Berguv är - med sina tunga riff, ledsna melodier och texter
+            förankrade i verkliga händelser och situationer - sin egen varelse.
+          </p>
+          <p>
+            Ett självbetitlat album gavs ut 2021 via digitala plattformar och i
+            dagsläget pågår färdigställandet av ett uppföljande album. <br />
+            Förväntat släpp 2024.
+          </p>
+          <p>Berguv presenteras i samarbete med Bilda.</p>
+          <p>&nbsp;</p>
+        </article>
+      </article>
+      <div class="playlists">
+        <h1>Lyssna på årets band</h1>
+        <iframe
+          title="Spotify playlist"
+          src="https://open.spotify.com/embed/playlist/2ImcmB8WX5w3reer47ICJA?utm_source=generator"
+          height="450"
+          frameBorder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+        <iframe
+          title="Apple Music playlist"
+          allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+          frameborder="0"
+          height="450"
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+          src="https://embed.music.apple.com/se/playlist/gefle-skivm%C3%A4ssa-2024/pl.u-zPyLl9Rux8V5p4?l=en-GB"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
 <style>
   img {
     border: none;
@@ -42,6 +328,20 @@
     overflow: hidden;
     border-radius: 10px;
   }
+  .container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-rows: 200px auto;
+    overflow-y: scroll;
+  }
+
+  .submenu {
+    display: grid;
+    grid-auto-flow: column;
+  }
+  .bands {
+  }
 
   @media (max-width: 888px) {
     .bandimages {
@@ -64,237 +364,3 @@
     }
   }
 </style>
-
-<br />
-<ul>
-  <li>
-    <a href="#Skraeckoedlan">Skraeckoedlan</a>
-  </li>
-  <li>
-    <a href="#Xorsist">Xorsist</a>
-  </li>
-  <li>
-    <a href="#Helga">Helga</a>
-  </li>
-  <li>
-    <a href="#Beardfish">Beardfish</a>
-  </li>
-  <li>
-    <a href="#SienaRoot">SienaRoot</a>
-  </li>
-</ul>
-<div>
-  <div class="bandimages" id="Skraeckoedlan">
-    <div class="logobox">
-      <img src={SkreackoedlanLogo} alt="Skraeckoedlan logo" />
-    </div>
-    <div class="imagebox">
-      <img src={Skreackoedlan} alt="Skraeckoedlan" />
-    </div>
-  </div>
-  <article>
-    <p>
-      <a href={$state.ticketLink} target="_blank"> Skraeckoedlan spelar fredag 3:e maj </a>
-    </p>
-    <p>
-      Norrköpingsbaserade Skreackoedlan har sedan starten 2009 levererat svängig, mörk och fuzzig stonerrock som gett
-      eko över hela världen. Faktiskt även ut i den mörka världsrymden och vidare i galaxen. Snart kommer The Vermillion
-      Sky, album nummer fyra och det firas såklart med turné, fest och gamman. I en galax inte allt för långt borta
-      diskuteras släppet redan:
-    </p>
-    <p>
-      “Alright, as your Captain I order you all, myself included, to stop with whatever you are doing. We are listening
-      to this fourth album of theirs right now. What's it called, Aijk?”<br />
-      “One sec… here we go. It's the… you're not gonna believe this, Captain. It's called The Vermillion Sky!”<br />
-      “Holy Bumblebeast! No way? I guess some Northerners have better tastes than others then. Well come on, play it! And
-      make it loud. Like Mech-loud.”<br />
-      “Hold on, Captain. Looks like we have a message incoming.”<br />
-      “...trol to… million…”
-    </p>
-    <p>Skraeckoedlan presenteras i samarbete med Blackbird Artists</p>
-  </article>
-  <div class="divider"></div>
-  <div class="bandimages" id="Xorsist">
-    <div class="logobox">
-      <img src={XorsistLogo} alt="Xorsist logo" />
-    </div>
-    <div class="imagebox">
-      <img src={Xorsist} alt="Xorsist" />
-    </div>
-  </div>
-  <article>
-    <p>
-      <a href={$state.ticketLink} target="_blank"> Xorsist spelar fredag 3:e maj </a>
-    </p>
-    <p>
-      Xorsist från Stockholm spelar klassisk, svensk Death Metal. Trots att bandmedlemmarna inte ens var födda under den
-      eran är bandet fast beslutna att föra denna stolta tradition vidare internationellt. Den 6 oktober släppte XORSIST
-      sitt nya album "At the Somber Steps to Serenity" genom det klassiska amerikanska skivbolaget Prosthetic Records,
-      och skivan har producerats av gudfadern himself, Mr Tomas Skogsberg. HM-2:or och rens! SVT:s Per Sinding-Larsen om
-      bandet: ”Xorsist är den nya generationens svenska dödsmetall!”.
-    </p>
-    <p>Xorsist presenteras i samarbete med Republic 66.</p>
-  </article>
-  <div class="divider"></div>
-  <div class="bandimages" id="Helga">
-    <div class="logobox">
-      <img src={HelgaLogo} alt="Helga logo" />
-    </div>
-    <div class="imagebox">
-      <img src={Helga} alt="Helga" />
-    </div>
-  </div>
-  <article>
-    <p>
-      <a href={$state.ticketLink} target="_blank"> Helga spelar fredag 3:e maj </a>
-    </p>
-    <p>
-      Med musik starkt präglad av körarrangemang, folkmusik och progressiv metal vandrar den dalabördiga och tidigare
-      soloartisten Helga, genom de täta skogarna, ackompanjerad av fyra York-baserade musiker. Filmiskt, drömskt och
-      vackert samtidigt kompromisslöst, tungt och tekniskt.
-    </p>
-    <p>
-      Texterna är skrivna på både engelska och svenska, och just språket är viktigt för låtskrivare och frontperson
-      Helga Gabriel. – ”Ibland går det inte att översätta från svenskan utan att det känns som ett svek mot var låten
-      kommer ifrån”, säger Helga.
-    </p>
-    <p>Helga presenteras i samarbete med Doomstar Bookings.</p>
-    <p>&nbsp;</p>
-  </article>
-  <div class="divider"></div>
-  <div class="bandimages" id="Beardfish">
-    <div class="logobox">
-      <img src={BeardfishLogo} alt="Beardfish logo" />
-    </div>
-    <div class="imagebox">
-      <img src={Beardfish} alt="Beardfish" />
-    </div>
-  </div>
-  <article>
-    <p>
-      <a href={$state.ticketLink} target="_blank"> Beardfish spelar lördag 4:e maj </a>
-    </p>
-    <p>
-      Gävlebandet Beardfish har sedan starten 2001 levererat flertalet album med delikat progressiv rock. De turnerade
-      flitigt i stora delar av Europa, USA och Sydamerika men valde efter albumet ”+4626 COMFORTZONE” att lägga ner
-      bandet 2016.
-    </p>
-    <p>
-      Sex år senare, alltså 2022, väcktes ändå bandet till liv igen. Rikard hade skrivit nya låtar och de andades
-      Beardfish rätt igenom. Efter världshistoriens kortaste överläggning med övriga i bandet, ser vi alltså åter
-      Beardfish på livescenerna igen! En ny skiva spelas in i detta nu och innan de beger sig till We Love Rock-
-      festivalen i Norge och Night of the Progg i Tyskland ses de på Gefle Skivmässas scen under lördagen 4 maj. Räkna
-      med ett spelsuget band, full med ny energi och nya låtar.
-    </p>
-    <p>Beardfish är Rikard Sjöblom, David Zackrison, Robert Hansen och Magnus Östgren.</p>
-    <p>&nbsp;</p>
-  </article>
-  <div class="divider"></div>
-  <div class="bandimages" id="SienaRoot">
-    <div class="logobox">
-      <img src={SienaRootLogo} alt="Siena Root logo" />
-    </div>
-    <div class="imagebox">
-      <img src={SienaRoot} alt="Siena Root" />
-    </div>
-  </div>
-  <article>
-    <p>
-      <a href={$state.ticketLink} target="_blank"> Siena Root spelar lördag 4:e maj </a>
-    </p>
-    <p>
-      Siena Root började redan på sent 90-tal att ge konserter i Stockholmsområdet och 2003 spelades debutalbumet in.
-      Detta var en tid då många kastade sina gamla vinylsamlingar och ställde sina skivspelare på vinden. Ända från
-      start strävade Siena Root efter att förfina det analoga musikskapandet. Med sju album i bagaget anses bandet idag
-      vara pionjärer inom samtida root rock. Bandet har delat scen med alltifrån legender som Deep Purple och Ten Year
-      After till samtida band inom scenen som Blues Pills, All Them Witches och Kadavar.
-    </p>
-    <p>
-      Konserterna är kompromisslösa på alla sätt, alltifrån att ta med all den tunga vintageutrustningen som de flesta
-      band saknar passion att få med sig på scen till det att ingen konsert är den andra lik då bandet ständigt tänjer
-      på de musikaliska gränserna och förnyar sig. Det enorma engagemanget för att ta den klassiska rocken till scenen
-      får Siena Root att stå ut från mängden.
-    </p>
-    <p>
-      Den turnerande grunden med gitarr, sång, orgel, bas och trummor är Sam Riffer, Love H Forsberg, Johan Borgström
-      och Zubaida Solid.
-    </p>
-    <p>Siena Root presenteras i samarbete med Walk On Agency.</p>
-    <p>&nbsp;</p>
-  </article>
-  <div class="divider"></div>
-  <div class="bandimages">
-    <div class="logobox">
-      <img src={OrkanLogo} alt="Orkan logo" />
-    </div>
-    <div class="imagebox">
-      <img src={Orkan} alt="Orkan" />
-    </div>
-  </div>
-  <article>
-    <p>
-      <a href={$state.ticketLink} target="_blank">Orkan spelar lördag 4:e maj</a>
-    </p>
-    <p>
-      Ett av de mest spännande och starkast lysande namnen inom den svenska rockscenen just nu är proggkvintetten Orkan.
-      Bandet berättar om systemets orättvisor, samhällets hänsynslöshet och naturens motstånd och hämnd, allt medan
-      förstärkarna skriker och publiken jublar.
-    </p>
-    <p>
-      Orkans koncept är tveklöst inspirerat av 70-talets svenska politiska proggrörelse, men bandet är knappast något
-      nostalgiprojekt. Medan den ena foten vilar i arvet från proggen står den andra stadigt placerad i samtiden med
-      berörande och insiktsfulla låttexter, vilka uppmuntrar till solidaritet och eftertänksamhet.
-    </p>
-    <p>&nbsp;</p>
-    <div class="divider"></div>
-    <div class="bandimages">
-      <div class="logobox">
-        <img src={BerguvLogo} alt="Berguv logo" />
-      </div>
-      <div class="imagebox">
-        <img src={Berguv} alt="Berguv" />
-      </div>
-    </div>
-    <article>
-      <p>
-        <a href={$state.ticketLink} target="_blank">Berguv spelar lördag 4:e maj</a>
-      </p>
-      <p>
-        Med ”mörk rock från Gävletrakten” som mantra föddes 2019 idén till Berguv. Tanken var från början att göra något
-        liknande The Sounds, men efter att ha skapat låten Måla hela världen svart blev det uppenbart att soundet för
-        tankarna till ett ”rockigt Kent”.
-      </p>
-      <p>
-        Berguv är - med sina tunga riff, ledsna melodier och texter förankrade i verkliga händelser och situationer -
-        sin egen varelse.
-      </p>
-      <p>
-        Ett självbetitlat album gavs ut 2021 via digitala plattformar och i dagsläget pågår färdigställandet av ett
-        uppföljande album. <br />
-        Förväntat släpp 2024.
-      </p>
-      <p>Berguv presenteras i samarbete med Bilda.</p>
-      <p>&nbsp;</p>
-    </article>
-  </article>
-  <div class="playlists">
-    <h1>Lyssna på årets band</h1>
-    <iframe
-      title="Spotify playlist"
-      src="https://open.spotify.com/embed/playlist/2ImcmB8WX5w3reer47ICJA?utm_source=generator"
-      height="450"
-      frameBorder="0"
-      allowfullscreen="true"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
-    <iframe
-      title="Apple Music playlist"
-      allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-      frameborder="0"
-      height="450"
-      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-      src="https://embed.music.apple.com/se/playlist/gefle-skivm%C3%A4ssa-2024/pl.u-zPyLl9Rux8V5p4?l=en-GB"
-    ></iframe>
-  </div>
-</div>

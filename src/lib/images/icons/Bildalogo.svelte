@@ -6,8 +6,18 @@
   viewBox="0 0 105 50"
   version="1.1"
 >
-  <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g id="Header" transform="translate(-130.000000, -20.000000)" fill="#FFFFFF">
+  <g
+    id="Symbols"
+    stroke="none"
+    stroke-width="1"
+    fill="none"
+    fill-rule="evenodd"
+  >
+    <g
+      id="Header"
+      transform="translate(-130.000000, -20.000000)"
+      fill="#FFFFFF"
+    >
       <g id="BIlda-Logo">
         <g transform="translate(130.000000, 20.000000)">
           <path

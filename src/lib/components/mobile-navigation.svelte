@@ -1,16 +1,21 @@
 <script>
-  import { state } from '$lib/stores/state';
-  import { fade } from 'svelte/transition';
-  import { page } from '$app/stores';
-  import DropDownMenu from './drop-down-menu.svelte';
-  import hamburger from '$lib/images/icons/hamburger.svg';
+  import { state } from "$lib/stores/state";
+  import { fade } from "svelte/transition";
+  import { page } from "$app/stores";
+  import DropDownMenu from "./drop-down-menu.svelte";
+  import hamburger from "$lib/images/icons/hamburger.svg";
 
-  $: currentPage = $state.paths.find((path) => path.path === $page.url.pathname);
+  $: currentPage = $state.paths.find(
+    (path) => path.path === $page.url.pathname,
+  );
 </script>
 
 <nav>
   <span>{currentPage?.name}</span>
-  <button in:fade on:click|stopPropagation={() => ($state.menuVisible = !$state.menuVisible)}>
+  <button
+    in:fade
+    on:click|stopPropagation={() => ($state.menuVisible = !$state.menuVisible)}
+  >
     <img src={hamburger} alt="menu" />
   </button>
   {#if $state.menuVisible}
@@ -22,7 +27,7 @@
   nav {
     background-color: var(--menu-background);
     color: var(--white);
-    font-family: 'Saira', sans-serif;
+    font-family: "Saira", sans-serif;
     font-weight: 700;
     font-size: 2em;
     display: grid;
@@ -36,7 +41,7 @@
     background-color: transparent;
     border: none;
     color: var(--white);
-    font-family: 'Saira', sans-serif;
+    font-family: "Saira", sans-serif;
     font-weight: 700;
     font-size: 1em;
     cursor: pointer;

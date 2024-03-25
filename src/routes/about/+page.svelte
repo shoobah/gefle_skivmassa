@@ -1,16 +1,16 @@
 <script>
   // @ts-nocheck
-  import ImageFlipper from '$lib/components/image-flipper.svelte';
-  import Img2016 from '$lib/images/About/Gefle Skivmässa 2016.webp';
-  import Img2017 from '$lib/images/About/Gefle Skivmässa 2017.webp';
-  import Img2018 from '$lib/images/About/Gefle Skivmässa 2018.webp';
-  import Img2019 from '$lib/images/About/Gefle Skivmässa 2019.webp';
-  import Img2020 from '$lib/images/About/Gefle Skivmässa 2020.webp';
-  import Img2023 from '$lib/images/About/Gefle Skivmässa 2023.webp';
-  import Efterfest2016 from '$lib/images/About/Efterfest 2016.webp';
-  import Efterfest2017 from '$lib/images/About/Efterfest 2017.webp';
-  import Efterfest2018 from '$lib/images/About/Efterfest 2018.webp';
-  import Efterfest2019 from '$lib/images/About/Efterfest 2019.webp';
+  import ImageFlipper from "$lib/components/image-flipper.svelte";
+  import Img2016 from "$lib/images/About/Gefle Skivmässa 2016.webp";
+  import Img2017 from "$lib/images/About/Gefle Skivmässa 2017.webp";
+  import Img2018 from "$lib/images/About/Gefle Skivmässa 2018.webp";
+  import Img2019 from "$lib/images/About/Gefle Skivmässa 2019.webp";
+  import Img2020 from "$lib/images/About/Gefle Skivmässa 2020.webp";
+  import Img2023 from "$lib/images/About/Gefle Skivmässa 2023.webp";
+  import Efterfest2016 from "$lib/images/About/Efterfest 2016.webp";
+  import Efterfest2017 from "$lib/images/About/Efterfest 2017.webp";
+  import Efterfest2018 from "$lib/images/About/Efterfest 2018.webp";
+  import Efterfest2019 from "$lib/images/About/Efterfest 2019.webp";
 </script>
 
 <svelte:head>
@@ -21,10 +21,12 @@
   <article>
     <h1>Om oss</h1>
     <p>
-      Gefle Skivmässa arrangeras numera av kulturföreningen Sounds Fair (org 802544-0911). Styrelsen består av Anders
-      Sjöberg, Jerry van Kooten och Emil Alstermark som var med och startade skivmässan i Gasklockorna 2016. Vill du
-      komma i kontakt med styrelsen, kanske har idéer på andra arrangemang eller bli medlem? Maila: <a
-        href="mailto:info@soundsfair.se">info@soundsfair.se</a
+      Gefle Skivmässa arrangeras numera av kulturföreningen Sounds Fair (org
+      802544-0911). Styrelsen består av Anders Sjöberg, Jerry van Kooten och
+      Emil Alstermark som var med och startade skivmässan i Gasklockorna 2016.
+      Vill du komma i kontakt med styrelsen, kanske har idéer på andra
+      arrangemang eller bli medlem? Maila: <a href="mailto:info@soundsfair.se"
+        >info@soundsfair.se</a
       >
       Läs mer om alla våra arrangemang här nedan.
     </p>
@@ -32,22 +34,25 @@
   <h2>Bilder från tidigare mässor.</h2>
   <h3>Fotografer: Erik Larsson & Anders Sjöberg</h3>
   <div class="carousel">
-    <ImageFlipper/>
+    <ImageFlipper />
   </div>
 
   <article>
     <h1>Tidigare mässor</h1>
     <h2>2016</h2>
     <p>
-      Gefle Skivmässa hölls för första gången 2 april 2016. Efterfrågan på en bra skivmässa fanns verkligen i Gävle och
-      så en höstdag 2015 kläcktes iden. Initiativtagare och arrangörer var en grupp bibliotekarieanställda ihop med
-      musikansvariga vid studieförbundet Medborgarskolan. Ursprungstanken var en musikloppis på Stadsbiblioteket, men
-      utökades snart till en större mässa med livemusik. Och vilken livemusik sedan?<br />
+      Gefle Skivmässa hölls för första gången 2 april 2016. Efterfrågan på en
+      bra skivmässa fanns verkligen i Gävle och så en höstdag 2015 kläcktes
+      iden. Initiativtagare och arrangörer var en grupp bibliotekarieanställda
+      ihop med musikansvariga vid studieförbundet Medborgarskolan.
+      Ursprungstanken var en musikloppis på Stadsbiblioteket, men utökades snart
+      till en större mässa med livemusik. Och vilken livemusik sedan?<br />
     </p>
     <h3>Line up 2016</h3>
     <p>
-      Blues Pills, Spiders, AKB, Jenny C, Fami och Oscar Löfstrand. På efterfesten som arrangerades av Gefle
-      Hårdrocksklubb spelade Honeymoon Disease.<br />
+      Blues Pills, Spiders, AKB, Jenny C, Fami och Oscar Löfstrand. På
+      efterfesten som arrangerades av Gefle Hårdrocksklubb spelade Honeymoon
+      Disease.<br />
       Logotyp Gefle Skivmässa 2016: Jens Räsänen
     </p>
     <div class="imagebox">
@@ -58,14 +63,17 @@
     </div>
     <h2>2017</h2>
     <p>
-      Efter ett fantastiskt första arrangemang växt e Gefle Skivmässa till 2017. En större servering, fler scener och en
-      egen öl! Gefle Skivmässa samarbetade med det lokala bryggeriet Jädraöl och serverade både besökare och artister
-      vår egna <span style="white-space:nowrap">mäss-öl</span>.<br />
+      Efter ett fantastiskt första arrangemang växt e Gefle Skivmässa till 2017.
+      En större servering, fler scener och en egen öl! Gefle Skivmässa
+      samarbetade med det lokala bryggeriet Jädraöl och serverade både besökare
+      och artister vår egna <span style="white-space:nowrap">mäss-öl</span>.<br
+      />
     </p>
     <h3>Line up 2017</h3>
     <p>
-      Anekdoten, MaidaVale, Good Harvest, Silver Devil, Adora Eye, Trio Safoura, Symbio och en reunion av The
-      Pillisnorks. På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade Döda Havet.<br />
+      Anekdoten, MaidaVale, Good Harvest, Silver Devil, Adora Eye, Trio Safoura,
+      Symbio och en reunion av The Pillisnorks. På efterfesten som arrangerades
+      av Gefle Hårdrocksklubb spelade Döda Havet.<br />
       Logotyp Gefle Skivmässa 2017 (nuvarande): Rolfcarlwerner
     </p>
     <div class="imagebox">
@@ -76,18 +84,23 @@
     </div>
     <h2>2018</h2>
     <p>
-      Till 2018 års upplaga utökades samarbetet och våra vänner i TADC som arrangerar det grymma metalfestivalen Gefle
-      Metal Festival, hoppade på tåget och tog hand om banden i stora gasklockan. Vid det här laget har ryktet om
-      Sveriges bästa skivmässa* spridit sig, och vi blir tvinga de att neka flera sälja pga platsbrist.<br />
+      Till 2018 års upplaga utökades samarbetet och våra vänner i TADC som
+      arrangerar det grymma metalfestivalen Gefle Metal Festival, hoppade på
+      tåget och tog hand om banden i stora gasklockan. Vid det här laget har
+      ryktet om Sveriges bästa skivmässa* spridit sig, och vi blir tvinga de att
+      neka flera sälja pga platsbrist.<br />
     </p>
     <h3>Line up 2018</h3>
     <p>
-      Sator, Imperial State Electric, Besvärjelsen (som ersatte Thundermother på superkort varsel), Slim Vic, Lisa och
-      Kroffe, PRO424, Axel E och Mondegreen.<br />
-      Gävle bibliotek var fortfarande med som medarrangörer och på litteraturscenen mötte vi Anna Jörgensdotte, Annah Björk,
-      Mattias Beijmo och Andreas Jakobsson. Konstutställningar av Linnea Strid, Viktor Hertz, Peter Endahl och Erik Axl Sundh.<br
-      />
-      På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade Deville och SilverDevil.
+      Sator, Imperial State Electric, Besvärjelsen (som ersatte Thundermother på
+      superkort varsel), Slim Vic, Lisa och Kroffe, PRO424, Axel E och
+      Mondegreen.<br />
+      Gävle bibliotek var fortfarande med som medarrangörer och på litteraturscenen
+      mötte vi Anna Jörgensdotte, Annah Björk, Mattias Beijmo och Andreas Jakobsson.
+      Konstutställningar av Linnea Strid, Viktor Hertz, Peter Endahl och Erik Axl
+      Sundh.<br />
+      På efterfesten som arrangerades av Gefle Hårdrocksklubb spelade Deville och
+      SilverDevil.
     </p>
     <div class="imagebox">
       <img src={Img2018} alt="Gefle Skivmässa 2018" />
@@ -98,14 +111,17 @@
 
     <h2>2019</h2>
     <p>
-      Gefle Skivmässa 2019 är den mässa som fick avsluta en fin svit av årliga skivmässor i april. Med ännu fler säljare
-      i kön, fler band än någonsin som ville spela och fler besökare än väntat var detta år en riktig succé. På
-      efterfesten som arrangerades av Gefle Hårdrocksklubb spelade S.N.O och Crescendolls<br />
+      Gefle Skivmässa 2019 är den mässa som fick avsluta en fin svit av årliga
+      skivmässor i april. Med ännu fler säljare i kön, fler band än någonsin som
+      ville spela och fler besökare än väntat var detta år en riktig succé. På
+      efterfesten som arrangerades av Gefle Hårdrocksklubb spelade S.N.O och
+      Crescendolls<br />
     </p>
     <h3>Line up 2019</h3>
     <p>
-      Lucifer, Paatos, Svartanatt, Liondub, Anna Frank och Stenbrott. På litteraturscenen: Annah Björk, Anna - Charlotta
-      Gunnarsson, Natalia Kazmierska och Martin Aagård.
+      Lucifer, Paatos, Svartanatt, Liondub, Anna Frank och Stenbrott. På
+      litteraturscenen: Annah Björk, Anna - Charlotta Gunnarsson, Natalia
+      Kazmierska och Martin Aagård.
     </p>
     <div class="imagebox">
       <img src={Img2019} alt="Gefle Skivmässa 2019" />
@@ -122,15 +138,18 @@
 
     <h2>2023</h2>
     <p>
-      Det hann gå fyra år och komma en pandemi mellan upplaga fyra och fem. En del nyheter presenterades också detta år.
-      Skivmässan och spelningarna bytte lokal med varandra. Skivmässan fick större utrymme i Stora gasklockan och
-      spelningarna blev ännu mer intima och klubbkänslan infann sig verkligen. Efterfesten med skön musik och häng
-      skedde på Musikhuset. En inofficiell förfest på Centralteatern med banden Fireside och Leiah var också en del av
-      denna superhelg i musikens tecken.
+      Det hann gå fyra år och komma en pandemi mellan upplaga fyra och fem. En
+      del nyheter presenterades också detta år. Skivmässan och spelningarna
+      bytte lokal med varandra. Skivmässan fick större utrymme i Stora
+      gasklockan och spelningarna blev ännu mer intima och klubbkänslan infann
+      sig verkligen. Efterfesten med skön musik och häng skedde på Musikhuset.
+      En inofficiell förfest på Centralteatern med banden Fireside och Leiah var
+      också en del av denna superhelg i musikens tecken.
     </p>
     <h3>Line up 2023</h3>
     <p></p>
-    Witchcraft, Horndal, Vokonis, Children of the Sün, Nonsa, The Linesmen, Ryggrad, Lucille och Josephine Skoglund.
+    Witchcraft, Horndal, Vokonis, Children of the Sün, Nonsa, The Linesmen, Ryggrad,
+    Lucille och Josephine Skoglund.
     <div class="imagebox">
       <img src={Img2023} alt="Gefle Skivmässa 2023" />
     </div>

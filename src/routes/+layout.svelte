@@ -1,19 +1,19 @@
 <script>
   // @ts-nocheck
-  import '../app.css';
-  import Header from '$lib/components/header.svelte';
-  import { onNavigate } from '$app/navigation';
-  import { state } from '$lib/stores/state';
+  import "../app.css";
+  import Header from "$lib/components/header.svelte";
+  import { onNavigate } from "$app/navigation";
+  import { state } from "$lib/stores/state";
 
-	let innerHeight = 0;
+  let innerHeight = 0;
 
   onNavigate((navigation) => {
     if (!document.startViewTransition) {
       return;
     }
-		
+
     return new Promise((resolve) => {
-			document.startViewTransition(async () => {
+      document.startViewTransition(async () => {
         resolve();
         await navigation.complete;
       });
@@ -21,7 +21,12 @@
   });
 </script>
 
-<div class="main" style="--doc-height:{innerHeight}px; --content-height:{innerHeight - 120 - 66}px;">
+<div
+  class="main"
+  style="--doc-height:{innerHeight}px; --content-height:{innerHeight -
+    120 -
+    66}px;"
+>
   <Header />
   <div class="content">
     <slot />

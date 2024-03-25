@@ -25,25 +25,34 @@
       <h1>Anmälan till skivmässa lördag 4:e maj</h1>
 
       <p>
-        Vad kul att du vill medverka på Gefle Skivmässa i maj! Nytt för i år är att vi utökar till en tvådagarsfest där
-        skivmässan (som alltid) är på lördagen. Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle
-        Skivmässa 2024.
+        Vad kul att du vill medverka på Gefle Skivmässa i maj! Nytt för i år är
+        att vi utökar till en tvådagarsfest där skivmässan (som alltid) är på
+        lördagen. Välkommen med din anmälan i formuläret nedan, för att sälja på
+        Gefle Skivmässa 2024.
       </p>
       <p>
-        Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på våra bord. Faktura på hela beloppet
-        skickas i början av 2024 och ska vara betald i god tid innan arrangemanget.
+        Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på
+        våra bord. Faktura på hela beloppet skickas i början av 2024 och ska
+        vara betald i god tid innan arrangemanget.
       </p>
       <p>
-        Borden på Gefle Skivmässa kostar 350kr/st och de mäter 200x69 cm. Max antal bord/säljare är tre, dvs sex meter
-        bord.
+        Borden på Gefle Skivmässa kostar 350kr/st och de mäter 200x69 cm. Max
+        antal bord/säljare är tre, dvs sex meter bord.
       </p>
 
       <h2>Varje bokad försäljare får, förutom bokad plats:</h2>
       <ul>
-        <li>Kaffe och fikabröd vid ankomst/inlastning och påtår under hela dagen</li>
+        <li>
+          Kaffe och fikabröd vid ankomst/inlastning och påtår under hela dagen
+        </li>
         <li>Konsertentré till skivmässans alla spelningar</li>
-        <li>Rabatt på lunch/middag i vår personalmatsal som serverar grymt god mat. Välj mellan flera rätter</li>
-        <li>En fantastisk skivmässa i en unik lokal – Stora Gasklockan i Gävle</li>
+        <li>
+          Rabatt på lunch/middag i vår personalmatsal som serverar grymt god
+          mat. Välj mellan flera rätter
+        </li>
+        <li>
+          En fantastisk skivmässa i en unik lokal – Stora Gasklockan i Gävle
+        </li>
       </ul>
     </article>
     <div>
@@ -59,7 +68,12 @@
         <label for="address">Adress</label>
         <input required name="address" type="text" placeholder="Adress" />
         <label for="org">Person / Organisationsnummer</label>
-        <input required name="org" type="text" placeholder="Person / Organisationsnummer" />
+        <input
+          required
+          name="org"
+          type="text"
+          placeholder="Person / Organisationsnummer"
+        />
         <label for="numberOfTables">Antal bord</label>
         <select required name="numberOfTables" placeholder="Antal bord">
           <option value="1">1 bord</option>
@@ -69,8 +83,9 @@
         <label for="comment">Kommentar</label>
         <textarea name="comment" placeholder="Kommentar" />
         <p>
-          Genom att klicka på ”Skicka intresseanmälan” nedan godkänner du att Gefle Skivmässa får behandla dina
-          personuppgifter för att kunna fakturera för din medverkan.
+          Genom att klicka på ”Skicka intresseanmälan” nedan godkänner du att
+          Gefle Skivmässa får behandla dina personuppgifter för att kunna
+          fakturera för din medverkan.
         </p>
         <button type="submit">Skicka intresseanmälan</button>
       </form>

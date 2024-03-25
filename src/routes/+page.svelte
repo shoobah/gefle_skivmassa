@@ -1,19 +1,19 @@
 <script>
-  import { state } from '$lib/stores/state';
-  import { onMount } from 'svelte';
-  
-  import startimage from '$lib/images/Webbpic 5.jpg';
-  import startimageMobile from '$lib/images/Webbpic standing 2.jpg';
+  import { state } from "$lib/stores/state";
+  import { onMount } from "svelte";
 
-  import Bildalogo from '$lib/images/icons/Bildalogo.svelte';
-  import ticketButton from '$lib/images/icons/ticketbutton.png';
-  import gasklockorna from '$lib/images/icons/gasklockorna loggo.png';
-  import BBALogo from '$lib/images/icons/BBAlogowhite.png';
-  import WoALogo from '$lib/images/icons/walk on agency_white.png';
-  import DsLogo from '$lib/images/icons/Doomstar.png';
-  import Republic66Logo from '$lib/images/icons/Rep66_logo.png';
-  import SoundsFairLogo from '$lib/images/icons/Sounds_Fair_vit.png';
-  import FolkbildningsforumLogo from '$lib/images/icons/Folkbildningsforum_Logo_Liggande.png';
+  import startimage from "$lib/images/Webbpic 5.jpg";
+  import startimageMobile from "$lib/images/Webbpic standing 2.jpg";
+
+  import Bildalogo from "$lib/images/icons/Bildalogo.svelte";
+  import ticketButton from "$lib/images/icons/ticketbutton.png";
+  import gasklockorna from "$lib/images/icons/gasklockorna loggo.png";
+  import BBALogo from "$lib/images/icons/BBAlogowhite.png";
+  import WoALogo from "$lib/images/icons/walk on agency_white.png";
+  import DsLogo from "$lib/images/icons/Doomstar.png";
+  import Republic66Logo from "$lib/images/icons/Rep66_logo.png";
+  import SoundsFairLogo from "$lib/images/icons/Sounds_Fair_vit.png";
+  import FolkbildningsforumLogo from "$lib/images/icons/Folkbildningsforum_Logo_Liggande.png";
 
   let mobile = false;
 
@@ -46,7 +46,11 @@
       <img src={SoundsFairLogo} alt="Blackbird Artists" />
     </div>
     <div>
-      <a href="https://www.gavle.se/gasklockorna" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.gavle.se/gasklockorna"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img src={gasklockorna} alt="Gasklockorna" />
       </a>
     </div>
@@ -61,7 +65,11 @@
       <img src={BBALogo} alt="Blackbird Artists" />
     </div>
     <div>
-      <a href="https://www.republic66.com/projekt" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.republic66.com/projekt"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img src={Republic66Logo} alt="Republic 66" />
       </a>
     </div>
@@ -71,12 +79,20 @@
       </a>
     </div>
     <div>
-      <a href="https://doomstarbookings.com/artists/helga/" target="_blank" rel="noreferrer">
+      <a
+        href="https://doomstarbookings.com/artists/helga/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img src={DsLogo} alt="Doomstar bookings" />
       </a>
     </div>
     <div>
-      <a href=" https://www.folkbildningsforum.se/" target="_blank" rel="noreferrer">
+      <a
+        href=" https://www.folkbildningsforum.se/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img src={FolkbildningsforumLogo} alt="Folkbildningsforum" />
       </a>
     </div>
