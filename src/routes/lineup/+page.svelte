@@ -15,10 +15,14 @@
   import Orkan from "$lib/images/bands/Orkan/Orkan 1.jpg";
   import BerguvLogo from "$lib/images/bands/Berguv/Logga Vit.png";
   import Berguv from "$lib/images/bands/Berguv/Berguv Band.jpg";
+  import SonsOfSin from "$lib/images/bands/SonsOfSin/Bild Sons of sin.jpg";
+  import JunoPearl from "$lib/images/bands/JunoPearl/Juno Pearl - Bild.jpg";
+  import Vypera from "$lib/images/bands/Vypera/Vypera promo.jpg";
+  import Nonsa from "$lib/images/bands/Nonsa/Nonsa - Bild.jpg";
+  import Band from "$lib/components/band.svelte";
 </script>
 
-<br />
-<div class="main">
+<div class="container">
   <div class="submenu">
     <div>
       <a href="#Skraeckoedlan">Skraeckoedlan</a>
@@ -42,22 +46,28 @@
       <a href="#Berguv">Berguv</a>
     </div>
   </div>
-  <div class="container">
-    <div class="bands">
-      <div class="bandimages" id="Skraeckoedlan">
-        <div class="logobox">
-          <img src={SkreackoedlanLogo} alt="Skraeckoedlan logo" />
-        </div>
-        <div class="imagebox">
-          <img src={Skreackoedlan} alt="Skraeckoedlan" />
-        </div>
-      </div>
-      <article>
-        <p>
-          <a href={$state.ticketLink} target="_blank">
-            Skraeckoedlan spelar fredag 3:e maj
-          </a>
-        </p>
+  <div class="submenu">
+    <div>
+      <a href="#SonsOfSin">Sons Of Sin</a>
+    </div>
+    <div>
+      <a href="#JunoPearl">Juno Pearl</a>
+    </div>
+    <div>
+      <a href="#Nonsa">Nonsa</a>
+    </div>
+    <div>
+      <a href="#Vypera">Vypera</a>
+    </div>
+  </div>
+  <div class="bands">
+    <div>
+      <Band
+        id="Skraeckoedlan"
+        logo={SkreackoedlanLogo}
+        image={Skreackoedlan}
+        linkText="Skraeckoedlan spelar fredag 3:e maj"
+      >
         <p>
           Norrköpingsbaserade Skreackoedlan har sedan starten 2009 levererat
           svängig, mörk och fuzzig stonerrock som gett eko över hela världen.
@@ -79,22 +89,14 @@
           “...trol to… million…”
         </p>
         <p>Skraeckoedlan presenteras i samarbete med Blackbird Artists</p>
-      </article>
+      </Band>
       <div class="divider"></div>
-      <div class="bandimages" id="Xorsist">
-        <div class="logobox">
-          <img src={XorsistLogo} alt="Xorsist logo" />
-        </div>
-        <div class="imagebox">
-          <img src={Xorsist} alt="Xorsist" />
-        </div>
-      </div>
-      <article>
-        <p>
-          <a href={$state.ticketLink} target="_blank">
-            Xorsist spelar fredag 3:e maj
-          </a>
-        </p>
+      <Band
+        id="Xorsist"
+        logo={XorsistLogo}
+        image={Xorsist}
+        linkText="Xorsist spelar fredag 3:e maj"
+      >
         <p>
           Xorsist från Stockholm spelar klassisk, svensk Death Metal. Trots att
           bandmedlemmarna inte ens var födda under den eran är bandet fast
@@ -106,22 +108,14 @@
           ”Xorsist är den nya generationens svenska dödsmetall!”.
         </p>
         <p>Xorsist presenteras i samarbete med Republic 66.</p>
-      </article>
+      </Band>
       <div class="divider"></div>
-      <div class="bandimages" id="Helga">
-        <div class="logobox">
-          <img src={HelgaLogo} alt="Helga logo" />
-        </div>
-        <div class="imagebox">
-          <img src={Helga} alt="Helga" />
-        </div>
-      </div>
-      <article>
-        <p>
-          <a href={$state.ticketLink} target="_blank">
-            Helga spelar fredag 3:e maj
-          </a>
-        </p>
+      <Band
+        id="Helga"
+        logo={HelgaLogo}
+        image={Helga}
+        linkText="Helga spelar fredag 3:e maj"
+      >
         <p>
           Med musik starkt präglad av körarrangemang, folkmusik och progressiv
           metal vandrar den dalabördiga och tidigare soloartisten Helga, genom
@@ -137,22 +131,14 @@
         </p>
         <p>Helga presenteras i samarbete med Doomstar Bookings.</p>
         <p>&nbsp;</p>
-      </article>
+      </Band>
       <div class="divider"></div>
-      <div class="bandimages" id="Beardfish">
-        <div class="logobox">
-          <img src={BeardfishLogo} alt="Beardfish logo" />
-        </div>
-        <div class="imagebox">
-          <img src={Beardfish} alt="Beardfish" />
-        </div>
-      </div>
-      <article>
-        <p>
-          <a href={$state.ticketLink} target="_blank">
-            Beardfish spelar lördag 4:e maj
-          </a>
-        </p>
+      <Band
+        id="Beardfish"
+        logo={BeardfishLogo}
+        image={Beardfish}
+        linkText="Beardfish spelar fredag 4:e maj"
+      >
         <p>
           Gävlebandet Beardfish har sedan starten 2001 levererat flertalet album
           med delikat progressiv rock. De turnerade flitigt i stora delar av
@@ -174,22 +160,14 @@
           Östgren.
         </p>
         <p>&nbsp;</p>
-      </article>
+      </Band>
       <div class="divider"></div>
-      <div class="bandimages" id="SienaRoot">
-        <div class="logobox">
-          <img src={SienaRootLogo} alt="Siena Root logo" />
-        </div>
-        <div class="imagebox">
-          <img src={SienaRoot} alt="Siena Root" />
-        </div>
-      </div>
-      <article>
-        <p>
-          <a href={$state.ticketLink} target="_blank">
-            Siena Root spelar lördag 4:e maj
-          </a>
-        </p>
+      <Band
+        id="SienaRoot"
+        logo={SienaRootLogo}
+        image={SienaRoot}
+        linkText="SienaRoot spelar fredag 4:e maj"
+      >
         <p>
           Siena Root började redan på sent 90-tal att ge konserter i
           Stockholmsområdet och 2003 spelades debutalbumet in. Detta var en tid
@@ -215,22 +193,15 @@
         </p>
         <p>Siena Root presenteras i samarbete med Walk On Agency.</p>
         <p>&nbsp;</p>
-      </article>
+      </Band>
+
       <div class="divider"></div>
-      <div class="bandimages" id="Orkan">
-        <div class="logobox">
-          <img src={OrkanLogo} alt="Orkan logo" />
-        </div>
-        <div class="imagebox">
-          <img src={Orkan} alt="Orkan" />
-        </div>
-      </div>
-      <article>
-        <p>
-          <a href={$state.ticketLink} target="_blank"
-            >Orkan spelar lördag 4:e maj</a
-          >
-        </p>
+      <Band
+        id="Orkan"
+        logo={OrkanLogo}
+        image={Orkan}
+        linkText="Orkan spelar lördag 4:e maj"
+      >
         <p>
           Ett av de mest spännande och starkast lysande namnen inom den svenska
           rockscenen just nu är proggkvintetten Orkan. Bandet berättar om
@@ -244,41 +215,103 @@
           samtiden med berörande och insiktsfulla låttexter, vilka uppmuntrar
           till solidaritet och eftertänksamhet.
         </p>
+      </Band>
+      <div class="divider"></div>
+      <Band
+        id="Berguv"
+        logo={BerguvLogo}
+        image={Berguv}
+        linkText="Berguv spelar årdag 4:e maj"
+      >
+        <p>
+          Med ”mörk rock från Gävletrakten” som mantra föddes 2019 idén till
+          Berguv. Tanken var från början att göra något liknande The Sounds, men
+          efter att ha skapat låten Måla hela världen svart blev det uppenbart
+          att soundet för tankarna till ett ”rockigt Kent”.
+        </p>
+        <p>
+          Berguv är - med sina tunga riff, ledsna melodier och texter förankrade
+          i verkliga händelser och situationer - sin egen varelse.
+        </p>
+        <p>
+          Ett självbetitlat album gavs ut 2021 via digitala plattformar och i
+          dagsläget pågår färdigställandet av ett uppföljande album. <br />
+          Förväntat släpp 2024.
+        </p>
+        <p>Berguv presenteras i samarbete med Bilda.</p>
         <p>&nbsp;</p>
-        <div class="divider"></div>
-        <div class="bandimages" id="Berguv">
-          <div class="logobox">
-            <img src={BerguvLogo} alt="Berguv logo" />
-          </div>
-          <div class="imagebox">
-            <img src={Berguv} alt="Berguv" />
-          </div>
-        </div>
-        <article>
-          <p>
-            <a href={$state.ticketLink} target="_blank"
-              >Berguv spelar lördag 4:e maj</a
-            >
-          </p>
-          <p>
-            Med ”mörk rock från Gävletrakten” som mantra föddes 2019 idén till
-            Berguv. Tanken var från början att göra något liknande The Sounds,
-            men efter att ha skapat låten Måla hela världen svart blev det
-            uppenbart att soundet för tankarna till ett ”rockigt Kent”.
-          </p>
-          <p>
-            Berguv är - med sina tunga riff, ledsna melodier och texter
-            förankrade i verkliga händelser och situationer - sin egen varelse.
-          </p>
-          <p>
-            Ett självbetitlat album gavs ut 2021 via digitala plattformar och i
-            dagsläget pågår färdigställandet av ett uppföljande album. <br />
-            Förväntat släpp 2024.
-          </p>
-          <p>Berguv presenteras i samarbete med Bilda.</p>
-          <p>&nbsp;</p>
-        </article>
-      </article>
+      </Band>
+      <div class="divider"></div>
+      <Band
+        id="SonsOfSin"
+        image={SonsOfSin}
+        linkText="Sons of sin spelar lördag 4:e maj kl 15:00 på scen Retorten"
+      >
+        <p>
+          Sons of Sin är ett coverband från Hudiksvall som alltid utlovar en
+          ordentlig show på scenen!
+        </p>
+        <p>
+          Även om inte alla covers ursprungligen är rocklåtar får de sig absolut
+          en skitigare touch när Sons of Sin lagt vantarna på dem. Ett
+          partyrockband med attityd och spelglädje som är svårmatchad.
+        </p>
+        <p>
+          Sons of Sin presenteras av Studieförbundet Vuxenskolan och
+          Folkbildningsforum. Scen retorten
+        </p>
+      </Band>
+      <div class="divider"></div>
+      <Band
+        id="JunoPearl"
+        image={JunoPearl}
+        linkText="Juno Pearl spelar lördag 4:e maj kl 16:00 på scen Retorten"
+      >
+        <p>
+          Från Gävle kommer Juno Pearl, ett indie-rock band med dramatiska
+          texter och härliga melodier.
+        </p>
+        <p>
+          Juno Pearl presenteras av ABF Gästrikebygden och Folkbildningsforum
+        </p>
+      </Band>
+      <div class="divider"></div>
+      <Band
+        id="Nonsa"
+        image={Nonsa}
+        linkText="Nonsa spelar lördag 4:e maj kl 17:00 på scen Retorten"
+      >
+        <p>
+          Att sammanfatta soundet av Nonsa är omöjligt. Enligt egen utsaga har
+          de en fetisch för snygga skjortor, surfrock och Simon Sundkvist.
+        </p>
+        <p>Deras låtar är som nyskrapade rutor på en Volvo.</p>
+        <p>Nonsa presenteras av ABF Gästrikebygden och Folkbildningsforum</p>
+      </Band>
+      <div class="divider"></div>
+      <Band
+        id="Vypera"
+        image={Vypera}
+        linkText="Vypera spelar lördag 4:e maj kl 18:00 på scen Retorten"
+      >
+        <p>
+          Vypera vill få lyssnaren att minnas det glada 80-talets blandband,
+          inspelade från radioprogrammet Rockbox.
+        </p>
+        <p>
+          Under en tid när pengar inte styrde utan allting handlade om bra låtar
+          och snygga refränger. Det var därför man kunde höra band som Icon,
+        </p>
+        <p>
+          Wasp, Triumph, Rainbow och mycket mer därtill under ett och samma
+          avsnitt. Det är därifrån Sandvikens Vypera hämtar sin inspiration.
+        </p>
+        <p>
+          Från lika delar hårda som melodiösa gitarrer krönta av snygga solon
+          och allsångsvänliga refränger som gjorda att sjunga med i.
+        </p>
+        <p>Vypera presenteras av Studiefrämjandet och Folkbildningsforum</p>
+      </Band>
       <div class="playlists">
         <h1>Lyssna på årets band</h1>
         <iframe
@@ -330,19 +363,22 @@
   }
   .container {
     display: grid;
-    gap: 20px;
-    padding: 20px;
-    grid-template-rows: 200px auto;
+    gap: 10px;
+    grid-template-rows: 30px auto;
+    height: 100%;
     overflow-y: scroll;
   }
 
   .submenu {
     display: grid;
     grid-auto-flow: column;
-  }
-  .bands {
+    justify-content: center;
+    gap: 20px;
   }
 
+  .bands {
+    overflow-y: scroll;
+  }
   @media (max-width: 888px) {
     .bandimages {
       display: grid;
