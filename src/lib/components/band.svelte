@@ -38,4 +38,25 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width: 888px) {
+    .bandimages {
+      display: grid;
+      grid-auto-flow: row;
+      gap: 10px;
+      align-items: center;
+    }
+    img {
+      width: 100%;
+    }
+    .imagebox,
+    .logobox {
+      grid-auto-flow: row;
+    }
+
+    .imagebox img,
+    .logobox img {
+      max-width: 100%;
+    }
+  }
 </style>

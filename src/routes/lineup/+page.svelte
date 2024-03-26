@@ -23,43 +23,6 @@
 </script>
 
 <div class="container">
-  <div class="submenu">
-    <div>
-      <a href="#Skraeckoedlan">Skraeckoedlan</a>
-    </div>
-    <div>
-      <a href="#Xorsist">Xorsist</a>
-    </div>
-    <div>
-      <a href="#Helga">Helga</a>
-    </div>
-    <div>
-      <a href="#Beardfish">Beardfish</a>
-    </div>
-    <div>
-      <a href="#SienaRoot">SienaRoot</a>
-    </div>
-    <div>
-      <a href="#Orkan">Orkan</a>
-    </div>
-    <div>
-      <a href="#Berguv">Berguv</a>
-    </div>
-  </div>
-  <div class="submenu">
-    <div>
-      <a href="#SonsOfSin">Sons Of Sin</a>
-    </div>
-    <div>
-      <a href="#JunoPearl">Juno Pearl</a>
-    </div>
-    <div>
-      <a href="#Nonsa">Nonsa</a>
-    </div>
-    <div>
-      <a href="#Vypera">Vypera</a>
-    </div>
-  </div>
   <div class="bands">
     <div>
       <Band
@@ -337,17 +300,6 @@
 </div>
 
 <style>
-  img {
-    border: none;
-    width: 35vw;
-  }
-
-  .bandimages {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 10px;
-    align-items: center;
-  }
 
   .divider {
     margin: 20px 0;
@@ -366,37 +318,6 @@
     gap: 10px;
     grid-template-rows: 30px auto;
     height: 100%;
-    overflow-y: scroll;
   }
 
-  .submenu {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .bands {
-    overflow-y: scroll;
-  }
-  @media (max-width: 888px) {
-    .bandimages {
-      display: grid;
-      grid-auto-flow: row;
-      gap: 10px;
-      align-items: center;
-    }
-    img {
-      width: 100%;
-    }
-    .imagebox,
-    .logobox {
-      grid-auto-flow: row;
-    }
-
-    .imagebox img,
-    .logobox img {
-      max-width: 100%;
-    }
-  }
 </style>

@@ -96,7 +96,7 @@ article .imagebox {
   display: grid;
   justify-items: center;
   align-items: start;
-  overflow: hidden;
+  overflow: auto;
 }
 
 img.kommun {
