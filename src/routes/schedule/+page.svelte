@@ -35,14 +35,11 @@
   <table>
     <tr>
       <td>12:00</td>
-      <td
-        >Skivmässa i Stora Gasklockan. Fikaförsäljning? Biljett/entré 50 kr.
-        Ställare 18</td
-      >
+      <td>Skivmässa i Stora Gasklockan. Stänger kl 18:00</td>
     </tr>
     <tr>
       <td>12:00</td>
-      <td>Retorten lägger öppet fram till 19 ca. Rest och bar. Fri entré</td>
+      <td>Retorten håller öppet fram till 19 ca. Rest och bar. Fri entré</td>
     </tr>
     <tr>
       <td>15:00</td>
