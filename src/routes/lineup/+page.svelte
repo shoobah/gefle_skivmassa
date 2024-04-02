@@ -100,7 +100,7 @@
         id="Beardfish"
         logo={BeardfishLogo}
         image={Beardfish}
-        linkText="Beardfish spelar fredag 4:e maj"
+        linkText="Beardfish spelar lördag 4:e maj"
       >
         <p>
           Gävlebandet Beardfish har sedan starten 2001 levererat flertalet album
@@ -129,7 +129,7 @@
         id="SienaRoot"
         logo={SienaRootLogo}
         image={SienaRoot}
-        linkText="SienaRoot spelar fredag 4:e maj"
+        linkText="SienaRoot spelar lördag 4:e maj"
       >
         <p>
           Siena Root började redan på sent 90-tal att ge konserter i
@@ -184,7 +184,7 @@
         id="Berguv"
         logo={BerguvLogo}
         image={Berguv}
-        linkText="Berguv spelar årdag 4:e maj"
+        linkText="Berguv spelar lördag 4:e maj"
       >
         <p>
           Med ”mörk rock från Gävletrakten” som mantra föddes 2019 idén till
@@ -300,7 +300,6 @@
 </div>
 
 <style>
-
   .divider {
     margin: 20px 0;
     border-bottom: 1px solid var(--purple);
@@ -319,5 +318,4 @@
     grid-template-rows: 30px auto;
     height: 100%;
   }
-
 </style>
