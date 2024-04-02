@@ -87,11 +87,8 @@
   </table>
 
   <h2>
-    Festivalpass 600 kr ger entré till allt. Kan endast köpas som förköp via <a
-      href={$state.ticketLink}
-      target="_blank"
-    >
-      Billetto.se
-    </a>
+    Festivalpass 600 kr ger entré till allt.<br />
+    Kan endast köpas som förköp via
+    <a href={$state.ticketLink} target="_blank"> Billetto.se </a>
   </h2>
 </div>
