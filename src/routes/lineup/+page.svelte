@@ -1,6 +1,4 @@
 <script>
-  import { state } from "$lib/stores/state";
-
   import SkreackoedlanLogo from "$lib/images/bands/Skraeckoedlan/logotype.png";
   import Skreackoedlan from "$lib/images/bands/Skraeckoedlan/Skraeckoedlan-2-Foto Mats Ek.jpg";
   import XorsistLogo from "$lib/images/bands/Xorsist/Xorsist_logga_vit.png";
