@@ -8,11 +8,7 @@
   <table>
     <tr>
       <td>17:00</td>
-      <td>Afterwork-deal i restaurangen till kl 19</td>
-    </tr>
-    <tr>
-      <td>18:00</td>
-      <td>Lilla Gasklockan öppnar. Bar, DJ och merch. Biljett/entré 450 kr</td>
+      <td>Afterwork-deal i restaurangen till kl 18:30</td>
     </tr>
     <tr>
       <td>19:00</td>
