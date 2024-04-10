@@ -55,7 +55,7 @@
     </tr>
     <tr>
       <td>18:00</td>
-      <td>Lilla Gasklockan öppnar. Bar, DJ och merch. Biljett/entré 450 kr</td>
+      <td>Lilla Gasklockan öppnar. Bar och merch. Biljett/entré 450 kr</td>
     </tr>
     <tr>
       <td>18:10</td>
