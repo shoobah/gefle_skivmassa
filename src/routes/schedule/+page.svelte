@@ -8,7 +8,7 @@
   <table>
     <tr>
       <td>17:00</td>
-      <td>Afterwork-deal i restaurangen till kl 18:30</td>
+      <td>Lilla Gasklockan öppnar. Afterwork med schysta priser fram till 18:30</td>
     </tr>
     <tr>
       <td>19:00</td>
