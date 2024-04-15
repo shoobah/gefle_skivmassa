@@ -2,7 +2,7 @@
   import { state } from "$lib/stores/state";
   import { onMount } from "svelte";
 
-  import startimage from "$lib/images/Webbpic 5.jpg";
+  import startimage from "$lib/images/Webbpic-6.jpg";
   import startimageMobile from "$lib/images/Webbpic standing 2.jpg";
 
   import Bildalogo from "$lib/images/icons/Bildalogo.svelte";
@@ -76,15 +76,6 @@
     <div>
       <a href="https://www.walkonagency.com/" target="_blank" rel="noreferrer">
         <img src={WoALogo} alt="Walk On Agency" />
-      </a>
-    </div>
-    <div>
-      <a
-        href="https://doomstarbookings.com/artists/helga/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={DsLogo} alt="Doomstar bookings" />
       </a>
     </div>
     <div>

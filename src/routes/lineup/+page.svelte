@@ -7,8 +7,6 @@
   import Beardfish from "$lib/images/bands/Beardfish/Beardfish 2023 in studio.jpg";
   import SienaRootLogo from "$lib/images/bands/SienaRoot/SienaRoot_Logo vit.png";
   import SienaRoot from "$lib/images/bands/SienaRoot/Siena Root - Promobild 2022 44.jpeg";
-  import HelgaLogo from "$lib/images/bands/Helga/HELGA Logo white.png";
-  import Helga from "$lib/images/bands/Helga/HELGA-EsterSegarra-3443.jpg";
   import OrkanLogo from "$lib/images/bands/Orkan/Orkan logga vit.png";
   import Orkan from "$lib/images/bands/Orkan/Orkan 1.jpg";
   import BerguvLogo from "$lib/images/bands/Berguv/Logga Vit.png";
@@ -69,29 +67,6 @@
           ”Xorsist är den nya generationens svenska dödsmetall!”.
         </p>
         <p>Xorsist presenteras i samarbete med Republic 66.</p>
-      </Band>
-      <div class="divider"></div>
-      <Band
-        id="Helga"
-        logo={HelgaLogo}
-        image={Helga}
-        linkText="Helga spelar fredag 3:e maj"
-      >
-        <p>
-          Med musik starkt präglad av körarrangemang, folkmusik och progressiv
-          metal vandrar den dalabördiga och tidigare soloartisten Helga, genom
-          de täta skogarna, ackompanjerad av fyra York-baserade musiker.
-          Filmiskt, drömskt och vackert samtidigt kompromisslöst, tungt och
-          tekniskt.
-        </p>
-        <p>
-          Texterna är skrivna på både engelska och svenska, och just språket är
-          viktigt för låtskrivare och frontperson Helga Gabriel. – ”Ibland går
-          det inte att översätta från svenskan utan att det känns som ett svek
-          mot var låten kommer ifrån”, säger Helga.
-        </p>
-        <p>Helga presenteras i samarbete med Doomstar Bookings.</p>
-        <p>&nbsp;</p>
       </Band>
       <div class="divider"></div>
       <Band
