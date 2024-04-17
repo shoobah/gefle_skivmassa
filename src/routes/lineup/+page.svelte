@@ -9,6 +9,8 @@
   import SienaRoot from "$lib/images/bands/SienaRoot/Siena Root - Promobild 2022 44.jpeg";
   import OrkanLogo from "$lib/images/bands/Orkan/Orkan logga vit.png";
   import Orkan from "$lib/images/bands/Orkan/Orkan 1.jpg";
+  import Gaupa from "$lib/images/bands/Gaupa/Bandshoot (10).jpg";
+  import GaupaLogo from "$lib/images/bands/Gaupa/Gaupa logo.svg";
   import BerguvLogo from "$lib/images/bands/Berguv/Logga Vit.png";
   import Berguv from "$lib/images/bands/Berguv/Berguv Band.jpg";
   import SonsOfSin from "$lib/images/bands/SonsOfSin/Bild Sons of sin.jpg";
@@ -48,6 +50,28 @@
           “...trol to… million…”
         </p>
         <p>Skraeckoedlan presenteras i samarbete med Blackbird Artists</p>
+      </Band>
+      <div class="divider"></div>
+      <Band
+        id="Gaupa"
+        logo={GaupaLogo}
+        image={Gaupa}
+        linkText="Gaupa spelar fredag 3:e maj"
+      >
+        Med surrealistiska texter, en
+        högenergisk sångerska, och ett sound av progressiv psykedelisk
+        stonerrock släppte GAUPA sin debut-EP 2018.<br />
+        Väl mottaget ägde den andra
+        officiella spelningen rum på Sweden Rock Festival och sommaren 2024
+        återvänder de för att spela där igen. Under åren har GAUPA släppt
+        ytterligare två fullängdsalbum, varav det senaste under skivkontrakt med
+        världens största skivbolag för rock och metal – Nuclear Blast.<br/>
+        GAUPAs liveshow är en blandning av en dynamisk berg-och-dalbana i form av ljud
+        och ett visuellt fyrverkeri med sina hypnotiserande bildprojektioner.<br/>
+        Det senaste året har GAUPA varit mer än upptagna med att turnéra i
+        Europa tillsammans med band som Uncle Acid and the Deadbeats och
+        Graveyard och spelar i augusti bland annat på hårdrockarnas alldeles
+        egna Mecka - Wacken Open Air.
       </Band>
       <div class="divider"></div>
       <Band
