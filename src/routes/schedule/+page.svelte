@@ -16,7 +16,7 @@
     </tr>
     <tr>
       <td>20:15</td>
-      <td>T.B.A, Lilla Gasklockan</td>
+      <td>Gaupa, Lilla Gasklockan</td>
     </tr>
     <tr>
       <td>21:45</td>
