@@ -34,11 +34,6 @@
       {/if}
     </a>
   </div>
-  <div>
-    <a href={$state.ticketLink} target="_blank">
-      <img class="ticketButton" src={ticketButton} alt="Köp biljett" />
-    </a>
-  </div>
   <div class="logos-content">
     <div>
       <img src={SoundsFairLogo} alt="Blackbird Artists" />

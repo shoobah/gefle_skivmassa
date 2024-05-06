@@ -10,9 +10,6 @@
       >{path.name}</a
     >
   {/each}
-  <a href={$state.ticketLink} target="_blank">
-    <img class="ticket" src={ticketbutton} alt="Köp biljett" />
-  </a>
 </nav>
 
 <style>
