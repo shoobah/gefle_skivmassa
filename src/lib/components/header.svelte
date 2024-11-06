@@ -1,18 +1,15 @@
 <script>
   import Navigation from "./navigation.svelte";
   import MobileNavigation from "./mobile-navigation.svelte";
-
+  import Sounds_Fair_vit_cirkel from "../images/icons/Sounds_Fair_vit_cirkel.png";
   let innerWidth = 0;
 </script>
 
 <svelte:window bind:innerWidth />
 
-<!-- <a class="logo rotate" href="/">
-  <img
-    alt="gefle skivmässa logo"
-    src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png"
-  />
-</a> -->
+<a class="logo rotate" href="/">
+  <img alt="gefle skivmässa logo" src={Sounds_Fair_vit_cirkel} />
+</a>
 <div class="header">
   {#if innerWidth > 1500}
     <Navigation />
@@ -66,8 +63,8 @@
 
   @media (max-width: 888px) {
     .logo {
-      top: -30px;
-      left: -30px;
+      top: -40px;
+      left: -40px;
     }
     .logo img {
       width: 100px;
