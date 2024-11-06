@@ -35,6 +35,3 @@
 
 <svelte:window bind:innerHeight />
 <svelte:body on:click={() => ($state.menuVisible = false)} />
-
-<style>
-</style>

@@ -1,6 +1,6 @@
 <script>
   import BoardImage from "$lib/images/sounds_fair_board.webp";
-  import SoundsFairLogo from "$lib/images/icons/Sounds_Fair_vit_cirkel.png";
+  import SoundsFairLogo from "$lib/images/icons/Sounds_Fair_vit.png";
 </script>
 
 <div>

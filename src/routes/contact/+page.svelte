@@ -12,15 +12,15 @@
   <article>
     Mail: <a href="mailto:info@soundsfair.com">info@soundsfair.com</a><br />
     Facebook:
-    <a href="https://www.facebook.com/gefleskivmassa"
-      >www.facebook.com/gefleskivmassa</a
+    <a href="https://www.facebook.com/soundsfairgefle"
+      >www.facebook.com/soundsfairgefle</a
     ><br />
     Instagram:
-    <a href="https://www.instagram.com/gefleskivmassa"
-      >www.instagram.com/gefleskivmassa</a
+    <a href="https://www.instagram.com/soundsfair_kultur/"
+      >www.instagram.com/soundsfair_kultur</a
     ><br />
     <br />
-    <h2>Samarbetspartners</h2>
+    <!-- <h2>Samarbetspartners</h2>
     <a
       href=" https://www.folkbildningsforum.se/"
       target="_blank"
@@ -35,9 +35,9 @@
     >
       Gasklockorna
     </a>
-    <br />
-    <a href="https://www.bilda.nu/" target="_blank" rel="noreferrer"> Bilda </a>
-    <Map />
+    <br /> -->
+    <!-- <a href="https://www.bilda.nu/" target="_blank" rel="noreferrer"> Bilda </a>
+    <Map /> -->
   </article>
 </div>
 

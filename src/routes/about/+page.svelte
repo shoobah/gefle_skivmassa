@@ -1,16 +1,16 @@
 <script>
   // @ts-nocheck
-  import ImageFlipper from "$lib/components/image-flipper.svelte";
-  import Img2016 from "$lib/images/About/Gefle Skivmässa 2016.webp";
-  import Img2017 from "$lib/images/About/Gefle Skivmässa 2017.webp";
-  import Img2018 from "$lib/images/About/Gefle Skivmässa 2018.webp";
-  import Img2019 from "$lib/images/About/Gefle Skivmässa 2019.webp";
-  import Img2020 from "$lib/images/About/Gefle Skivmässa 2020.webp";
-  import Img2023 from "$lib/images/About/Gefle Skivmässa 2023.webp";
-  import Efterfest2016 from "$lib/images/About/Efterfest 2016.webp";
-  import Efterfest2017 from "$lib/images/About/Efterfest 2017.webp";
-  import Efterfest2018 from "$lib/images/About/Efterfest 2018.webp";
-  import Efterfest2019 from "$lib/images/About/Efterfest 2019.webp";
+  // import ImageFlipper from "$lib/components/image-flipper.svelte";
+  // import Img2016 from "$lib/images/About/Gefle Skivmässa 2016.webp";
+  // import Img2017 from "$lib/images/About/Gefle Skivmässa 2017.webp";
+  // import Img2018 from "$lib/images/About/Gefle Skivmässa 2018.webp";
+  // import Img2019 from "$lib/images/About/Gefle Skivmässa 2019.webp";
+  // import Img2020 from "$lib/images/About/Gefle Skivmässa 2020.webp";
+  // import Img2023 from "$lib/images/About/Gefle Skivmässa 2023.webp";
+  // import Efterfest2016 from "$lib/images/About/Efterfest 2016.webp";
+  // import Efterfest2017 from "$lib/images/About/Efterfest 2017.webp";
+  // import Efterfest2018 from "$lib/images/About/Efterfest 2018.webp";
+  // import Efterfest2019 from "$lib/images/About/Efterfest 2019.webp";
 </script>
 
 <svelte:head>
@@ -19,9 +19,80 @@
 
 <div>
   <article>
+    <h1>HORNDAL + SODAKILL</h1>
+    <p>
+      Metalbandet HORNDAL, från Horndal är aktuella med sin platta Head Hammer
+      Man och kommer till Gävle tillsammans med SODAKILL fr Stockholm.
+    </p>
+
+    <h2>OM HORNDAL</h2>
+    <p>
+      ”Head Hammer Man” är den explosiva men bortglömda historien om Alrik
+      Andersson, en ung fackföreningsledare som stod i händelsernas centrum när
+      den våldsamma Storstrejken kulminerade i Horndal 1909. Upproren ledde till
+      vräkningar av arbetarfamiljer, svält, inkallande av militär med dragna
+      gevär och landet var nära ett inbördeskrig. Alrik räddade arbetarnas liv
+      och jobb, men förlorade sitt eget. Han svartlistades och tvingades i
+      landsflykt. True story.
+    </p>
+    <p>
+      Snabbt insåg bandet att historien inte skulle få plats på 10 låtar, så i
+      samband med skivinspelningarna skrevs en 400 sidor lång bok med samma
+      namn.
+    </p>
+    <p>
+      Musikaliskt är det ett lika ambitiöst projekt som bokskrivandet och
+      samtliga hörn av skivsamlingen har nu fått influera kompositionerna. Från
+      Pugh Rogefeldt och Janne Loffe Carlsson till Autopsy, Wipers till Judas
+      Priest, Hawkwind till Mercyful Fate, Don Cherry till Voivod. Ett riff
+      lånat från Sparks här, en solo lånat från Jake E Lee där. Blåsarrangemang
+      jämte heroiska stämgitarrer.
+    </p>
+
+    <h2>OM SODAKILL</h2>
+    <p>
+      Sodakill introducerar genren sodapunk för världen – en genre som älskas av
+      punkfanatiker likväl som metallovers. Anledningen är antagligen mixen av
+      influenser hos medlemmarna; surfpunk, doom, glam och pop.
+    </p>
+    <p>
+      Om det mot förmodan inte väcker intresse kan det tilläggas att bandets
+      liveframträdanden genererat många moshpits, devil horns och hejarop, för
+      att inte tala om eld-emojis.
+    </p>
+    <p>
+      Det är svårt att likna Sodakill med andra band. Många har gjort tappra
+      försök med Turbonegro, Hole, Refused och Bikini kill. Sodapunken plockar
+      dessas russin och bakar en skitig, attitydstinn kaka med grunge-strössel.
+    </p>
+
+    <h3>
+      Ett arrangemang i av Sounds Fair i samarbete med ABG Gästrikebygden och
+      Centralteatern.
+    </h3>
+
+    <h2>CIRKATIDER OCH HÅLLPUNKTER</h2>
+    <p>
+      Eftermiddag: Möt författaren och sångaren Henrik Levahn berätta historien
+      om Alrik Andersson – the Head Hammer Man! Plats: Folkets hus. Fri entré –
+      ingen biljett krävs. Besök Joe Hill-gården som håller extraöppet.
+      Programmet presenteras på Sounds Fair sociala medier.
+    </p>
+
+    <h3>Från ca 19:00</h3>
+    <p>
+      Käka, mingla och ta något att dricka innan spelningen med Horndal och
+      Sodakill <br />
+      Boka bord via Centralteatern på tel: 026-61 10 64<br />
+      <strong> ENTRÈBELAGT FRÅN KL 20:00 </strong>
+    </p>
+    <h3>21:00 Spelning med SODAKILL</h3>
+    <h3>ca 22:15 Spelning med HORNDAL</h3>
+  </article>
+  <!-- <article>
     <h1>Om oss</h1>
     <p>
-      Gefle Skivmässa arrangeras numera av kulturföreningen Sounds Fair (org
+      Gefle Skivmässa arrangeras av kulturföreningen Sounds Fair (org
       802544-0911). Styrelsen består av Anders Sjöberg, Jerry van Kooten och
       Emil Alstermark som var med och startade skivmässan i Gasklockorna 2016.
       Vill du komma i kontakt med styrelsen, kanske har idéer på andra
@@ -193,7 +264,7 @@
 
     Tror du att ni skulle passa på vår scen? Maila er intresseanmälan på&nbsp;
     <a href="mailto:info@soundsfair.se">info@soundsfair.se</a>
-  </div>
+  </div> -->
 </div>
 
 <style>

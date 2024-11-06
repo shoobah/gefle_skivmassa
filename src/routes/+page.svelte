@@ -13,6 +13,9 @@
   import SoundsFairLogo from "$lib/images/icons/Sounds_Fair_vit.png";
   import FolkbildningsforumLogo from "$lib/images/icons/Folkbildningsforum_Logo_Liggande.png";
 
+  import Horndal from "$lib/images/EVENT.jpg";
+  import Sodakill from "$lib/images/SODAKILL-PUNK.jpg";
+
   let mobile = false;
 
   onMount(() => {
@@ -28,57 +31,24 @@
   <div class="imagebox">
     <a href={$state.ticketLink} target="_blank">
       {#if mobile}
-        <img src={startimageMobile} alt="Poster" />
+        <img src={Horndal} alt="Poster" />
       {:else}
-        <img src={startimage} alt="Poster" />
+        <img src={Horndal} alt="Poster" />
+      {/if}
+    </a>
+  </div>
+  <div class="imagebox">
+    <a href={$state.ticketLink} target="_blank">
+      {#if mobile}
+        <img src={Sodakill} alt="Poster" />
+      {:else}
+        <img src={Sodakill} alt="Poster" />
       {/if}
     </a>
   </div>
   <div class="logos-content">
     <div>
       <img src={SoundsFairLogo} alt="Blackbird Artists" />
-    </div>
-    <div>
-      <a
-        href="https://www.gavle.se/gasklockorna"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={gasklockorna} alt="Gasklockorna" />
-      </a>
-    </div>
-    <div>
-      <a href="https://www.bilda.nu/" target="_blank" rel="noreferrer">
-        <Bildalogo />
-      </a>
-    </div>
-  </div>
-  <div class="logos-content">
-    <div>
-      <img src={BBALogo} alt="Blackbird Artists" />
-    </div>
-    <div>
-      <a
-        href="https://www.republic66.com/projekt"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={Republic66Logo} alt="Republic 66" />
-      </a>
-    </div>
-    <div>
-      <a href="https://www.walkonagency.com/" target="_blank" rel="noreferrer">
-        <img src={WoALogo} alt="Walk On Agency" />
-      </a>
-    </div>
-    <div>
-      <a
-        href=" https://www.folkbildningsforum.se/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={FolkbildningsforumLogo} alt="Folkbildningsforum" />
-      </a>
     </div>
   </div>
 </div>
@@ -113,12 +83,11 @@
 
   .logos-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
-    justify-items: center;
+    justify-items: end;
     align-items: center;
     width: 50vw;
-    justify-items: center;
   }
 
   .logos-content img {

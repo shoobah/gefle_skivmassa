@@ -1,7 +1,6 @@
 <script>
   import { page } from "$app/stores";
   import { state } from "$lib/stores/state";
-  import ticketbutton from "$lib/images/icons/ticketbutton.png";
 </script>
 
 <nav>

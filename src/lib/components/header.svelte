@@ -7,12 +7,12 @@
 
 <svelte:window bind:innerWidth />
 
-<a class="logo rotate" href="/">
+<!-- <a class="logo rotate" href="/">
   <img
     alt="gefle skivmässa logo"
     src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png"
   />
-</a>
+</a> -->
 <div class="header">
   {#if innerWidth > 1500}
     <Navigation />
@@ -20,7 +20,7 @@
     <MobileNavigation />
   {/if}
   <div class="header-heading">
-    <div>3-4 maj 2024 på gasklockorna i Gävle</div>
+    <div>16 november 2024, Folkets Hus, Gävle</div>
   </div>
 </div>
 
