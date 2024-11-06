@@ -28,6 +28,9 @@
 </svelte:head>
 
 <div class="page-content">
+  <a href={$state.ticketLink} style="text-decoration: none;">
+    <h1>BILJETTER</h1>
+  </a>
   <div class="imagebox">
     <a href={$state.ticketLink} target="_blank">
       {#if mobile}
