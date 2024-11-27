@@ -22,13 +22,12 @@
   {/if}
   {#if !form}
     <article>
-      <h1>Anmälan till skivmässa lördag 4:e maj</h1>
+      <h1>Anmälan till skivmässa lördag 10:e maj 2025</h1>
 
       <p>
-        Vad kul att du vill medverka på Gefle Skivmässa i maj! Nytt för i år är
-        att vi utökar till en tvådagarsfest där skivmässan (som alltid) är på
-        lördagen. Välkommen med din anmälan i formuläret nedan, för att sälja på
-        Gefle Skivmässa 2024.
+        Vad kul att du vill medverka på Gefle Skivmässa i maj!<br />
+        Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle Skivmässa
+        2025.
       </p>
       <p>
         Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på

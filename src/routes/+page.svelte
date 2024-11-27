@@ -2,7 +2,7 @@
   import { state } from "$lib/stores/state";
   import { onMount } from "svelte";
 
-  import startimage from "$lib/images/Webbpic-7.jpg";
+  import startimage from "$lib/images/_PAS7578-Förbättrat-BR.jpg";
   import startimageMobile from "$lib/images/staende-webb.jpg";
   import Bildalogo from "$lib/images/icons/Bildalogo.svelte";
   import ticketButton from "$lib/images/icons/ticketbutton.png";
@@ -28,24 +28,15 @@
 </svelte:head>
 
 <div class="page-content">
-  <a href={$state.ticketLink} style="text-decoration: none;">
+  <!-- <a href={$state.ticketLink} style="text-decoration: none;">
     <h1>BILJETTER</h1>
-  </a>
+  </a> -->
   <div class="imagebox">
     <a href={$state.ticketLink} target="_blank">
       {#if mobile}
-        <img src={Horndal} alt="Poster" />
+        <img src={startimage} alt="Poster" />
       {:else}
-        <img src={Horndal} alt="Poster" />
-      {/if}
-    </a>
-  </div>
-  <div class="imagebox">
-    <a href={$state.ticketLink} target="_blank">
-      {#if mobile}
-        <img src={Sodakill} alt="Poster" />
-      {:else}
-        <img src={Sodakill} alt="Poster" />
+        <img src={startimage} alt="Poster" />
       {/if}
     </a>
   </div>

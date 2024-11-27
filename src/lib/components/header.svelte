@@ -17,7 +17,7 @@
     <MobileNavigation />
   {/if}
   <div class="header-heading">
-    <div>16 november 2024, Folkets Hus, Gävle</div>
+    <div>9 - 10 Maj 2025, Gasklockorna, Gävle</div>
   </div>
 </div>
 
