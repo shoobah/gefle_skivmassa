@@ -31,7 +31,7 @@
       </p>
       <p>
         Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på
-        våra bord. Faktura på hela beloppet skickas i början av 2024 och ska
+        våra bord. Faktura på hela beloppet skickas i början av 2025 och ska
         vara betald i god tid innan arrangemanget.
       </p>
       <p>
