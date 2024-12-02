@@ -13,7 +13,7 @@ export const actions = {
     Org eller personnr: ${data.get("org")}
     Antal bord: ${data.get("numberOfTables")}
     Kommentar: ${data.get("comment")}`;
-    const subject = "Anmälan till Gefle skivmassa 2024";
+    const subject = "Anmälan till Gefle skivmassa 2025";
     return sendMail(body, subject);
   },
 };
