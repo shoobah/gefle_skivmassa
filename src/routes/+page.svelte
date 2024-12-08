@@ -1,24 +1,11 @@
 <script>
-  import { state } from "$lib/stores/state";
-  import { onMount } from "svelte";
-
+  import { state } from "$lib/stores/state.svelte";
   import startimage from "$lib/images/_PAS7578-Förbättrat-BR.jpg";
-  import startimageMobile from "$lib/images/staende-webb.jpg";
-  import Bildalogo from "$lib/images/icons/Bildalogo.svelte";
-  import ticketButton from "$lib/images/icons/ticketbutton.png";
-  import gasklockorna from "$lib/images/icons/gasklockorna loggo.png";
-  import BBALogo from "$lib/images/icons/BBAlogowhite.png";
-  import WoALogo from "$lib/images/icons/walk on agency_white.png";
-  import Republic66Logo from "$lib/images/icons/Rep66_logo.png";
   import SoundsFairLogo from "$lib/images/icons/Sounds_Fair_vit.png";
-  import FolkbildningsforumLogo from "$lib/images/icons/Folkbildningsforum_Logo_Liggande.png";
-
-  import Horndal from "$lib/images/EVENT.jpg";
-  import Sodakill from "$lib/images/SODAKILL-PUNK.jpg";
 
   let mobile = false;
 
-  onMount(() => {
+  $effect(() => {
     mobile = window.innerWidth < 888;
   });
 </script>
@@ -32,7 +19,7 @@
     <h1>BILJETTER</h1>
   </a> -->
   <div class="imagebox">
-    <a href={$state.ticketLink} target="_blank">
+    <a href={state.ticketLink} target="_blank">
       {#if mobile}
         <img src={startimage} alt="Poster" />
       {:else}

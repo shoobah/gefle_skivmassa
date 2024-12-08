@@ -3,7 +3,7 @@
   import "../app.css";
   import Header from "$lib/components/header.svelte";
   import { onNavigate } from "$app/navigation";
-  import { state } from "$lib/stores/state";
+  import { state } from "$lib/stores/state.svelte";
 
   let innerHeight = 0;
 

@@ -1,18 +1,3 @@
-<script>
-  // @ts-nocheck
-  // import ImageFlipper from "$lib/components/image-flipper.svelte";
-  // import Img2016 from "$lib/images/About/Gefle Skivmässa 2016.webp";
-  // import Img2017 from "$lib/images/About/Gefle Skivmässa 2017.webp";
-  // import Img2018 from "$lib/images/About/Gefle Skivmässa 2018.webp";
-  // import Img2019 from "$lib/images/About/Gefle Skivmässa 2019.webp";
-  // import Img2020 from "$lib/images/About/Gefle Skivmässa 2020.webp";
-  // import Img2023 from "$lib/images/About/Gefle Skivmässa 2023.webp";
-  // import Efterfest2016 from "$lib/images/About/Efterfest 2016.webp";
-  // import Efterfest2017 from "$lib/images/About/Efterfest 2017.webp";
-  // import Efterfest2018 from "$lib/images/About/Efterfest 2018.webp";
-  // import Efterfest2019 from "$lib/images/About/Efterfest 2019.webp";
-</script>
-
 <svelte:head>
   <meta name="description" content="Gefle Skivmässa. Historik" />
 </svelte:head>

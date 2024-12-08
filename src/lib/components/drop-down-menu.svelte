@@ -1,12 +1,12 @@
 <script>
   import { page } from "$app/stores";
   import { slide } from "svelte/transition";
-  import { state } from "$lib/stores/state";
+  import { state } from "$lib/stores/state.svelte";
   import ticketbutton from "$lib/images/icons/ticketbutton.png";
 </script>
 
 <ul transition:slide={{ duration: 100 }}>
-  {#each $state.paths as path}
+  {#each state.paths as path}
     <li>
       <a
         data-sveltekit-preload-data
@@ -21,7 +21,7 @@
     </li>
   {/each}
   <li>
-    <a href={$state.ticketLink} target="_blank">
+    <a href={state.ticketLink} target="_blank">
       <img class="ticket" src={ticketbutton} alt="Köp biljett" />
     </a>
   </li>

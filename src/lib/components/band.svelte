@@ -1,9 +1,7 @@
 <script lang="ts">
-  import { state } from "$lib/stores/state";
-  export let id: string;
-  export let logo: string = "";
-  export let image: string;
-  export let linkText: string;
+  import { state } from "$lib/stores/state.svelte";
+
+  const { id, logo = "", image, linkText } = $props();
 </script>
 
 <div class="bandimages" {id}>
@@ -18,7 +16,7 @@
 </div>
 <article>
   <p>
-    <a href={$state.ticketLink} target="_blank">
+    <a href={state.ticketLink} target="_blank">
       {linkText}
     </a>
   </p>

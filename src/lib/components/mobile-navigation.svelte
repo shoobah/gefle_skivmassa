@@ -1,12 +1,12 @@
 <script>
-  import { state } from "$lib/stores/state";
+  import { state } from "$lib/stores/state.svelte";
   import { fade } from "svelte/transition";
   import { page } from "$app/stores";
   import DropDownMenu from "./drop-down-menu.svelte";
   import hamburger from "$lib/images/icons/hamburger.svg";
 
-  $: currentPage = $state.paths.find(
-    (path) => path.path === $page.url.pathname,
+  let currentPage = $derived(
+    state.paths.find((path) => path.path === $page.url.pathname),
   );
 </script>
 
@@ -14,12 +14,12 @@
   <span>{currentPage?.name}</span>
   <button
     in:fade
-    on:click|stopPropagation={() => ($state.menuVisible = !$state.menuVisible)}
+    on:click|stopPropagation={() => (state.menuVisible = !state.menuVisible)}
   >
     <img src={hamburger} alt="menu" />
   </button>
-  {#if $state.menuVisible}
-    <DropDownMenu on:click={() => ($state.menuVisible = false)} />
+  {#if state.menuVisible}
+    <DropDownMenu on:click={() => (state.menuVisible = false)} />
   {/if}
 </nav>
 

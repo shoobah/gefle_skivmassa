@@ -1,5 +1,5 @@
 <script>
-  import { state } from "$lib/stores/state.js";
+  import { state } from "$lib/stores/state.svelte.js";
   import Map from "$lib/components/map.svelte";
 </script>
 

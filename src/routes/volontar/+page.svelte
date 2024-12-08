@@ -1,7 +1,5 @@
 <script>
-  export let form;
-
-  $: console.log("form", form);
+  let { form } = $props();
 </script>
 
 <svelte:head>
