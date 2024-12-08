@@ -1,5 +1,4 @@
-<script>
-  // @ts-nocheck
+<script lang="ts">
   import "../app.css";
   import Header from "$lib/components/header.svelte";
   import { onNavigate } from "$app/navigation";
@@ -29,9 +28,9 @@
 >
   <Header />
   <div class="content">
-    <slot />
+    <slot></slot>
   </div>
 </div>
 
 <svelte:window bind:innerHeight />
-<svelte:body on:click={() => ($state.menuVisible = false)} />
+<svelte:body on:click={() => (state.menuVisible = false)} />

@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
   import Navigation from "./navigation.svelte";
   import MobileNavigation from "./mobile-navigation.svelte";
   import Sounds_Fair_vit_cirkel from "../images/icons/Sounds_Fair_vit_cirkel.png";
-  let innerWidth = 0;
+  let innerWidth = $state(0);
 </script>
 
 <svelte:window bind:innerWidth />
