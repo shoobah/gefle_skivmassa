@@ -14,7 +14,10 @@
   <span>{currentPage?.name}</span>
   <button
     in:fade
-    on:click|stopPropagation={() => (state.menuVisible = !state.menuVisible)}
+    onclick={(e) => {
+      state.menuVisible = !state.menuVisible;
+      e.stopPropagation();
+    }}
   >
     <img src={hamburger} alt="menu" />
   </button>

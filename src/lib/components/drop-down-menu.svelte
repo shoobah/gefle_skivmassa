@@ -20,11 +20,13 @@
       </a>
     </li>
   {/each}
-  <li>
-    <a href={state.ticketLink} target="_blank">
-      <img class="ticket" src={ticketbutton} alt="Köp biljett" />
-    </a>
-  </li>
+  {#if state.ticketLink}
+    <li>
+      <a href={state.ticketLink} target="_blank">
+        <img class="ticket" src={ticketbutton} alt="Köp biljett" />
+      </a>
+    </li>
+  {/if}
 </ul>
 
 <style>
