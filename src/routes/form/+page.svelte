@@ -1,5 +1,5 @@
 <script>
-  export let form;
+  let { form } = $props();
 </script>
 
 <svelte:head>
@@ -80,7 +80,7 @@
           <option value="3">3 bord</option>
         </select>
         <label for="comment">Kommentar</label>
-        <textarea name="comment" placeholder="Kommentar" />
+        <textarea name="comment" placeholder="Kommentar"></textarea>
         <p>
           Genom att klicka på ”Skicka intresseanmälan” nedan godkänner du att
           Gefle Skivmässa får behandla dina personuppgifter för att kunna
@@ -111,6 +111,7 @@
     padding: 0.5em;
     border: 1px solid var(--border-color);
     border-radius: 0.5em;
+    color: black;
   }
 
   button {
