@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { state } from "$lib/stores/state.svelte";
+  import { appState } from "$lib/stores/state.svelte";
 
   const { id, logo = "", image, linkText } = $props();
 </script>
@@ -16,7 +16,7 @@
 </div>
 <article>
   <p>
-    <a href={state.ticketLink} target="_blank">
+    <a href={appState.ticketLink} target="_blank">
       {linkText}
     </a>
   </p>

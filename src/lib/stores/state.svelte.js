@@ -1,4 +1,4 @@
-export const state = $state({
+export const appState = $state({
   menuVisible: false,
   paths: [
     { path: "/", name: "Hem", target: "_self" },

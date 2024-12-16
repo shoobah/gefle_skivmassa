@@ -1,10 +1,10 @@
 <script>
   import { page } from "$app/stores";
-  import { state } from "$lib/stores/state.svelte";
+  import { appState } from "$lib/stores/state.svelte";
 </script>
 
 <nav>
-  {#each state.paths as path}
+  {#each appState.paths as path}
     <a class:active={$page.url.pathname === path.path} href={path.path}
       >{path.name}</a
     >

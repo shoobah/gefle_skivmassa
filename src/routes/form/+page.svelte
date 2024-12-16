@@ -6,7 +6,7 @@
   <meta name="description" content="Gefle Skivmässa. Anmälningsformulär" />
 </svelte:head>
 
-<div class="the-form">
+<div class="mx-auto w-1/2 max-w-3xl sm:w-[90vw] md:w-[90vw] lg:w-1/2">
   {#if form?.success === true}
     <div>
       <h2>Tack för din anmälan!</h2>
@@ -59,89 +59,87 @@
     </article>
     <div class="pt-6">
       <h1>Anmäl dig här</h1>
-      <form method="POST">
+      <form
+        method="POST"
+        class="grid w-full grid-cols-1 gap-4 pb-10 lg:w-[40vw]"
+      >
         <label for="firstName">Förnamn</label>
-        <input required name="firstName" type="text" placeholder="Förnamn" />
+        <input
+          required
+          name="firstName"
+          type="text"
+          placeholder="Förnamn"
+          class="rounded-lg border border-gray-300 p-2 text-black"
+        />
         <label for="lastName">Efternamn</label>
-        <input required name="lastName" type="text" placeholder="Efternamn" />
+        <input
+          required
+          name="lastName"
+          type="text"
+          placeholder="Efternamn"
+          class="rounded-lg border border-gray-300 p-2 text-black"
+        />
         <label for="email">E-post</label>
-        <input required name="email" type="email" placeholder="E-post" />
+        <input
+          required
+          name="email"
+          type="email"
+          placeholder="E-post"
+          class="rounded-lg border border-gray-300 p-2 text-black"
+        />
         <label for="phone">Telefon</label>
-        <input required name="phone" type="tel" placeholder="Telefon" />
+        <input
+          required
+          name="phone"
+          type="tel"
+          placeholder="Telefon"
+          class="rounded-lg border border-gray-300 p-2 text-black"
+        />
         <label for="address">Adress</label>
-        <input required name="address" type="text" placeholder="Adress" />
+        <input
+          required
+          name="address"
+          type="text"
+          placeholder="Adress"
+          class="rounded-lg border border-gray-300 p-2 text-black"
+        />
         <label for="org">Person / Organisationsnummer</label>
         <input
           required
           name="org"
           type="text"
           placeholder="Person / Organisationsnummer"
+          class="rounded-lg border border-gray-300 p-2 text-black"
         />
         <label for="numberOfTables">Antal bord</label>
-        <select required name="numberOfTables" placeholder="Antal bord">
+        <select
+          required
+          name="numberOfTables"
+          placeholder="Antal bord"
+          class="rounded-lg border border-gray-300 p-2 text-black"
+        >
           <option value="1">1 bord</option>
           <option value="2">2 bord</option>
           <option value="3">3 bord</option>
         </select>
         <label for="comment">Kommentar</label>
-        <textarea name="comment" placeholder="Kommentar"></textarea>
+        <textarea
+          name="comment"
+          placeholder="Kommentar"
+          class="rounded-lg border border-gray-300 p-2 text-black"
+        ></textarea>
         <p>
           Genom att klicka på ”Skicka intresseanmälan” nedan godkänner du att
           Gefle Skivmässa får behandla dina personuppgifter för att kunna
           fakturera för din medverkan.
         </p>
-        <button type="submit">Skicka intresseanmälan</button>
+        <button
+          type="submit"
+          class="h-12 w-80 cursor-pointer justify-self-end rounded-lg bg-yellow-400 text-base font-bold text-black shadow-lg transition-shadow hover:shadow-sm active:shadow-sm"
+        >
+          Skicka intresseanmälan
+        </button>
       </form>
     </div>
   {/if}
 </div>
-
-<style>
-  .the-form {
-    width: 50vw;
-  }
-
-  form {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
-    width: 40vw;
-    padding-bottom: 10px;
-  }
-
-  input,
-  textarea,
-  select {
-    padding: 0.5em;
-    border: 1px solid var(--border-color);
-    border-radius: 0.5em;
-    color: black;
-  }
-
-  button {
-    justify-self: right;
-    width: 20em;
-    height: 3em;
-    background-color: var(--yellow);
-    border-radius: 8px;
-    font-size: 1em;
-    font-weight: bold;
-    color: var(--black);
-    cursor: pointer;
-
-    box-shadow:
-      rgba(217, 233, 80, 0.596) 0px 2px 4px,
-      rgba(223, 226, 29, 0.3) 0px 7px 13px -3px,
-      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  }
-
-  form button:active {
-    box-shadow: rgba(217, 233, 80, 0.596) 0px 2px 4px;
-  }
-
-  @media (max-width: 888px) {
-    .the-form {
-      width: 90vw;
-    }
-  }
-</style>

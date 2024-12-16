@@ -2,7 +2,7 @@
   import "../app.css";
   import Header from "$lib/components/header.svelte";
   import { onNavigate } from "$app/navigation";
-  import { state } from "$lib/stores/state.svelte";
+  import { appState } from "$lib/stores/state.svelte";
 
   let innerHeight = 0;
 
@@ -33,4 +33,4 @@
 </div>
 
 <svelte:window bind:innerHeight />
-<svelte:body on:click={() => (state.menuVisible = false)} />
+<svelte:body on:click={() => (appState.menuVisible = false)} />

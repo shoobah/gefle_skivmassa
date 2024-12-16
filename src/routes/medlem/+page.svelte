@@ -5,7 +5,11 @@
 
 <div>
   <div>
-    <img class="logo" src={SoundsFairLogo} alt="Sounds Fair logo" />
+    <img
+      class="mx-auto block w-[30vw] max-w-[300px] md:w-[50vw]"
+      src={SoundsFairLogo}
+      alt="Sounds Fair logo"
+    />
   </div>
   <article>
     <h1>Stödmedlem</h1>
@@ -52,54 +56,14 @@
       Revisor: Lena-Mie Bernkert
     </p>
   </article>
-  <div class="board_image">
-    <div class="board">
-      <img src={BoardImage} alt="Styrelsen" />
-      <div class="text">
-        <sub>Styrelsen: Emil, Anders, Jerry. Foto: Johan Öbrink</sub>
+  <div class="grid w-1/2 md:w-full">
+    <div class="mx-auto my-2.5 block">
+      <img src={BoardImage} alt="Styrelsen" class="w-full" />
+      <div class="text-right md:text-center">
+        <sub class="self-end"
+          >Styrelsen: Emil, Anders, Jerry. Foto: Johan Öbrink</sub
+        >
       </div>
     </div>
   </div>
 </div>
-
-<style>
-  .board_image {
-    display: grid;
-    width: 50vw;
-  }
-
-  .board_image img {
-    width: 100%;
-  }
-  .text {
-    text-align: right;
-  }
-
-  sub {
-    align-self: flex-end;
-  }
-  .logo {
-    width: 30vw;
-    max-width: 300px;
-    margin: 10px auto;
-    display: block;
-  }
-  .board {
-    margin: 10px auto;
-    display: block;
-  }
-
-  @media (max-width: 888px) {
-    .logo {
-      width: 50vw;
-    }
-
-    .board_image {
-      width: 100vw;
-    }
-
-    .text {
-      text-align: center;
-    }
-  }
-</style>

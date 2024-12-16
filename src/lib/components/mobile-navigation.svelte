@@ -1,12 +1,12 @@
 <script>
-  import { state } from "$lib/stores/state.svelte";
+  import { appState } from "$lib/stores/state.svelte";
   import { fade } from "svelte/transition";
   import { page } from "$app/stores";
   import DropDownMenu from "./drop-down-menu.svelte";
   import hamburger from "$lib/images/icons/hamburger.svg";
 
   let currentPage = $derived(
-    state.paths.find((path) => path.path === $page.url.pathname),
+    appState.paths.find((path) => path.path === $page.url.pathname),
   );
 </script>
 
@@ -15,14 +15,14 @@
   <button
     in:fade
     onclick={(e) => {
-      state.menuVisible = !state.menuVisible;
+      appState.menuVisible = !appState.menuVisible;
       e.stopPropagation();
     }}
   >
     <img src={hamburger} alt="menu" />
   </button>
-  {#if state.menuVisible}
-    <DropDownMenu on:click={() => (state.menuVisible = false)} />
+  {#if appState.menuVisible}
+    <DropDownMenu on:click={() => (appState.menuVisible = false)} />
   {/if}
 </nav>
 

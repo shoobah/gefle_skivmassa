@@ -1,5 +1,5 @@
 <script>
-  import { state } from "$lib/stores/state.svelte.js";
+  import { appState } from "$lib/stores/state.svelte.js";
   import Map from "$lib/components/map.svelte";
 </script>
 
@@ -7,7 +7,7 @@
   <meta name="description" content="Gefle Skivmässa. Kontakt" />
 </svelte:head>
 
-<div>
+<div class="w-1/2 pb-5 md:w-[90vw]">
   <h1>Kontakt</h1>
   <article>
     Mail: <a href="mailto:info@soundsfair.com">info@soundsfair.com</a><br />
@@ -40,16 +40,3 @@
     <Map /> -->
   </article>
 </div>
-
-<style>
-  div {
-    width: 50vw;
-    padding-bottom: 20px;
-  }
-
-  @media (max-width: 820px) {
-    div {
-      width: 90vw;
-    }
-  }
-</style>
