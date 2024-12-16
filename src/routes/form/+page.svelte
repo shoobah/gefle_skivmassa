@@ -23,28 +23,25 @@
   {#if !form}
     <article>
       <h1>Anmälan till skivmässa lördag 10:e maj 2025</h1>
-
+      <p>Vad kul att du vill medverka på Gefle Skivmässa i maj!</p>
       <p>
-        Vad kul att du vill medverka på Gefle Skivmässa i maj!<br />
-        Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle Skivmässa
-        2025.
-      </p>
-      <p>
-        Totalt finns 60 bord och vi tillämpar ”först till kvarn”-principen på
-        våra bord. Faktura på hela beloppet skickas i början av 2025 och ska
-        vara betald i god tid innan arrangemanget.
-      </p>
-      <p>
-        Borden på Gefle Skivmässa kostar 350kr/st och de mäter 200x69 cm. Max
-        antal bord/säljare är tre, dvs sex meter bord.
+        Välkommen med din anmälan i formuläret nedan, för att sälja på Gefle
+        Skivmässa 10 maj 2025.<br />
+        Vi tillämpar "först till kvarn"-principen så anmäl dig så snart du vet att
+        du kan stå.<br />
+        Faktura på hela beloppet skickas i mars 2025 och ska vara betald i god tid
+        innan arrangemanget.<br />
+        Mässan pågår i fyra timmar mellan kl 12-16, med tidigare öppning kl 11 för
+        de med förköpsbiljett.<br />
+        Borden på Gefle Skivmässa kostar 350kr/st och de mäter 200x69 cm.<br />
+        Max antal bord/säljare är tre, dvs sex meter bord.
       </p>
 
-      <h2>Varje bokad försäljare får, förutom bokad plats:</h2>
-      <ul>
+      <ul class="list-inside list-disc">
         <li>
-          Kaffe och fikabröd vid ankomst/inlastning och påtår under hela dagen
+          Kaffe och smörgås vid ankomst/inlastning och påtår under hela dagen
         </li>
-        <li>Konsertentré till skivmässans alla spelningar</li>
+        <li>Konsertentré till festivalens alla spelningar, även fredagen</li>
         <li>
           Rabatt på lunch/middag i vår personalmatsal som serverar grymt god
           mat. Välj mellan flera rätter
@@ -52,9 +49,15 @@
         <li>
           En fantastisk skivmässa i en unik lokal – Stora Gasklockan i Gävle
         </li>
+        <li>
+          Möjlighet att lasta in redan på fredagen. Lokalen är larmad under
+          natten
+        </li>
+        <li>Gott om parkeringsyta på området.</li>
       </ul>
     </article>
-    <div>
+    <div class="pt-6">
+      <h1>Anmäl dig här</h1>
       <form method="POST">
         <label for="firstName">Förnamn</label>
         <input required name="firstName" type="text" placeholder="Förnamn" />
