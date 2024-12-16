@@ -46,8 +46,8 @@
     color: var(--yellow);
   }
 
-  .ticket {
+  /* .ticket {
     height: 1.2em;
     margin-top: 10px;
-  }
+  } */
 </style>

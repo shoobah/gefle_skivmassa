@@ -1,39 +1,24 @@
-import AWS from "aws-sdk";
+import { Resend } from "resend";
+
+const resend = new Resend(import.meta.env.VITE_RESEND_KEY);
 
 export const sendMail = async (
   /** @type {string} */ body,
   /** @type {string} */ subject,
 ) => {
   try {
-    AWS.config.update({
-      accessKeyId: import.meta.env.VITE_AWS_ACCESS_KEY_ID,
-      secretAccessKey: import.meta.env.VITE_AWS_SECRET_ACCESS_KEY,
-      region: import.meta.env.VITE_AWS_REGION,
+    const response = await resend.emails.send({
+      from: import.meta.env.VITE_SMTP_FROM,
+      to: import.meta.env.VITE_SMTP_TO,
+      subject: subject,
+      text: body,
     });
-
-    const ses = new AWS.SES({ apiVersion: "2010-12-01" });
-
-    const params = {
-      Source: import.meta.env.VITE_SMTP_FROM,
-      Destination: {
-        ToAddresses: [import.meta.env.VITE_SMTP_TO],
-      },
-      Message: {
-        Subject: {
-          Data: subject,
-        },
-        Body: {
-          Text: {
-            Data: body,
-          },
-        },
-      },
-    };
-
-    await ses.sendEmail(params).promise();
+    console.log(response);
+    if (!response?.error) {
+      return { success: true };
+    }
   } catch (error) {
-    console.log("Error while sending email", error);
+    console.error(error);
     return { success: false };
   }
-  return { success: true };
 };
