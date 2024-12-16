@@ -37,6 +37,7 @@
         Max antal bord/säljare är tre, dvs sex meter bord.
       </p>
 
+      <h2>Varje bokad säljare får:</h2>
       <ul class="list-inside list-disc">
         <li>
           Kaffe och smörgås vid ankomst/inlastning och påtår under hela dagen
