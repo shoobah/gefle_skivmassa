@@ -4,9 +4,9 @@
 </script>
 
 <div>
-  <div>
+  <div class="pt-8">
     <img
-      class="mx-auto block w-[30vw] max-w-[300px] md:w-[50vw]"
+      class="mx-auto w-[30vw] max-w-[300px] pt-4 md:w-[50vw]"
       src={SoundsFairLogo}
       alt="Sounds Fair logo"
     />
