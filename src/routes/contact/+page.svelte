@@ -1,5 +1,4 @@
 <script>
-  import { appState } from "$lib/stores/state.svelte.js";
   import Map from "$lib/components/map.svelte";
 </script>
 
@@ -22,24 +21,6 @@
       >www.instagram.com/soundsfair_kultur</a
     ><br />
     <br />
-    <!-- <h2>Samarbetspartners</h2>
-    <a
-      href=" https://www.folkbildningsforum.se/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Folkbildningsforum
-    </a><br />
-    <a
-      href="https://www.gavle.se/gasklockorna"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Gasklockorna
-    </a>
-    <br /> -->
-    <!-- <a href="https://www.bilda.nu/" target="_blank" rel="noreferrer"> Bilda </a>
-    <Map /> -->
     <Map />
   </article>
 </div>

@@ -1,6 +1,6 @@
 <script>
   import { appState } from "$lib/stores/state.svelte";
-  import startimage from "$lib/images/carousel/_PAS6551.jpg";
+  import startimage from "$lib/images/_PAS6551.jpg";
   // import SoundsFairLogo from "$lib/images/icons/Sounds_Fair_vit.png";
 
   let mobile = $state(false);
