@@ -6,7 +6,7 @@
   <meta name="description" content="Gefle Skivmässa. Anmälningsformulär" />
 </svelte:head>
 
-<div class="mx-auto w-1/2 max-w-3xl sm:w-[90vw] md:w-[90vw] lg:w-1/2">
+<div class="mx-auto w-full max-w-3xl px-4 md:w-1/2 md:px-0">
   {#if form?.success === true}
     <div>
       <h2>Tack för din anmälan!</h2>
@@ -31,8 +31,8 @@
         du kan stå.<br />
         Faktura på hela beloppet skickas i mars 2025 och ska vara betald i god tid
         innan arrangemanget.<br />
-        Mässan pågår i fyra timmar mellan kl 12-16, med tidigare öppning kl 11 för
-        de med förköpsbiljett.<br />
+        Mässan pågår i fyra timmar mellan kl 12-16, med tidigare öppning kl 11:30
+        för de med förköpsbiljett.<br />
         Borden på Gefle Skivmässa kostar 350kr/st och de mäter 200x69 cm.<br />
         Max antal bord/säljare är tre, dvs sex meter bord.
       </p>
@@ -129,9 +129,10 @@
           class="rounded-lg border border-gray-300 p-2 text-black"
         ></textarea>
         <p>
-          Genom att klicka på ”Skicka intresseanmälan” nedan godkänner du att
-          Gefle Skivmässa får behandla dina personuppgifter för att kunna
-          fakturera för din medverkan.
+          Genom att klicka på "Skicka intresseanmälan" nedan godkänner du att
+          arrangören Sounds Fair får behandla dina personuppgifter för att kunna
+          fakturera för din medverkan. Din e-postadress läggs till i vår lista
+          för nyhetsbrev.
         </p>
         <button
           type="submit"

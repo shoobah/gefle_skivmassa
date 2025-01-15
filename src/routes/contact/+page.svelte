@@ -7,10 +7,12 @@
   <meta name="description" content="Gefle Skivmässa. Kontakt" />
 </svelte:head>
 
-<div class="w-1/2 pb-5 md:w-[90vw]">
-  <h1>Kontakt</h1>
+<div class="mx-auto w-full max-w-3xl px-4 md:w-1/2 md:px-0">
   <article>
-    Mail: <a href="mailto:info@soundsfair.com">info@soundsfair.com</a><br />
+    <h1>Kontakt</h1>
+    Mail:<a href="mailto:info@soundsfair.com">info@soundsfair.com</a><br />
+    Hemsida:
+    <a href="https://www.soundsfair.se">www.soundsfair.se</a><br />
     Facebook:
     <a href="https://www.facebook.com/soundsfairgefle"
       >www.facebook.com/soundsfairgefle</a
@@ -38,5 +40,6 @@
     <br /> -->
     <!-- <a href="https://www.bilda.nu/" target="_blank" rel="noreferrer"> Bilda </a>
     <Map /> -->
+    <Map />
   </article>
 </div>

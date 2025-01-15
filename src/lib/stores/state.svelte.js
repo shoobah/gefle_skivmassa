@@ -8,5 +8,5 @@ export const appState = $state({
     { path: "/medlem", name: "Medlem", target: "_self" },
     { path: "/contact", name: "Kontakt", target: "_self" },
   ],
-  ticketLink: "",
+  ticketLink: "https://secure.tickster.com/sv/3njtrxtu52x4yla/products",
 });

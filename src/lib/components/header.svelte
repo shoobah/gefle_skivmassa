@@ -17,7 +17,7 @@
     <MobileNavigation />
   {/if}
   <div class="header-heading">
-    <div>9 - 10 Maj 2025, Gasklockorna, Gävle</div>
+    <div>10 maj, Gasklockorna Gävle. Öppet kl 12-16</div>
   </div>
 </div>
 
