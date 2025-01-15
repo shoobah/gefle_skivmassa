@@ -7,9 +7,16 @@
 
 <svelte:window bind:innerWidth />
 
-<a class="logo rotate" href="/">
+<!-- <a class="logo rotate" href="/">
   <img alt="gefle skivmässa logo" src={Sounds_Fair_vit_cirkel} />
+</a> -->
+<a class="logo rotate" href="/">
+  <img
+    alt="gefle skivmässa logo"
+    src="/logos/GEFLE SKIVMÄSSA NEUTRAL_LOGOTYP_VIT_SVART.png"
+  />
 </a>
+
 <div class="header">
   {#if innerWidth > 1500}
     <Navigation />
